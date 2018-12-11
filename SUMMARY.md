@@ -42,4 +42,5 @@
   * [5.2 Formas de cargar información de tablas relacionadas](5.-agregando-el-servicio-para-los-productos/5.2-crear-las-llaves-foraneas-e-indices.md)
   * [5.3 Crear llaves fóraneas e índices](5.-agregando-el-servicio-para-los-productos/5.3-crear-llaves-foraneas-e-indices.md)
   * [5.4 Creando el servicio Productos](5.-agregando-el-servicio-para-los-productos/5.4-creando-el-servicio-productos.md)
+  * [5.4 Mejorando tu código](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo.md)
 
