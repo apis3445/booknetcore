@@ -1,4 +1,4 @@
-# Configurar los servicios
+# 6. Configurar los servicios
 
 En esta sección voy a explicar como cambiar la configuración de los servicios para realizar lo siguiente
 
@@ -6,8 +6,5 @@ En esta sección voy a explicar como cambiar la configuración de los servicios 
 * Agregar ODATA a tus servicios
 * Agregar GraphQL
 
-
-
-* 
 
 
