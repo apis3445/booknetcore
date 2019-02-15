@@ -16,7 +16,7 @@ Git te permite llevar un control de versiones de tu código fuente, en el cual p
 
 Es necesario instalar GIT, para windows puedes utilizar Git for Windows [https://gitforwindows.org](https://gitforwindows.org) 
 
-Si deseas que tu código este público en internet, una buena alternativa es GitHub el cual es gratuito para repositorios públicos y puedes pagar si lo deseas tener privado. El costo al tiempo de este tutorial es de $7 USD al mes.
+Si deseas que tu código este público en internet, una buena alternativa es GitHub el cual es gratuito para repositorios públicos y puedes tener repositorios privados ilimitados para 3 programadores. Si deseas mas usuarios el costo es de $7 doláres en adelante por mes.
 
 Si trabajas en equipo puedes configurar el proyecto para que esté integrado con Azure Dev Ops \(antes llamado Visual Studio Team Services\) el cual maneja el concepto de DEVOPS, te facilita llevar el control de código de fuente para un máximo de 5 programadores de forma privada \(solo tú y los 4 programadores tienen acceso al código fuente\), te ayuda a llevar una metodología Agile, Scrum o CMMI,  incluye Kanboards para llevar un control de las tareas que tienes pendientes, corre las pruebas unitarias y te puede publicar los servicios REST en Azure de forma automática. Esta bastante integrado con Visual Studio Comunity
 

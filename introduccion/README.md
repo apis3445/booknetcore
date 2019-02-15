@@ -12,7 +12,7 @@ En esta serie de tutoriales explicaré paso a paso una guía para crear los serv
 
 Explicare como crear una aplicación de inicio a fin, donde aprenderás lo siguiente:
 
-* Como llevar el control de código fuente de tu proyecto
+* Como llevar el control de código fuente de tu proyecto \(manejar en versiones el historial de cambios de tu código\)
 * Como manejar versiones de tu base de datos \(mediante migraciones\)
 * Entity Framewok para las operaciones de altas, bajas, cambios, lectura \(SQL Server, MySQL\)
 * Servicios REST \(con documentación en swagger\)
