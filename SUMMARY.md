@@ -47,5 +47,6 @@
     * [5.4.2 Agregando clases genéricas para las tablas](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.2-agregando-una-clase-generica-para-las-tablas-de-las-bases-de-datos.md)
     * [5.4.3 Alternativa para validar reglas con ef core](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.3-alternativa-para-validar-tablas.md)
 * [6. Configurar los servicios](cambiar-los-servicios-a-sql-server/README.md)
-  * [6.1 Cambiar la base de datos a SQL Server](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server.md)
+  * [6.1 Cambiar la base de datos a SQL Server](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/README.md)
+    * [6.1.1 Cambiar a SQL Server en Azure](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/6.1.1-cambiar-a-sql-server-en-azure.md)
 
