@@ -49,5 +49,5 @@
 * [6. Configurar los servicios con OData y SQL Server](cambiar-los-servicios-a-sql-server/README.md)
   * [6.1 Cambiar la base de datos a SQL Server](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/README.md)
     * [6.1.1 Cambiar a SQL Server en Azure](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/6.1.1-cambiar-a-sql-server-en-azure.md)
-    * [6.2 Configurar tus servicios con OData](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/6.2-configurar-tus-servicios-con-odata.md)
+  * [6.2 Configurar tus servicios con OData](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata.md)
 
