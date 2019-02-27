@@ -1,4 +1,4 @@
-# 6. Configurar los servicios
+# 6. Configurar los servicios con OData y SQL Server
 
 En esta sección voy a explicar como cambiar la configuración de los servicios para realizar lo siguiente
 
