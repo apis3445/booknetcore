@@ -4,7 +4,7 @@ Actualmente la mayoría de las empresas como Google, Microsoft, Dropbox, Linkedi
 
 Al desarrollar sistemas móviles se recomienda que te conectes mediante servicios REST los cuales manejan toda la lógica de tu aplicación y puede ser consumida por aplicaciones de escritorio o sistemas Web.
 
-![Figura 3.1 Funcionamiento de servicios rest](../.gitbook/assets/image%20%2874%29.png)
+![Figura 3.1 Funcionamiento de servicios rest](../../.gitbook/assets/image%20%2874%29.png)
 
 Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URL's. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente muy utilizados
 
@@ -94,96 +94,5 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 
 Existen opciones adicionales para obtener la información de tus servicios sin tener que estar consultando varios servicios o filtrando la información manualmente, algunas de las principales son ODATA y GraphQL
 
-#### 3.1.3.1 ODATA
 
-ODATA \([Open OData Protocol](http://odata.org/)\) te permite filtrar, ordenar los resultados, seleccionar solo unos campos mediante parámetros en la URL
-
-**Ejemplos:**
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Servicio REST</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><em>http://localhost:5000/odata/Clientes</em>
-      </td>
-      <td style="text-align:left">Obtiene todos los clientes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><em>http://localhost:5000/odata/Cliente(2)</em>
-      </td>
-      <td style="text-align:left">Obtiene el cliente con el Id 2</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><em>http://localhost:5000/odata/Clientes?</em>
-        </p>
-        <p>$filter=Ciudad eq &apos;M&#xE9;xico&apos;&apos;&apos;</p>
-      </td>
-      <td style="text-align:left">Obtiene los clientes de la ciudad de M&#xE9;xico</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><em>http://localhost:5000/odata/Clientes?</em>
-        </p>
-        <p>$top=2&amp;$orderBy=nombre</p>
-      </td>
-      <td style="text-align:left">Obtiene los 2 primeros clientes ordenados por nombre<em> </em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><em>http://localhost:5000/odata/Clientes?$select=clave,nombre</em>
-      </td>
-      <td style="text-align:left">Obtiene solamente la clave y nombre de los clientes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><em>http://localhost:5000/odata/Clientes?$select=clave,nombre&amp;$expand=productos</em>
-      </td>
-      <td style="text-align:left">Obtiene la clave y nombre de los clientes y los datos de los productos
-        de cada cliente</td>
-    </tr>
-  </tbody>
-</table>#### 3.1.3.2 GraphQL
-
-Es desarrollado por Facebooky al igual que ODATA busca facilitar traer la información que realmente necesitas con un solo servicio.
-
-**Ejemplo:**
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Servicio REST</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><em>http://localhost:5000</em>/api/graphql</p>
-        <p>?query={{ cliente(id: &quot;10&quot;) { clave, nombre } }</p>
-      </td>
-      <td style="text-align:left">Obtiene la clave y nombre del cliente 10</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><em>http://localhost:5000</em>/api/graphql</p>
-        <p>?query={{ cliente(first:2) } }</p>
-      </td>
-      <td style="text-align:left">Obtiene los 2 primeros clientes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><em>http://localhost:5000</em>/api/graphql</p>
-        <p>?query={ <em>cliente</em>(id: &quot;10&quot;) { clave, nombre, productos
-          { clave,nombre } } }</p>
-      </td>
-      <td style="text-align:left">Obtiene la clave y nombre del cliente 10, y la clave y nombre de los productos
-        del cliente 10</td>
-    </tr>
-  </tbody>
-</table>
 
