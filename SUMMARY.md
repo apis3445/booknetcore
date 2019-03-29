@@ -57,6 +57,6 @@
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
-* [11. Instalación en Linux](11.-instalacion-en-linux.md)
-* [Creando una máquina virtual linux en Azure](creando-una-maquina-virtual-linux-en-azure.md)
+* [11. Instalación en Linux](11.-instalacion-en-linux/README.md)
+  * [11.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
 
