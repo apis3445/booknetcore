@@ -4,19 +4,68 @@
 Aunque los pasos pueden cambiar debido a nuevas versiones de Visual Studio los pasos para instalar .NET Core son los siguientes:
 {% endhint %}
 
-### Instalación Nueva
+### 11.1 Instalación Nueva en Windows
 
 1. Descargar la ultima versión de Visual Studio Comuity \([https://visualstudio.microsoft.com/es/downloads/](https://visualstudio.microsoft.com/es/downloads/)\)
 2. Elegir la opción:  **ASP.NET and web development**  \(Figura 1.1.1\)
 3. Dar clic en **Instalar**
 
-![Figura 1.1.1 Seleccionar ASP.NET and web development](../.gitbook/assets/instalacion.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
-Para mac
+Esperamos a que termine de descargar e instalar
 
-1. Da doble clic en **Install Visual Studio for Mac**
-2. Selecciona **.NET Core + ASPNET Core**
-3. Da clic en Instalar, en mi caso como ya lo tengo instalado y hay una versión me sale el botón Instalar actualizaciones
+![](../.gitbook/assets/image%20%2844%29.png)
 
-![Figura 1.1.2 Instalaci&#xF3;n en Mac](../.gitbook/assets/mac.png)
+Una vez terminado te pide reiniciar
+
+![](../.gitbook/assets/image%20%2851%29.png)
+
+### 11.1.2 Instalación nueva en Mac
+
+1. Da doble clic en el icono **Install Visual Studio for Mac**
+2. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso
+3. 
+![](../.gitbook/assets/image%20%2855%29.png)
+
+3. Damos clic en continuar
+
+![](../.gitbook/assets/image%20%2829%29.png)
+
+4. Si deseamos también programar para xamarin seleccionas todas las opciones, si no únicamente la de .NET Core + ASP.Net Core, a mi me aparece seleccionado en gris porque ya lo tenia instalado
+
+![](../.gitbook/assets/image%20%2834%29.png)
+
+5. Damos clic en instalar y actualizar. Si elegimos android, debemos corregir los permisos
+
+6. Esperamos a que termine de instalar y configurar todo
+
+![](../.gitbook/assets/image%20%2815%29.png)
+
+Al terminar se muestra lo siguiente:
+
+![](../.gitbook/assets/image%20%2830%29.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
