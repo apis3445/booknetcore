@@ -60,4 +60,5 @@
 * [11. Instalación en Linux](11.-instalacion-en-linux/README.md)
   * [11.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
   * [11.2 Habilitando el acceso remoto](11.-instalacion-en-linux/11.2-habilitando-el-acceso-remoto.md)
+  * [11.3 Configura linux para .Net Core](11.-instalacion-en-linux/11.3-configura-linux-para-.net-core.md)
 
