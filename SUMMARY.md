@@ -64,4 +64,5 @@
   * [11.3 Configura linux para .Net Core](11.-instalacion-en-linux/11.3-configura-linux-para-.net-core.md)
   * [11.4 Instalando mysql](11.-instalacion-en-linux/11.4-instalando-mysql.md)
   * [11.5 Instalando Nginx](11.-instalacion-en-linux/11.5-instalando-nginx.md)
+  * [11.6 Instalando un certificado SSL con CertBot](11.-instalacion-en-linux/11.6-instalando-un-certificado-ssl-con-certbot.md)
 
