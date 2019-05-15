@@ -53,6 +53,7 @@
     * [6.1.1 Cambiar a SQL Server en Azure](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server/6.1.1-cambiar-a-sql-server-en-azure.md)
   * [6.2 Configurar tus servicios con OData](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata.md)
   * [6.3 GraphQL](cambiar-los-servicios-a-sql-server/6.3-agregar-graphql.md)
+  * [6.3.1. Creando la tabla Caducidad](cambiar-los-servicios-a-sql-server/6.3.1.-creando-la-tabla-caducidad.md)
 * [7. Seguridad](7.-seguridad.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
