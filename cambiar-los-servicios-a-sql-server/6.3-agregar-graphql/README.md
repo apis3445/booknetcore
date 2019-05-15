@@ -10,7 +10,7 @@ La estructura de GraphQL esta formada por 3 partes
 2. Tabla y/o datos
 3. Campos de la tabla
 
-![](../.gitbook/assets/graphql-2.png)
+![](../../.gitbook/assets/graphql-2.png)
 
 GraphQL se basa en enviar las peticiones por medio de consultas, se tienen 3 tipos:
 
@@ -64,5 +64,29 @@ La estructura básica es la siguiente:
 * Query: Permite configurar nuestro objetoGraphType\(Modelo\) con nuestra base de datos para llenar los campos del modelo
 * Schema: Nos permite definir las operaciones a realizar: Query\( Consulta información\), Mutation: \(Crear, Borrar, Modificar\), Suscripcion\(Operaciones con WebSockets\)
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
+
+Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y del producto para realizar la consulta de la siguiente manera:
+
+```javascript
+{
+	"query": "query {
+		caducidades {
+			id
+			producto {
+				id
+				clave
+				nombre
+			}
+			cliente
+			{
+				id
+				nombreComercial
+			}			
+		}	
+   }"
+} 
+```
+
+Este método se podrá consultar por GET o por POST, es mas comodo realizarlo por POST.
 
