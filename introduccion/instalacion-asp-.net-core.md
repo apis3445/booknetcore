@@ -10,7 +10,7 @@ Aunque los pasos pueden cambiar debido a nuevas versiones de Visual Studio los p
 2. Elegir la opción:  **ASP.NET and web development**  \(Figura 1.1.1\)
 3. Dar clic en **Instalar**
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 Esperamos a que termine de descargar e instalar
 
