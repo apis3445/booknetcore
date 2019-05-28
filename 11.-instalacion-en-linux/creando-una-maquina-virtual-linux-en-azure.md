@@ -14,7 +14,7 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 1. Ingresa a tu portal de azure [http://portal.azure.com/](http://portal.azure.com/)
 2. Da clic en Máquinas virtuales
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
 3. Da clic en Agregar
 
@@ -28,7 +28,7 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 * _Región_: Busca una región cercana a tu ciudad, en mi caso seleccione Centro de EE-UU.
 * _Imagen_: Selecciona el sistema operativo en mi caso elegi Ubuntu Server 18.04 LTS
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 5. Selecciona los siguientes datos:
 
@@ -54,5 +54,5 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 
 10. Da clic en revisar y crear, te muestra un resumen con las opciones seleccionadas y te manda una notificación una vez que la máquina virtual este lista
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
