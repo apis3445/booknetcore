@@ -2,167 +2,6 @@
 
 Como se explico en el capítulo 3 en la sección [3.3.1 ](https://abi.gitbook.io/net-core/3.-servicios-rest/3.1-servicios-rest#3-3-filtrar-informacion)para que las personas que consuman tus servicios puedan filtrar la información o selecionar solamente algunos campos de una tabla se utiliza un protocolo llamado [Odata ](https://www.odata.org)\(Open Data Protocol\).
 
-### 6.2.1 Creando el modelo de Clientes
-
-Para este servicio vamos a crear nuestra modelo para registrar a los **Clientes.** Agregamos nuestra clase **Cliente**.cs en nuestra carpeta Model
-
-{% code-tabs %}
-{% code-tabs-item title="Cliente.cs" %}
-```csharp
-/// <summary>
-/// Guarda los clientes
-/// </summary>
-public class Cliente
-{
-	/// <summary>
-	/// Id del cliente
-	/// </summary>
-	[Key]
-	[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-	public int Id { get; set; }
-
-	/// <summary>
-	/// Clave del cliente
-	/// </summary>
-	[Required(ErrorMessage = "Required")]
-	[Range(1, 999999, ErrorMessage = "Range")]
-	public int Clave { get; set; }
-
-	/// <summary>
-	/// RFC del cliente
-	/// </summary>
-	[Column(TypeName = "VARCHAR(15)")]
-	public string RFC { get; set; }
-
-	/// <summary>
-	/// Razón social del cliente 
-	/// como esta registrado ante hacienda
-	/// </summary>
-	[Required(ErrorMessage = "Required")]
-	[Column(TypeName = "VARCHAR(250)")]
-	public string  RazonSocial { get; set; }
-	
-	/// <summary>
-	/// Nombre comercial del cliente
-	/// </summary>
-	[Required(ErrorMessage = "Required")]
-	[Column(TypeName = "VARCHAR(250)")]
-	public string NombreComercial { get; set; }
-
-	/// <summary>
-	/// Dirección del cliente
-	/// </summary>
-	[Required(ErrorMessage = "Required")]
-	[Column(TypeName = "VARCHAR(200)")]
-	public string Direccion { get; set; }
-
-	/// <summary>
-	/// Email de contacto
-	/// </summary>
-	[Column(TypeName = "VARCHAR(150)")]
-	public string Email { get; set; }
-
-	/// <summary>
-	/// Teléfono Fijo del cliente
-	/// </summary>
-	[Column(TypeName = "VARCHAR(20)")]
-	public string Telefono { get; set; }
-
-	/// <summary>
-	/// Número de celular del cliente
-	/// </summary>
-	[Column(TypeName = "VARCHAR(20)")]
-	public string Celular { get; set; }
-
-	/// <summary>
-	/// Sitio Web del cliente
-	/// </summary>
-	[Column(TypeName = "VARCHAR(20)")]
-	public string SitioWeb { get; set; }
-
-	/// <summary>
-	/// Indica si el cliente esta activo
-	/// </summary>
-	[Required(ErrorMessage = "Required")]
-	public bool Activo { get; set; }
-}
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-Agregamos la tabla **Cliente** en nuestra clase **CaducaContext**
-
-{% code-tabs %}
-{% code-tabs-item title="CaducaContext.cs" %}
-```csharp
-public class CaducaContext : DbContext
-{
-    public virtual DbSet<Cliente> Cliente { get; set; }
-}
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-Agregamos la migración con el nombre Clientes
-
-```text
-Add-Migration Clientes
-```
-
-Actualizamos la base de datos
-
-```text
-Update-database
-```
-
-Vamos a agregar nuestra clase ClienteCategoria para registrar las categorías de productos que maneja cada cliente. Para que funcionen las opciones de expand de OData voy a agregar un objeto de la tabla Cliente y otro de la tabla Categoria
-
-{% code-tabs %}
-{% code-tabs-item title="ClienteCategoria.cs" %}
-```csharp
-public class ClienteCategoria
-{
-        /// <summary>
-        /// Id 
-        /// </summary>
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-
-        /// <summary>
-        /// Id del cliente
-        /// </summary>        
-        public int ClienteId { get; set; }
-
-        /// <summary>
-        /// Datos del cliente
-        /// </summary>
-        public Cliente Cliente { get; set; }
-
-        /// <summary>
-        /// Id de la categoria
-        /// </summary>
-        public int CategoriaId { get; set; }
-        
-        /// <summary>
-        /// Datos de la Categoría
-        /// </summary>
-        public Categoria Categoria { get; set; }
-}
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-### 6.2.2 Agregar el paquete Nuget
-
-Instalamos el siguiente paquete Nuget
-
-```text
-Microsoft.AspNetCore.OData
-```
-
-![](../.gitbook/assets/image%20%287%29.png)
-
 ### 6.2.3 Configurar el EDM Model
 
 OData utiliza el [Entity Data Model](https://docs.microsoft.com/es-es/dotnet/framework/data/adonet/entity-data-model) \(EDM\) para describir la estructura de los datos.
@@ -247,7 +86,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
 Si corremos nuestro proyecto veremos un error en el swagger el cual corregiremos mas adelante, vamos a probar con postman los metadatos de nuestro servicio GET [http://localhost:50685/odata/$metadata](http://localhost:50685/odata/$metadata) 
 
-![](../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 ### 6.2.6 Crear el controlador para clientes
 
@@ -309,7 +148,7 @@ Probamos con postman seleccionar solamente la clave y nombre del cliente
 http://localhost:50685/odata/Clientes?$select=Clave,NombreComercial
 ```
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 #### 6.2.6.2 Filtrar los clientes
 
@@ -317,7 +156,7 @@ http://localhost:50685/odata/Clientes?$select=Clave,NombreComercial
 http://localhost:50685/odata/Clientes?$filter=Direccion eq 'Conocido'&$orderBy=Clave desc
 ```
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 Para evitar el error de la documentación en Swagger agregamos el siguiente paquete nuget
 
