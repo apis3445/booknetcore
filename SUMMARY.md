@@ -71,6 +71,7 @@
 * [7. Seguridad](7.-seguridad/README.md)
   * [7.1 Json Web Tokens](7.-seguridad/7.1-json-web-tokens.md)
   * [7.2 Seguridad basada en roles](7.-seguridad/7.2-seguridad-basada-en-roles.md)
+  * [7.3 Creando nuestra tabla roles e insertando los 3 roles principales](7.-seguridad/7.3-creando-nuestra-tabla-roles-e-insertando-los-3-roles-principales.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
