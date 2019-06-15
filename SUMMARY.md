@@ -75,6 +75,7 @@
   * [7.4 Consideraciones de seguridad para almacenar tus passwords](7.-seguridad/7.4-consideraciones-de-seguridad-para-almacenar-tus-passwords.md)
   * [7.5 Creando las tablas para manejar la seguridad](7.-seguridad/7.5-creando-tu-tabla-usuarios.md)
   * [7.6 Agregando usuarios y roles](7.-seguridad/7.6-agregando-usuarios-y-roles.md)
+  * [7.7 Agregando seguridad a nuestros servicios](7.-seguridad/7.7-agregando-seguridad-a-nuestros-servicios.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
