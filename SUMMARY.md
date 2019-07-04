@@ -78,7 +78,7 @@
   * [7.7 Agregando seguridad a nuestros servicios](7.-seguridad/7.7-agregando-seguridad-a-nuestros-servicios.md)
   * [7.8 Creando nuestro servicio de login y generar el token](7.-seguridad/7.7-creando-nuestro-servicio-de-login-y-generar-el-token.md)
   * [7.9 ¿Cómo agregar seguridad basada en roles a los Servicios REST?](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest.md)
-  * [7.10 Seguridad con reglas personalizadas](7.-seguridad/7.10-seguridad-con-reglas-personalizadas.md)
+  * [7.10 Seguridad basada en claims](7.-seguridad/7.10-seguridad-con-reglas-personalizadas.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
