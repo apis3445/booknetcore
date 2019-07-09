@@ -71,7 +71,7 @@
 * [7. Seguridad](7.-seguridad/README.md)
   * [7.1 Json Web Tokens](7.-seguridad/7.1-json-web-tokens.md)
   * [7.2 Seguridad basada en roles](7.-seguridad/7.2-seguridad-basada-en-roles.md)
-  * [7.3 Creando nuestra tabla roles e insertando los 3 roles principales](7.-seguridad/7.3-creando-nuestra-tabla-roles-e-insertando-los-3-roles-principales.md)
+  * [7.3 Creando nuestra tabla roles e insertando los roles principales](7.-seguridad/7.3-creando-nuestra-tabla-roles-e-insertando-los-3-roles-principales.md)
   * [7.4 Consideraciones de seguridad para almacenar tus passwords](7.-seguridad/7.4-consideraciones-de-seguridad-para-almacenar-tus-passwords.md)
   * [7.5 Creando las tablas para manejar la seguridad](7.-seguridad/7.5-creando-tu-tabla-usuarios.md)
   * [7.6 Agregando usuarios y roles](7.-seguridad/7.6-agregando-usuarios-y-roles.md)
