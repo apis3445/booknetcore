@@ -37,9 +37,9 @@ Para dejar el ejemplo lo mas sencillo posible el diagrama de la base de datos es
 
 La aplicación cuenta con los siguientes tipos \(roles\) de usuarios:
 
-* **Administradores:** Pueden consultar y modificar toda información del sistema. Se encargar de dar de alta nuevos clientes.
-* **Supervisores:** Pueden dar de alta las categorías y productos de cada cliente. Los usuarios de un cliente no pueden consultar ni modificar la información de otros clientes.
-* **Empleados:** Pueden registrar las fechas de caducidad de los productos del cliente de sus categorías asignadas.
+* **Administradores:** Pueden consultar y modificar toda información del sistema. Se encarga de dar de alta nuevos clientes.
+* **Supervisores:** Pueden dar de alta las categorías y productos de cada cliente. Cada empleado solamente puede ver los productos y categorías de sus clientes.
+* **Vendedores:** Pueden registrar las fechas de caducidad de los productos del cliente de sus categorías asignadas.
 
 
 
