@@ -4,7 +4,7 @@ Actualmente la mayoría de las empresas como Google, Microsoft, Dropbox, Linkedi
 
 Al desarrollar sistemas móviles se recomienda que te conectes mediante servicios REST los cuales manejan toda la lógica de tu aplicación y puede ser consumida por aplicaciones de escritorio o sistemas Web.
 
-![Figura 3.1 Funcionamiento de servicios rest](../../.gitbook/assets/image%20%28154%29.png)
+![Figura 3.1 Funcionamiento de servicios rest](../../.gitbook/assets/image%20%28165%29.png)
 
 Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URL's. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente muy utilizados
 
