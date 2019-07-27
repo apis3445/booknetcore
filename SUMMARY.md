@@ -83,6 +83,7 @@
   * [7.11 Creando las tablas para validar permisos por cada tabla](7.-seguridad/7.11-seguridad-basada-en-directivas.md)
   * [7.12 Seguridad basada en directivas](7.-seguridad/7.12-seguridad-basada-en-directivas.md)
   * [7.13 Seguridad con Action Filters](7.-seguridad/7.13-seguridad-con-action-filters.md)
+  * [7.14 Guardando el historial de cambios](7.-seguridad/7.14-guardando-el-historial-de-cambios.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias.md)
 * [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
