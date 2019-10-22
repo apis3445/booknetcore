@@ -1,8 +1,8 @@
 # 3.1 Servicios REST
 
-Actualmente la mayoría de las empresas como Google, Microsoft, Dropbox, Linkedin, Twitter, permiten a los programadores conectarse a sus servicios mediante servicios REST \(**RE**presentational **S**tate **T**ransfer\).
+Actualmente la mayoría de las empresas como Google, Microsoft, Dropbox, Linkedin, Twitter, permiten a los programadores conectarse a sus servicios mediante servicios REST \(**RE**presentational **S**tate **T**ransfer\). Estos servicios reciben las peticiones por el protocolo HTTP el cual se usa para ver cualquier página en un navegador web.
 
-Al desarrollar sistemas móviles se recomienda que te conectes mediante servicios REST los cuales manejan toda la lógica de tu aplicación y puede ser consumida por aplicaciones de escritorio o sistemas Web.
+Al desarrollar sistemas móviles se recomienda que te conectes mediante servicios REST los cuales manejan toda la lógica de tu aplicación y puede ser consumida por aplicaciones de escritorio o sistemas Web. Esto es debido a que los celulares no tienen tanto poder de procesamiento como lo tiene un servidor.
 
 ![Figura 3.1 Funcionamiento de servicios rest](../../.gitbook/assets/image%20%28168%29.png)
 
