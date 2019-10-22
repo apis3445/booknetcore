@@ -23,8 +23,8 @@ Una vez terminado te pide reiniciar
 ### 11.1.2 Instalación nueva en Mac
 
 1. Da doble clic en el icono **Install Visual Studio for Mac**
-2. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso
-3. 
+2. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso.
+
 ![](../.gitbook/assets/image%20%2893%29.png)
 
 3. Damos clic en continuar
