@@ -1,4 +1,4 @@
-# 5.4 Mejorando tu código
+# 5.5 Mejorando tu código
 
 Si observamos el código de nuestras clases DAO de Categorias y Productos, es bastante similar, por lo cual lo podemos mejorar  creando una única clase genérica con los métodos comunes como obtener todos los registros, obtener un registro por su id, insertar, modificar y borrar un registro, esta clase recibirá como parámetro nuestra clase para la tabla. Este concepto se llama **Generics**
 
