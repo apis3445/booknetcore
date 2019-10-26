@@ -12,3 +12,5 @@ Las pruebas unitarias te ayudan a que cada vez que liberes una nueva versión de
 
 Puede ser mas tardado al inicio crear las pruebas automáticas más conforme crece tu aplicación es mejor que se prueben automáticamente a que estes manualmente probando cada opción, también te sirven como documentación para nuevos programadores que se integren al proyecto.
 
+Al final de la lección se verá como configurar Pipelines para que cada vez que un usuario le da commit a sus cambios se corran en automático las pruebas automáticas. Se probara con bitbucket
+

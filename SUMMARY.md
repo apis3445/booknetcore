@@ -91,7 +91,7 @@
 * [8. Pruebas Unitarias](8.-pruebas-unitarias/README.md)
   * [8.1 Agregando el proyecto de pruebas unitarias](8.-pruebas-unitarias/8.1-agregando-el-proyecto-de-pruebas-unitarias.md)
   * [8.2 Creando nuestra primer prueba unitaria](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria.md)
-* [9. Pruebas de Integración](9.-pruebas-de-integracion.md)
+* [9. Pruebas para simular usuarios](9.-pruebas-de-integracion.md)
 * [10. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
 * [11. Instalación en Linux](11.-instalacion-en-linux/README.md)
   * [11.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
