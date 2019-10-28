@@ -33,7 +33,7 @@ Por lo general las pruebas unitarias se componen de 3 partes:
 2. **Método a probar:** Aqui ejecutamos el método que deseamos probar con los datos definidos en la sección anterior
 3. **Comprobación del resultado.** Aqui comprobamos el resultado obtenido por la función con el resultado esperado
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28126%29.png)
 
 Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como Equal para comparar los valores de 2 variables, True para comprobar algún valor boleano.
 
@@ -59,49 +59,7 @@ public void SumaDosNumeros_Correcto()
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## 8.2.1 Ejecutar las pruebas unitarias en Visual Studio para Windows
 
-{% hint style="info" %}
-Visual Studio Enterpise Edition tiene una opción de Live Unit Testing el cual te muestra si tu código cumple con las pruebas unitarias mientras estas programando.
-{% endhint %}
-
-## 8.2.2 Ejecutar las pruebas unitarias en Visual Studio for Mac
-
-1. En el menú de Visual Studio damos clic en **Ver** -&gt; **Paneles** -&gt; **Pruebas unitarias**
-
-![](../.gitbook/assets/image%20%2888%29.png)
-
-2. Del lado derecho se agrega el panel Pruebas unitarias, damos clic y se tarda un poco en detectar todas las pruebas unitarias, abrimos el árbol y encontrarmeos nuestro archivoUnitTest1, el método SumaDosNumeros. 
-
-En mi caso como corri la prueba previamente aparece en color verde con una palomita, si no aparece con un círculo blanco
-
-![](../.gitbook/assets/image%20%28118%29.png)
-
-3. Una vez que detecto todas las pruebas, damos clic en el botón **Ejecutar todo**
-
-![](../.gitbook/assets/image%20%28194%29.png)
-
-El proyecto se compila y en la parte inferior del visual studio se muestra el resultado. Abajo se indica que se han Superado 1 Pruebas
-
-![](../.gitbook/assets/image%20%2853%29.png)
-
-Del lado derecho se muestra todo en verde
-
-![](../.gitbook/assets/image.png)
-
-Si luego por error a la clase Sumar en lugar de + le pones \* el resultado sería 3. Para esto cambia el método sumar y agrega el \*.
-
-Dale clic en guardar al archivo
-
-Vuelve a ejecutar todas las pruebas
-
-Del lado derecho se muestra en rojo ya que no se cumple con la prueba y en la parte inferior vemos la línea en que ocurrió el error, asi como el número de pruebas No superadas.
-
-Se muestra el Valor que se esperaba y el valor actual
-
-![](../.gitbook/assets/image%20%28155%29.png)
-
-De esta forma previenes que cambios en el código provoquen nuevos errores.
 
 
 
