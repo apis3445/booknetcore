@@ -7,7 +7,7 @@ Para crear tu proyecto REST desde Visual Studio Comunity los pasos son los sigui
 1. Ir al menú **Archivo** -&gt; **Nuevo** -&gt; **Proyecto**
 2. Teclear el nombre del proyecto \(**CaducaRest**\) y la ubicación donde se creará el proyecto
 3. Seleccionar la opción **Guardar**
-4. Elegir **.NET Core 2.1** y seleccionar el proyecto de **API**. 
+4. Elegir **.NET Core 2.2** y seleccionar el proyecto de **API**. 
    1. Se recomienda usar los servicios REST con un certificado HTTPS si deseas manejarlo selecciona configure for HTPPS 
 
 ### 2.2.2 Instalar la extensión de GitHub
@@ -48,5 +48,5 @@ Para obtener el código fuente realizamos lo siguiente
 4. Seleccionar el directorio de destino donde deseas guardar el código
 5. Dar clic en extraer del repositorio
 
-![](../.gitbook/assets/image%20%28194%29.png)
+![](../.gitbook/assets/image%20%28195%29.png)
 
