@@ -88,6 +88,7 @@
   * [7.8 Mejorando tu código](7.-seguridad/7.8-mejorando-tu-codigo/README.md)
     * [7.8.1 ¿Cómo limitar el número de intentos incorrectos en el login?](7.-seguridad/7.8-mejorando-tu-codigo/7.8.1-como-limitar-el-numero-de-intentos-incorrectos-en-el-login.md)
     * [7.8.2 ¿Cómo obtener la ciudad del usuario por medio de la IP?](7.-seguridad/7.8-mejorando-tu-codigo/7.8.2-como-obtener-la-ciudad-del-usuario-por-medio-de-la-ip.md)
+    * [7.8.3 Habilitando CORS](7.-seguridad/7.8-mejorando-tu-codigo/7.8.3-configurando-cors.md)
 * [8. Pruebas Unitarias](8.-pruebas-unitarias/README.md)
   * [8.1 Agregando el proyecto de pruebas unitarias](8.-pruebas-unitarias/8.1-agregando-el-proyecto-de-pruebas-unitarias.md)
   * [8.2 Creando nuestra primer prueba unitaria](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/README.md)
