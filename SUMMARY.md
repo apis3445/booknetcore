@@ -96,6 +96,7 @@
     * [8.2.2 Ejecutando las pruebas unitarias en Visual Studio for Mac](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/8.2.2-ejecutando-las-pruebas-unitarias-en-visual-studio-for-mac.md)
   * [8.3 Agregando una base de datos en memoria para nuestras pruebas unitarias](8.-pruebas-unitarias/8.3-agregando-una-base-de-datos-en-memoria-para-nuestras-pruebas-unitarias.md)
   * [8.4 Agregando la referencia de nuestro proyecto CaducaRest](8.-pruebas-unitarias/8.3-agregando-la-referencia-de-nuestro-proyecto-caducarest.md)
+  * [8.5 Agregando pruebas para las Categorías](8.-pruebas-unitarias/8.5-agregando-pruebas-para-las-categorias.md)
 * [9. Integración continua](9.-integracion-continua/README.md)
   * [9.1 ¿Qué es la integración continua?](9.-integracion-continua/9.1-que-es-la-integracion-continua.md)
   * [9.2 Creando tu repositorio en BitBucket](9.-integracion-continua/9.2-creando-tu-repositorio-en-bitbucket/README.md)
