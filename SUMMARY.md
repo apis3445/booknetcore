@@ -105,7 +105,7 @@
   * [9.1 ¿Qué es la integración continua?](9.-integracion-continua/9.1-que-es-la-integracion-continua.md)
   * [9.2 Creando tu repositorio en BitBucket](9.-integracion-continua/9.2-creando-tu-repositorio-en-bitbucket/README.md)
     * [9.2.1 Integración continua con Bitbucket](9.-integracion-continua/9.2-creando-tu-repositorio-en-bitbucket/9.3-integracion-continua-con-bitbucket.md)
-    * [9.2.2 Integración continua con AzureDevOps](9.-integracion-continua/9.2-creando-tu-repositorio-en-bitbucket/9.2.2-integracion-continua-con-azuredevops.md)
+  * [9.3 Integración continua con AzureDevOps](9.-integracion-continua/9.2.2-integracion-continua-con-azuredevops.md)
 * [10. Pruebas de integración](10.-pruebas-de-integracion.md)
 * [11. Pruebas de usuario](9.-pruebas-de-integracion.md)
 * [11. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
