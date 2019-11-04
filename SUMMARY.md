@@ -116,6 +116,8 @@
     * [10.5.2 Pasando tablas a nuestras pruebas](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.2-pasando-tablas-a-nuestras-pruebas.md)
 * [11. Pruebas de usuario](9.-pruebas-de-integracion/README.md)
   * [11.1 ¿Qué es Selenium?](9.-pruebas-de-integracion/11.1-que-es-selenium.md)
+  * [11.1.1 Instrucciones básicas](9.-pruebas-de-integracion/11.1.1-instrucciones-basicas.md)
+  * [11.2 Agregando el proyecto de pruebas de usuario](9.-pruebas-de-integracion/11.2-agregando-el-proyecto-de-pruebas-de-usuario.md)
 * [11. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
 * [12. Instalación en Linux](11.-instalacion-en-linux/README.md)
   * [12.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
