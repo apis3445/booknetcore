@@ -2,8 +2,6 @@
 
 Podemos realizar pruebas como si fuera el usuario que da clic a un botón y llena información con [Selenium](https://www.seleniumhq.org).
 
-Para estas pruebas utilizaré también Specflow el cual nos permite describir los casos de prueba de una forma mas entendible para los usurios finales.
-
 Como estas pruebas son mas tardadas se suelen solo probar las funciones claves y mas importantes
 
 Existen otras herramientas  para realizar pruebas de tu aplicación web, de escritorio y las aplicaciones móviles.
