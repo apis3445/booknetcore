@@ -14,11 +14,11 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 1. Ingresa a tu portal de azure [http://portal.azure.com/](http://portal.azure.com/)
 2. Da clic en Máquinas virtuales
 
-![](../.gitbook/assets/image%20%28184%29.png)
+![](../.gitbook/assets/image%20%28185%29.png)
 
 3. Da clic en Agregar
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 4. Selecciona los datos generales:
 
@@ -28,7 +28,7 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 * _Región_: Busca una región cercana a tu ciudad, en mi caso seleccione Centro de EE-UU.
 * _Imagen_: Selecciona el sistema operativo en mi caso elegi Ubuntu Server 18.04 LTS
 
-![](../.gitbook/assets/image%20%28187%29.png)
+![](../.gitbook/assets/image%20%28188%29.png)
 
 5. Selecciona los siguientes datos:
 
@@ -38,13 +38,13 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 * Contraseña: Debe estar entre 12 y 72 caracteres de longitud, incluir mayúsculas, minúsculas, caracteres especiales
 * _Puertos de entrada públicos_: Aquí selecciona todos para habilitar el acceso por SSH el cual es necesario ya que por defecto no se habilita el acceso remoto en las máquinas virtiales de linux, HTTP para tener tus servicios disponibles, HTTPS ya que se recomienda utilizar certificados SSL para tus servicios REST, y RDP para habilitar el escritorio remoto.
 
-![](../.gitbook/assets/image%20%28118%29.png)
+![](../.gitbook/assets/image%20%28119%29.png)
 
 6. Da clic en el botón siguiente Discos
 
 7. Puedes agregar un disco de datos para tener tus archivos de documentos y/o código separados del sistema operativo, asi si luego cambias de máquina virtual puedes solamente agregar el disco duro con tu información. Da clic en siguiente Redes
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](../.gitbook/assets/image%20%28129%29.png)
 
 8. A continuación configuraremos la sección Redes, dejamos las opciones por default y nos aseguramos que aún este habilitados los puertos de HTTP, RDP, HTTPS, SSH
 
@@ -54,5 +54,5 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 
 10. Da clic en revisar y crear, te muestra un resumen con las opciones seleccionadas y te manda una notificación una vez que la máquina virtual este lista
 
-![](../.gitbook/assets/image%20%28185%29.png)
+![](../.gitbook/assets/image%20%28186%29.png)
 

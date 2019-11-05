@@ -1,6 +1,6 @@
 # 11.3 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript y que requieren de node, una que me paerece interesante es Cypress
+Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript y que requieren de node, una que parece interesante es Cypress
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo aquí
 
@@ -8,11 +8,11 @@ Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo a
 
 Una vez instalado puedes realizar tus pruebas en diferentes navegadores
 
-![](../.gitbook/assets/image%20%28199%29.png)
+![](../.gitbook/assets/image%20%28200%29.png)
 
 Al igual que selenium te permite abrir tu navegador chrome y seleccionar elmentos, etc
 
-![](../.gitbook/assets/image%20%28124%29.png)
+![](../.gitbook/assets/image%20%28125%29.png)
 
 Un ejemplo básico podria ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
 
@@ -52,7 +52,7 @@ context('Navigation', () => {
 
 Se muestra el siguiente resultado
 
-![](../.gitbook/assets/image%20%28193%29.png)
+![](../.gitbook/assets/image%20%28194%29.png)
 
 
 
