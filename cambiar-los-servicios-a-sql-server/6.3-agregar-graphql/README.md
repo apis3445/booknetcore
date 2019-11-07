@@ -27,20 +27,7 @@ http://myapi/graphql?query={clientes{clave, nombre}}
 Esta petición genera el siguiente resultado
 
 ```javascript
-{
-  "data": {
-    "clientes": [
-      {
-        "Clave": 1,
-        "Nombre": "John Doe"
-      },
-      {
-        "Clave": "2",
-        "Nombre": "Alicia Smith"
-      }
-    ]
-  }
-}
+{  "data": {    "clientes": [      {        "Clave": 1,        "Nombre": "John Doe"      },      {        "Clave": "2",        "Nombre": "Alicia Smith"      }    ]  }}
 ```
 
 ###  Agregar  paquetes Nuget para habilitar graphQL en .NET Core
@@ -48,8 +35,7 @@ Esta petición genera el siguiente resultado
 Vamos a agregar los siguientes paquetes Nuget para habilitar GraphQL en nuestro proyecto
 
 ```text
-Install-Package GraphQL 
-Install-Package GraphQL.Server.Transports.AspnetCore
+Install-Package GraphQL Install-Package GraphQL.Server.Transports.AspnetCore
 ```
 
 Para poder probar los servicios podemos utilizar el siguiente paquete el cual es similar a Swagger ya que nos genera la documentación y nos ayuda a probar nuestros servicios
@@ -69,23 +55,7 @@ La estructura básica es la siguiente:
 Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y del producto para realizar la consulta de la siguiente manera:
 
 ```javascript
-{
-	"query": "query {
-		caducidades {
-			id
-			producto {
-				id
-				clave
-				nombre
-			}
-			cliente
-			{
-				id
-				nombreComercial
-			}			
-		}	
-   }"
-} 
+{	"query": "query {		caducidades {			id			producto {				id				clave				nombre			}			cliente			{				id				nombreComercial			}					}	   }"} 
 ```
 
 Este método se podrá consultar por GET o por POST, es mas comodo realizarlo por POST.

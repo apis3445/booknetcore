@@ -4,55 +4,40 @@ Agregar la seguridad basada en roles a nuestros servicios es muy fácil con .NET
 
 En nuestro archivo **CategoriasController** validamos que solamente los usuarios de tipo administrador y de ventas puedan ver las categorías de los productos.
 
-{% code-tabs %}
-{% code-tabs-item title="CategoriasController.cs" %}
+{% tabs %}
+{% tab title="CategoriasController.cs" %}
 ```csharp
-[HttpGet]
-[Authorize(Roles = "Administrador, Ventas")]
-public List<Categoria> GetCategoria()
-{
-      return categoriaDAO.ObtenerTodo();
-}
+[HttpGet][Authorize(Roles = "Administrador, Ventas")]public List<Categoria> GetCategoria(){      return categoriaDAO.ObtenerTodo();}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Si probamos nuestro servicio de **GetCategoria** con un usuario de tipo Cliente el servicio nos regresará un status **403 Forbidden** ya que aunque es un usuario correcto no tiene permiso para consultar esa información
 
 Si deseas agregar la autorización a todos los servicios del controller, agregas los roles directamente al Controller. 
 
-{% code-tabs %}
-{% code-tabs-item title="ProductosController" %}
+{% tabs %}
+{% tab title="ProductosController" %}
 ```csharp
-[Authorize(Roles = "Administrador")]
-public class ProductosController : ControllerBase
-{
-}
+[Authorize(Roles = "Administrador")]public class ProductosController : ControllerBase{}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Para nuestros servicios con OData es lo mismo, agregamos la autorización ya sea al controller o al método
 
-{% code-tabs %}
-{% code-tabs-item title="ClientesController.cs" %}
+{% tabs %}
+{% tab title="ClientesController.cs" %}
 ```csharp
-[Authorize(Roles = "Administrador")]
-public class ClientesController : ODataController
-{
-}
+[Authorize(Roles = "Administrador")]public class ClientesController : ODataController{}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Si deseas que un servicio solo sea accesible si el usuario tiene 2 roles los agregas uno abajo de otro. Por ejemplo los siguientes servicios solo son accesibles si el usuario tiene el rol de Admin y de ControlPanel
 
 ```csharp
-[Authorize(Roles = "Admin")]
-[Authorize(Roles = "ControlPanel")]
-public class ControlPanelController : Controller
-{
-}
+[Authorize(Roles = "Admin")][Authorize(Roles = "ControlPanel")]public class ControlPanelController : Controller{}
 ```
 
 Puedes ver la documentación de microsoft aquí.
