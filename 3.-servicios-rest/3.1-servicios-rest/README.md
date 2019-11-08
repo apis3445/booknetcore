@@ -15,7 +15,28 @@ Los archivos JSON \(JavaScript Object Notation\) son archivos de texto para inte
 Un ejemplo de un archivo JSON el cual contiene información de los países es el siguiente:
 
 ```javascript
-[  {    "Nombre": "Mexico",   "Codigo": "MX",   "Capital": "Mexico City",   "Moneda": [{                "Codigo": "MXN",                "Nombre": "Mexican Peso",                "Simbolo": "$"}],   "Bandera": "https://restcountries.eu/data/mex.svg"    },   {    "Nombre": "Argentina",   "Codigo": "AR",   "Capital": "Buenos Aires",   "Moneda": [{                "Codigo": "ARS",                "Nombre": "Argentine Peso",                "Simbolo": "$"}],   "Bandera": "https://restcountries.eu/data/arg.svg"    }]
+[
+  { 
+   "Nombre": "Mexico",
+   "Codigo": "MX",
+   "Capital": "Mexico City",
+   "Moneda": [{
+                "Codigo": "MXN",
+                "Nombre": "Mexican Peso",
+                "Simbolo": "$"}],
+   "Bandera": "https://restcountries.eu/data/mex.svg" 
+   },
+   { 
+   "Nombre": "Argentina",
+   "Codigo": "AR",
+   "Capital": "Buenos Aires",
+   "Moneda": [{
+                "Codigo": "ARS",
+                "Nombre": "Argentine Peso",
+                "Simbolo": "$"}],
+   "Bandera": "https://restcountries.eu/data/arg.svg" 
+   }
+]
 ```
 
 Existen varios servicios públicos los cuales te dan información como por ejemplo del clima, países, libros. Por ejemplo los siguientes servicios te dan información de un país o de acuerdo a una ip saber cual es el país.

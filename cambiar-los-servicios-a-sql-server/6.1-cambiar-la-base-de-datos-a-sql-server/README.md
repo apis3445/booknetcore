@@ -13,7 +13,28 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 {% tabs %}
 {% tab title="CaducaSQLBD.sql" %}
 ```sql
-//Creamos la base de datosCREATE DATABASE caducaGO//Creamos un login para el usuario administradorCREATE LOGIN AdminCaduca WITH PASSWORD = 'StKRV6MR6A'GO//Creamos un login para el usuario de lecturaCREATE LOGIN SistemaCaduca WITH PASSWORD = 'xADcUaP5cs'GO//Cambiamos a la base de datosUSE caducaGO//Creamos los usuarios administrador y de sistemaCREATE USER AdminCaduca FOR LOGIN AdminCaduca;CREATE USER SistemaCaduca FOR LOGIN SistemaCaduca;//Agreamos el permiso al usuario administrador de db_owner el cual //tiene acceso total a la base de datosALTER ROLE db_owner ADD MEMBER AdminCaduca;//Agregamos los roles de escritura y lecutra para el // usuario de sistemaALTER ROLE db_datareader ADD MEMBER SistemaCaduca;ALTER ROLE db_datawriter ADD MEMBER SistemaCaduca;
+//Creamos la base de datos
+CREATE DATABASE caduca
+GO
+//Creamos un login para el usuario administrador
+CREATE LOGIN AdminCaduca WITH PASSWORD = 'StKRV6MR6A'
+GO
+//Creamos un login para el usuario de lectura
+CREATE LOGIN SistemaCaduca WITH PASSWORD = 'xADcUaP5cs'
+GO
+//Cambiamos a la base de datos
+USE caduca
+GO
+//Creamos los usuarios administrador y de sistema
+CREATE USER AdminCaduca FOR LOGIN AdminCaduca;
+CREATE USER SistemaCaduca FOR LOGIN SistemaCaduca;
+//Agreamos el permiso al usuario administrador de db_owner el cual 
+//tiene acceso total a la base de datos
+ALTER ROLE db_owner ADD MEMBER AdminCaduca;
+//Agregamos los roles de escritura y lecutra para el 
+// usuario de sistema
+ALTER ROLE db_datareader ADD MEMBER SistemaCaduca;
+ALTER ROLE db_datawriter ADD MEMBER SistemaCaduca;
 ```
 {% endtab %}
 {% endtabs %}
@@ -23,7 +44,14 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 {% tabs %}
 {% tab title="appsettings.json" %}
 ```javascript
-{  "ConnectionStrings": {    "DefaultConnection": "server=localhost;port=3306;database=caduca;user=AdminCaduca;Password=StKRV6MR6A;sslMode=none",    "SQLServerConnection": "Server=localhost;Database=caduca;User Id=AdminCaduca;Password=StKRV6MR6A;"  },  //...}
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;port=3306;database=caduca;user=AdminCaduca;Password=StKRV6MR6A;sslMode=none",
+    "SQLServerConnection": "Server=localhost;Database=caduca;User Id=AdminCaduca;Password=StKRV6MR6A;"
+  },
+  //...
+}
+
 ```
 {% endtab %}
 {% endtabs %}
@@ -33,7 +61,20 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 {% tabs %}
 {% tab title="Startup.cs" %}
 ```csharp
-public void ConfigureServices(IServiceCollection services){    //Código        //Conexión MySQL    //services.AddDbContext<CaducaContext>(options =>            //options.UseMySql(Configuration.GetConnectionString           //("DefaultConnection")));       //Conexión SQL Server    services.AddDbContext<CaducaContext>(options =>         options.UseSqlServer(Configuration.GetConnectionString              ("SQLServerConnection")));}
+public void ConfigureServices(IServiceCollection services)
+{
+    //Código
+    
+    //Conexión MySQL
+    //services.AddDbContext<CaducaContext>(options => 
+           //options.UseMySql(Configuration.GetConnectionString
+           //("DefaultConnection")));
+   
+    //Conexión SQL Server
+    services.AddDbContext<CaducaContext>(options =>
+         options.UseSqlServer(Configuration.GetConnectionString
+              ("SQLServerConnection")));
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -43,7 +84,16 @@ public void ConfigureServices(IServiceCollection services){    //Código        
 {% tabs %}
 {% tab title="Migracion\_TablaProducto.cs" %}
 ```csharp
-migrationBuilder.CreateTable(    name: "Producto",    columns: table => new    {        Id = table.Column<int>(nullable: false)        .Annotation("SqlServer:ValueGenerationStrategy",          SqlServerValueGenerationStrategy.IdentityColumn),        // .Annotation("MySql:ValueGenerationStrategy"        //, MySqlValueGenerationStrategy.IdentityColumn),   }
+migrationBuilder.CreateTable(
+    name: "Producto",
+    columns: table => new
+    {
+        Id = table.Column<int>(nullable: false)
+        .Annotation("SqlServer:ValueGenerationStrategy", 
+         SqlServerValueGenerationStrategy.IdentityColumn),
+        // .Annotation("MySql:ValueGenerationStrategy"
+        //, MySqlValueGenerationStrategy.IdentityColumn),
+   }
 ```
 {% endtab %}
 {% endtabs %}

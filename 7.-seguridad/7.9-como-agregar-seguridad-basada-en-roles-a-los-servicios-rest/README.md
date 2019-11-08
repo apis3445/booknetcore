@@ -7,7 +7,12 @@ En nuestro archivo **CategoriasController** validamos que solamente los usuarios
 {% tabs %}
 {% tab title="CategoriasController.cs" %}
 ```csharp
-[HttpGet][Authorize(Roles = "Administrador, Ventas")]public List<Categoria> GetCategoria(){      return categoriaDAO.ObtenerTodo();}
+[HttpGet]
+[Authorize(Roles = "Administrador, Ventas")]
+public List<Categoria> GetCategoria()
+{
+      return categoriaDAO.ObtenerTodo();
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -19,7 +24,10 @@ Si deseas agregar la autorización a todos los servicios del controller, agregas
 {% tabs %}
 {% tab title="ProductosController" %}
 ```csharp
-[Authorize(Roles = "Administrador")]public class ProductosController : ControllerBase{}
+[Authorize(Roles = "Administrador")]
+public class ProductosController : ControllerBase
+{
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -29,7 +37,10 @@ Para nuestros servicios con OData es lo mismo, agregamos la autorización ya sea
 {% tabs %}
 {% tab title="ClientesController.cs" %}
 ```csharp
-[Authorize(Roles = "Administrador")]public class ClientesController : ODataController{}
+[Authorize(Roles = "Administrador")]
+public class ClientesController : ODataController
+{
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -37,7 +48,11 @@ Para nuestros servicios con OData es lo mismo, agregamos la autorización ya sea
 Si deseas que un servicio solo sea accesible si el usuario tiene 2 roles los agregas uno abajo de otro. Por ejemplo los siguientes servicios solo son accesibles si el usuario tiene el rol de Admin y de ControlPanel
 
 ```csharp
-[Authorize(Roles = "Admin")][Authorize(Roles = "ControlPanel")]public class ControlPanelController : Controller{}
+[Authorize(Roles = "Admin")]
+[Authorize(Roles = "ControlPanel")]
+public class ControlPanelController : Controller
+{
+}
 ```
 
 Puedes ver la documentación de microsoft aquí.

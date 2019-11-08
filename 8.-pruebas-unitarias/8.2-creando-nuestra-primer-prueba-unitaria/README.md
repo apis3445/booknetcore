@@ -5,7 +5,22 @@ Vamos a crear la prueba más básica, para esto vamos a crear una clase llamada 
 {% tabs %}
 {% tab title="Operaciones.cs" %}
 ```csharp
-public class Operaciones{    private int _a;    private int _b;    public Operaciones(int a, int b)    {        this._a = a;        this._b = b;    }    public int Sumar()    {        return _a + _b;    }}
+public class Operaciones
+{
+    private int _a;
+    private int _b;
+
+    public Operaciones(int a, int b)
+    {
+        this._a = a;
+        this._b = b;
+    }
+
+    public int Sumar()
+    {
+        return _a + _b;
+    }
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -31,7 +46,15 @@ Aseert.Equal(Valor Esperado, Valor Encontrado)
 {% tabs %}
 {% tab title="UnitTest1.cs" %}
 ```csharp
-[Fact]public void SumaDosNumeros_Correcto(){    int a = 3;    int b = 1;    Operaciones operaciones = new Operaciones(a,b);    int resultado = operaciones.Sumar();    Assert.Equal(4, resultado);}
+[Fact]
+public void SumaDosNumeros_Correcto()
+{
+    int a = 3;
+    int b = 1;
+    Operaciones operaciones = new Operaciones(a,b);
+    int resultado = operaciones.Sumar();
+    Assert.Equal(4, resultado);
+}
 ```
 {% endtab %}
 {% endtabs %}
