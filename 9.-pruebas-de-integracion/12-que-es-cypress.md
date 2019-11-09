@@ -1,6 +1,6 @@
 # 11.3 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript y que requieren de node, una opción interesante es Cypress
+Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript y corren en node, una opción interesante es Cypress
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo aquí
 

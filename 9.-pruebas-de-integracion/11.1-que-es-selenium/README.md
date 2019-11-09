@@ -6,7 +6,8 @@ Cuenta con extensiones para Firefox, Chrome en el cual puedes grabar los pasos q
 
 También cuenta con librerias para ejecutar estas pruebas mediante código C\# o Java y automatizarlo, cambiando entre diferentes navegadores
 
-Es uno de las herramientas mas utilizadas, solo que si realizas algún cambio en la estructura y/o diseño de la página, la prueba deja de funcionar y debes cambiar tu código o volver a grabar los pasos 
+Es una de las herramientas mas utilizadas, su desventajas son:
 
-Es también díficil probar aplicaciones complejas por ejemplo grids o componentes como AutoComplete
+1. Si realizas algún cambio en la estructura y/o diseño de la página, la prueba deja de funcionar y debes cambiar tu código o volver a grabar los pasos
+2. Es difícil probar aplicaciones complejas por ejemplo grids o componentes como AutoComplete, árboles.
 
