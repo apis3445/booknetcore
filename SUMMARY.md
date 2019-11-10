@@ -114,6 +114,7 @@
   * [10.5 Mejorando tu código](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/README.md)
     * [10.5.1 Cambiando las pruebas a español](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.1-cambiando-las-pruebas-a-espanol.md)
     * [10.5.2 Pasando tablas a nuestras pruebas](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.2-pasando-tablas-a-nuestras-pruebas.md)
+    * [10.5.3 Probando con SQLite](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.3-probando-con-sqlite.md)
 * [11. Pruebas de usuario](9.-pruebas-de-integracion/README.md)
   * [11.1 ¿Qué es Selenium?](9.-pruebas-de-integracion/11.1-que-es-selenium/README.md)
     * [11.1.1 Instrucciones básicas](9.-pruebas-de-integracion/11.1-que-es-selenium/11.1.1-instrucciones-basicas.md)
