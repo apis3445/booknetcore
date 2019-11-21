@@ -10,8 +10,7 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
 2\) Creamos la base de datos en sql server y nuestros usuarios administrador y de lectura
 
-{% tabs %}
-{% tab title="CaducaSQLBD.sql" %}
+{% code title="CaducaSQLBD.sql" %}
 ```sql
 //Creamos la base de datos
 CREATE DATABASE caduca
@@ -36,13 +35,11 @@ ALTER ROLE db_owner ADD MEMBER AdminCaduca;
 ALTER ROLE db_datareader ADD MEMBER SistemaCaduca;
 ALTER ROLE db_datawriter ADD MEMBER SistemaCaduca;
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 3\) Agregamos una nueva cadena de conexión en nuestro archivo appsettings.json con el nombre **SQLServerConnection** 
 
-{% tabs %}
-{% tab title="appsettings.json" %}
+{% code title="appsettings.json" %}
 ```javascript
 {
   "ConnectionStrings": {
@@ -53,13 +50,11 @@ ALTER ROLE db_datawriter ADD MEMBER SistemaCaduca;
 }
 
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 4\) Cambiamos nuestro archivo **Startup.cs** para que utilice Sql Server, dejamos comentada nuestra conexión MySQL por si deseamos regresar a MySQL y nuestra nueva cadena de conexión
 
-{% tabs %}
-{% tab title="Startup.cs" %}
+{% code title="Startup.cs" %}
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
@@ -76,13 +71,11 @@ public void ConfigureServices(IServiceCollection services)
               ("SQLServerConnection")));
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 5\) Modificamos nuestra migración para que cree correctamente el campo autoincrement, ya que se agrego una notación especial para MySQL  \(**.Annotation\("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn\)**\) agregamos el código para generar el identity en sql Server **.Annotation\("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn\)**
 
-{% tabs %}
-{% tab title="Migracion\_TablaProducto.cs" %}
+{% code title="Migracion\_TablaProducto.cs" %}
 ```csharp
 migrationBuilder.CreateTable(
     name: "Producto",
@@ -95,8 +88,7 @@ migrationBuilder.CreateTable(
         //, MySqlValueGenerationStrategy.IdentityColumn),
    }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 También modificamos la migración de la TablaCategoría de la misma forma
 

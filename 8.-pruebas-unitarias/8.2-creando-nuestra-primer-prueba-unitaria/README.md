@@ -2,8 +2,7 @@
 
 Vamos a crear la prueba más básica, para esto vamos a crear una clase llamada Operaciones con un método Sumar
 
-{% tabs %}
-{% tab title="Operaciones.cs" %}
+{% code title="Operaciones.cs" %}
 ```csharp
 public class Operaciones
 {
@@ -22,8 +21,7 @@ public class Operaciones
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Modificamos nuestro archivo **UnitTest1** para agregar un método que se llame **SumaDosNumeros,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
 
@@ -43,8 +41,7 @@ En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuest
 Aseert.Equal(Valor Esperado, Valor Encontrado)
 ```
 
-{% tabs %}
-{% tab title="UnitTest1.cs" %}
+{% code title="UnitTest1.cs" %}
 ```csharp
 [Fact]
 public void SumaDosNumeros_Correcto()
@@ -56,8 +53,7 @@ public void SumaDosNumeros_Correcto()
     Assert.Equal(4, resultado);
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 
 

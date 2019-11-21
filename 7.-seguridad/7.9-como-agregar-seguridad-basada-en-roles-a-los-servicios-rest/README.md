@@ -4,8 +4,7 @@ Agregar la seguridad basada en roles a nuestros servicios es muy fácil con .NET
 
 En nuestro archivo **CategoriasController** validamos que solamente los usuarios de tipo administrador y de ventas puedan ver las categorías de los productos.
 
-{% tabs %}
-{% tab title="CategoriasController.cs" %}
+{% code title="CategoriasController.cs" %}
 ```csharp
 [HttpGet]
 [Authorize(Roles = "Administrador, Ventas")]
@@ -14,36 +13,31 @@ public List<Categoria> GetCategoria()
       return categoriaDAO.ObtenerTodo();
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Si probamos nuestro servicio de **GetCategoria** con un usuario de tipo Cliente el servicio nos regresará un status **403 Forbidden** ya que aunque es un usuario correcto no tiene permiso para consultar esa información
 
 Si deseas agregar la autorización a todos los servicios del controller, agregas los roles directamente al Controller. 
 
-{% tabs %}
-{% tab title="ProductosController" %}
+{% code title="ProductosController" %}
 ```csharp
 [Authorize(Roles = "Administrador")]
 public class ProductosController : ControllerBase
 {
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Para nuestros servicios con OData es lo mismo, agregamos la autorización ya sea al controller o al método
 
-{% tabs %}
-{% tab title="ClientesController.cs" %}
+{% code title="ClientesController.cs" %}
 ```csharp
 [Authorize(Roles = "Administrador")]
 public class ClientesController : ODataController
 {
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Si deseas que un servicio solo sea accesible si el usuario tiene 2 roles los agregas uno abajo de otro. Por ejemplo los siguientes servicios solo son accesibles si el usuario tiene el rol de Admin y de ControlPanel
 
