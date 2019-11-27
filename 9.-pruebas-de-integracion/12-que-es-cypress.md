@@ -1,6 +1,6 @@
 # 11.3 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript y corren en node, una opción interesante es Cypress
+Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript , una opción interesante es Cypress
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo aquí
 
@@ -27,10 +27,8 @@ context('Navigation', () => {
     })
 
     it('cy.visit() - visit a remote url', () => {
-        // https://on.cypress.io/visit
-
-        // Visit any sub-domain of your current domain
-
+        
+    
         // Pass options to the visit
         cy.visit('https://www.google.com/doodles/', {
             timeout: 50000, // increase total time for the visit to resolve
@@ -54,5 +52,9 @@ Se muestra el siguiente resultado
 
 ![](../.gitbook/assets/image%20%28195%29.png)
 
+Otra de las ventajas que tiene cypress es que detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas de 5 segundos en lo que se hace la llamada sl servicio REST, de una forma fácil configuras la espera.
 
+Otra de las ventajas es que puedes simular la llamada al servicio rest y sustituir la respuesta por datos fijos.
+
+También por medio de líneas de comandos te corre las pruebas te graba videos de los test y toma screenshots de los casos de prueba que fallaron.
 
