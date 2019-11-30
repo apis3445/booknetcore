@@ -52,7 +52,7 @@ Se muestra el siguiente resultado
 
 ![](../../.gitbook/assets/image%20%28195%29.png)
 
-Otra de las ventajas que tiene cypress es que detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas de 5 segundos en lo que se hace la llamada sl servicio REST, de una forma fácil configuras la espera.
+Otra de las ventajas que tiene cypress es que detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas de 5 segundos en lo que se hace la llamada sl servicio REST.
 
 Otra de las ventajas es que puedes simular la llamada al servicio rest y sustituir la respuesta por datos fijos.
 
