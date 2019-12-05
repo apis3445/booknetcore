@@ -71,7 +71,7 @@
     * [6.3.7 Probando nuestros servicios](cambiar-los-servicios-a-sql-server/6.3-agregar-graphql/6.3.6-probando-nuestros-servicios.md)
 * [7. Seguridad](7.-seguridad/README.md)
   * [7.1 Json Web Tokens](7.-seguridad/7.1-json-web-tokens.md)
-  * [7.2 Seguridad basada en roles y usuario](7.-seguridad/7.2-seguridad-basada-en-roles/README.md)
+  * [7.2 Seguridad basada en roles y usuarios](7.-seguridad/7.2-seguridad-basada-en-roles/README.md)
     * [7.2.1 Creando nuestra tabla roles e insertando los roles principales](7.-seguridad/7.2-seguridad-basada-en-roles/7.3-creando-nuestra-tabla-roles-e-insertando-los-3-roles-principales.md)
     * [7.2.2 Consideraciones de seguridad para almacenar tus passwords](7.-seguridad/7.2-seguridad-basada-en-roles/7.4-consideraciones-de-seguridad-para-almacenar-tus-passwords.md)
     * [7.2.3 Creando las tablas para manejar la seguridad](7.-seguridad/7.2-seguridad-basada-en-roles/7.5-creando-tu-tabla-usuarios.md)
