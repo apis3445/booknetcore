@@ -25,9 +25,9 @@ Se debe tener conocimientos básicos de C\# y programación orientada a objetos.
 
 ### ¿Porqué ASP.NET Core?
 
-ASP.NET Core fue creado para ser multiplataforma \(Windows,Mac,Linux\), open source y con mejoras en el rendimiento. 
+ASP.NET Core fue creado para ser multiplataforma \(Windows,Mac,Linux\), open source y con mejoras en rendimiento. Se tiene planeado unificar los 2 Framework el .Net 4.6 con el .Net Core 3.0 y la próxima versión sera la 5.0. Puedes ver un artículo mas detallado sobre este cambio [aquí](https://devblogs.microsoft.com/dotnet/introducing-net-5/)
 
-Entity Framework también fue rediseñado para hacerlo mas eficiente.
+Entity Framework Core también fue rediseñado para hacerlo mas eficiente.
 
 ### Requisitos
 

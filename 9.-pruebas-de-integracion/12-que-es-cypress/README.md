@@ -8,11 +8,11 @@ Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo a
 
 Una vez instalado puedes realizar tus pruebas en diferentes navegadores
 
-![](../../.gitbook/assets/image%20%28201%29.png)
+![](../../.gitbook/assets/image%20%28202%29.png)
 
 Al igual que selenium te permite abrir tu navegador chrome y seleccionar elmentos, etc
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 Un ejemplo básico podria ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
 
@@ -50,7 +50,7 @@ context('Navigation', () => {
 
 Se muestra el siguiente resultado
 
-![](../../.gitbook/assets/image%20%28195%29.png)
+![](../../.gitbook/assets/image%20%28196%29.png)
 
 Otra de las ventajas que tiene cypress es que detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas de 5 segundos en lo que se hace la llamada sl servicio REST.
 
