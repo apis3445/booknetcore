@@ -1,4 +1,4 @@
-# 13. Instalación en Linux
+# 14. Instalación en Linux
 
 Existen diferentes distribuciones de linux, algunas de las conocidas  son las siguientes:
 
