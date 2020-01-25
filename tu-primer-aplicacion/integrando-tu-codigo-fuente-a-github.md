@@ -20,7 +20,7 @@ Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio
 
  
 
-![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../.gitbook/assets/image%20%28249%29.png)
+![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../.gitbook/assets/image%20%28253%29.png)
 
 ### 2.2.3 Creando tu primer Aplicación
 
@@ -70,5 +70,5 @@ Para obtener el código fuente realizamos lo siguiente
 4. Seleccionar el directorio de destino donde deseas guardar el código
 5. Dar clic en extraer del repositorio
 
-![](../.gitbook/assets/image%20%28256%29.png)
+![](../.gitbook/assets/image%20%28260%29.png)
 
