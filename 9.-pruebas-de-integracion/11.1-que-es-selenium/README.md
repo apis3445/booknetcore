@@ -9,6 +9,6 @@ También cuenta con librerias para ejecutar estas pruebas mediante código C\# o
 Es una de las herramientas mas utilizadas, su desventajas son:
 
 1. Si realizas algún cambio en la estructura y/o diseño de la página, la prueba deja de funcionar y debes cambiar tu código o volver a grabar los pasos
-2. Es difícil probar aplicaciones complejas por ejemplo grids o componentes como AutoComplete, árboles.
+2. Es difícil probar aplicaciones complejas por ejemplo grids o componentes como AutoComplete, TreeViews.
 3. Es díficil detectar cuando la información se esta cargando, por lo cual a veces se programan esperas para calcular el tiempo que se tarda en traer información
 
