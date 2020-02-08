@@ -8,17 +8,17 @@ Primero debes crear tu cuenta en BitBucket, una vez creada tu cuenta verás una 
 
 Puedes crear un repositorio nuevo o importar el tuyo, como ya tenemos el código en GitHub lo puedes importar. Da clic en el botón **Import Repository**
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2886%29.png)
 
 Los datos de tu repositorio de GitHub los puedes encontrar en tu repositorio de GitHub le das clic en donde dice **Clone or download** y luego en el botón para **copiar**
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 Luego debes copiar los datos de tu repositorio en GitHub, le indicas que requieres authorization y le das los datos de tu cuenta en caso de ser privado.
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 Si todo es correcto te muestra la siguiente página
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2890%29.png)
 
