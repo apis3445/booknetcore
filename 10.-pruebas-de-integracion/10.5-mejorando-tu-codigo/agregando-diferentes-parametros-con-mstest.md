@@ -30,5 +30,7 @@ public class PruebasOperaciones
 
 Puedes ver la documentación oficial aquí
 
-[https://docs.microsoft.com/es-mx/dotnet/core/testing/unit-testing-with-mstest](https://docs.microsoft.com/es-mx/dotnet/core/testing/unit-testing-with-mstest)
+{% embed url="https://docs.microsoft.com/es-mx/dotnet/core/testing/unit-testing-with-mstest" %}
+
+
 
