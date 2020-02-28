@@ -6,23 +6,7 @@ Github es un sitio web en el cual puedes guardar y administrar el código de tus
 
 GitHub te permite además llevar un control de los bugs, o mejoras que deseas agregarle a tu sistema \(issues\), te presenta algunas estadísticas de cuantas veces se ha descargdo el proyecto, te permite agrear una wiki de tu proyecto que es donde se suele agregar la documentación de tu proyecto. 
 
-### 2.2.2 ¿Qué son las ramas en Git?
-
-Por lo general se tiene el código de esta manera para que todos los programadores cuenten con el código del proyecto y poder controlar los cambios que cada persona realiza, y poder regresar a una versión anterior o que sea más fácil de revisar que es lo que cambio el código entre una versión y otra del sistema. 
-
-Por lo general una forma de trabajar en equipos grandes de desarrollo es mediante ramas \(Branches\), que te permite crear copias de tu código para tener por ejemplo el código tal cual como esta en producción el sistema, y otra copia \(rama\) que se suele llamar develop\(desarrollo\) donde se tienen los cambios que los programadores estan realizando, también se suele tener una rama con cada versión liberada. Asi si vendes tu producto y cobras por versiones del mismo y ocurre un error en alguna versión puedes solo corregir ese error sin pasar todos los cambios de tus nuevas versiones. 
-
-También para la rama de desarrollo una forma de trabajar es que cada programa descarga ua copia de la rama de desarrollo hace sus cambios y luego crea un pull request que es una petición para informar a los demás programadores que ya terminaste tus cambios y por lo general otro programador o analista revisa tus cambios y los aprueba \(Approve\) o te sugiere mejoras a tu código antes de agregar tus cambios a la rama de desarrollo.
-
-Se tienen varios comandos para comparar el código entre las 2 ramas y actualizar el código de una rama a otra.
-
-Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio y te pide que hagas un Merge que básicamente debes elegir si los 2 programadores cambiaron el mismo archivo cual código es el que se debería quedar.
-
- 
-
-![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../.gitbook/assets/image%20%28255%29.png)
-
-### 2.2.3 Creando tu primer Aplicación
+### 2.2.2 Creando tu primer Aplicación
 
 Para crear tu proyecto REST desde Visual Studio Comunity los pasos son los siguientes:
 
@@ -32,7 +16,7 @@ Para crear tu proyecto REST desde Visual Studio Comunity los pasos son los sigui
 4. Elegir **.NET Core 3.1** y seleccionar el proyecto de **API**. 
    1. Se recomienda usar los servicios REST con un certificado HTTPS si deseas manejarlo selecciona configure for HTPPS 
 
-### 2.2.4 Instalar la extensión de GitHub
+### 2.2.3 Instalar la extensión de GitHub
 
 Para agregar tu proyecto a GitHub puedes descargar la extensión de GitHub.
 
@@ -47,7 +31,7 @@ Las extensiones se instalan al cerrar y volver a abrir el Visual Studio
 2. Dar clic en modificar
 3. Dar clic en iniciar
 
-### 2.2.5 Agregar tu proyecto a GitHub
+### 2.2.4 Agregar tu proyecto a GitHub
 
 1. Abrir tu proyecto 
 2. Dar clic en el menú **Equipo**
@@ -60,7 +44,7 @@ Las extensiones se instalan al cerrar y volver a abrir el Visual Studio
 
 Listo tu proyecto se ha publicado en GitHub
 
-### 2.2.6 Obtener el código desde Visual Studio for Mac
+### 2.2.5 Obtener el código desde Visual Studio for Mac
 
 Para obtener el código fuente realizamos lo siguiente
 

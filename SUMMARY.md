@@ -26,6 +26,7 @@
   * [3.7 Estructura del Proyecto](3.-servicios-rest/3.1-estructura-del-proyecto.md)
   * [3.8 Código Limpio](3.-servicios-rest/4.7-refactorizando-tu-codigo.md)
   * [3.9 Programación asíncrona](3.-servicios-rest/3.9-programacion-asincrona.md)
+  * [3.10 Git](3.-servicios-rest/3.10-git.md)
 * [4. Creando tu primer servicio](4.-creando-tu-primer-servicio/README.md)
   * [4.1 Crear las base de datos y los usuarios en MySQL](4.-creando-tu-primer-servicio/creando.md)
   * [4.2 Crear la tabla Categoría y sus validaciones](4.-creando-tu-primer-servicio/4.2-crear-las-tablas.md)
