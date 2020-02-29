@@ -22,5 +22,16 @@ Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio
 
 ### 3.10.3 Comandos git 
 
-Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios. 
+Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios.
+
+| Comando | Descripción |
+| :--- | :--- |
+| git clone &lt;url&gt; | Permite conocer un repositorio donde url es la dirección del repositorio que deseas clonar. |
+| git branch | Permite ver la lista de ramas. La rama con \* es la rama actual. |
+| git branch &lt;nombre&gt; | Permite crear una nueva rama a partir de la rama actual. |
+| git checkout &lt;nombre&gt; | Permite cambiarte a la rama, solo debes indicar el nombre de la rama a la cual quieres cambiarte |
+| git add . | Agrega todos los archivos que han sido cambiados, para luego confirmar los cambios con git commit. |
+| git add &lt;archivo&gt; | Agrega el archivo que le pases como parámetros |
+| git commit -m "mensaje" | Agrega todos los archivos con un mensaje, por lo general el mensaje es una descripción del cambio que se realiza |
+|  |  |
 
