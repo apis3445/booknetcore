@@ -1,6 +1,6 @@
 # 3.10 Git
 
-### 3.10.1 ¿Qué es Git?
+### git push -u origin develop3.10.1 ¿Qué es Git?
 
 Git es un sistema de control de versiones, es decir es un sistema que te permite controlar los cambios que haces a tu código, te facilita saber que cambios se hicieron al código, quien realizo el cambio, y puedes tener una copia del código por cada versión que tienes de tu sistema, asi puedes agregar correcciones a tu sistema, mientras continuas trabajando en las nuevas funciones. Para poder realizar esto se tiene el concepto de branches \(ramas\).  Git trabaja de forma local, por lo cual puedes tener versiones de tu código de forma local, las cuales después puedes sincronizar con algún repositorio remoto como Github, BitBucket.
 
@@ -22,7 +22,7 @@ Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio
 
 ### 3.10.3 Comandos git 
 
-Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios.
+Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios.Algunos de los mas utilizados son los siguientes:
 
 | Comando | Descripción |
 | :--- | :--- |
@@ -33,5 +33,7 @@ Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios.
 | git add . | Agrega todos los archivos que han sido cambiados, para luego confirmar los cambios con git commit. |
 | git add &lt;archivo&gt; | Agrega el archivo que le pases como parámetros |
 | git commit -m "mensaje" | Agrega todos los archivos con un mensaje, por lo general el mensaje es una descripción del cambio que se realiza |
-|  |  |
+| git push origin &lt;nombre&gt; | Agrega tus cambios a la rama con el nombre pasado como parámetro en el servidor remoto. |
+| git fetch origin | Descarga la lista de cambios que tiene el servidor remoto que aún no estan en tu repositorio local |
+| git pull origin &lt;nombre&gt; | Descarga los cambios del repositorio remoto a tu repositorio local |
 
