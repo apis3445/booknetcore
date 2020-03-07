@@ -1,10 +1,10 @@
 # 3.9 Git
 
-### 3.9.1 ¿Qué es Git?
+### ¿Qué es Git?
 
 Git es un sistema de control de versiones, es decir es un sistema que te permite controlar los cambios que haces a tu código, te facilita saber que cambios se hicieron al código, quien realizo el cambio, y puedes tener una copia del código por cada versión que tienes de tu sistema, asi puedes agregar correcciones a tu sistema, mientras continuas trabajando en las nuevas funciones. Para poder realizar esto se tiene el concepto de branches \(ramas\).  Git trabaja de forma local, por lo cual puedes tener versiones de tu código de forma local, las cuales después puedes sincronizar con algún repositorio remoto como Github, BitBucket.
 
-### 3.9.2 ¿Qué son las ramas en Git?
+### ¿Qué son las ramas en Git?
 
 Por lo general se tiene el código de esta manera para que todos los programadores cuenten con el código del proyecto y poder controlar los cambios que cada persona realiza, y poder regresar a una versión anterior o que sea más fácil de revisar que es lo que cambio el código entre una versión y otra del sistema. 
 
@@ -20,7 +20,7 @@ Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio
 
 ![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../../.gitbook/assets/image%20%28280%29.png)
 
-### 3.9.3 Comandos git 
+### Comandos git 
 
 Git cuenta con varios comandos para crear y ver las ramas y subir tus cambios.Algunos de los mas utilizados son los siguientes:
 
