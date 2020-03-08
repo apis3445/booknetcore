@@ -64,7 +64,7 @@ La estructura básica es la siguiente:
 * Query: Permite configurar nuestro objetoGraphType\(Modelo\) con nuestra base de datos para llenar los campos del modelo
 * Schema: Nos permite definir las operaciones a realizar: Query\( Consulta información\), Mutation: \(Crear, Borrar, Modificar\), Suscripcion\(Operaciones con WebSockets\)
 
-![](../../.gitbook/assets/image%20%28315%29.png)
+![](../../.gitbook/assets/image%20%28333%29.png)
 
 Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y del producto para realizar la consulta de la siguiente manera:
 

@@ -31,7 +31,7 @@ Por lo general las pruebas unitarias se componen de 3 partes:
 2. **Método a probar:** Aqui ejecutamos el método que deseamos probar con los datos definidos en la sección anterior
 3. **Comprobación del resultado.** Aqui comprobamos el resultado obtenido por la función con el resultado esperado
 
-![](../../.gitbook/assets/image%20%28188%29.png)
+![](../../.gitbook/assets/image%20%28200%29.png)
 
 Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como Equal para comparar los valores de 2 variables, True para comprobar algún valor boleano.
 
