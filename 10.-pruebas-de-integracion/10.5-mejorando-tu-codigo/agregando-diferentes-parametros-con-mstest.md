@@ -1,4 +1,4 @@
-# 10.5.4 Agregando diferentes parámetros con MSTest
+# 10.6.4 Agregando diferentes parámetros con MSTest
 
 Con MSTest puedes pasarle varios parámetros a tu prueba unitaria para no estar repitiendo el mismo código varias veces si solo va a cambiar los parámetros. Pones como atributo DataRow y entre paréntesis agregas los parámetros que deseas pasar.
 

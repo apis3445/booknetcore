@@ -1,6 +1,6 @@
-# 9.2 Creando tu repositorio en BitBucket
+# 9.2 Configurando tu código fuente en BitBucket
 
-Al igual que GitHub bitbucket es un servicio que te permite tener el código fuente de tus proyectos en la nube.
+Al igual que GitHub Bitbucket es un servicio que te permite tener el código fuente de tus proyectos en la nube.
 
 Cuenta con un plan gratuito que te permite crear reposiotorios privados gratuitos para máximo 5 usuarios y adicional te permite 50 minutos al mes para compilar tu código fuente.
 
@@ -8,7 +8,7 @@ Primero debes crear tu cuenta en BitBucket, una vez creada tu cuenta verás una 
 
 Puedes crear un repositorio nuevo o importar el tuyo, como ya tenemos el código en GitHub lo puedes importar. Da clic en el botón **Import Repository**
 
-![](../../.gitbook/assets/image%20%28101%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 Los datos de tu repositorio de GitHub los puedes encontrar en tu repositorio de GitHub le das clic en donde dice **Clone or download** y luego en el botón para **copiar**
 
@@ -20,5 +20,5 @@ Luego debes copiar los datos de tu repositorio en GitHub, le indicas que requier
 
 Si todo es correcto te muestra la siguiente página
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28107%29.png)
 
