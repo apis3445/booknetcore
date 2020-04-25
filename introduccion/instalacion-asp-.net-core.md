@@ -10,22 +10,22 @@ Aunque los pasos pueden cambiar debido a nuevas versiones de Visual Studio los p
 2. Elegir la opción:  **ASP.NET and web development**  \(Figura 1.1.1\)
 3. Dar clic en **Instalar**
 
-![](../.gitbook/assets/image%20%28295%29.png)
+![](../.gitbook/assets/image%20%28299%29.png)
 
 Esperamos a que termine de descargar e instalar
 
-![](../.gitbook/assets/image%20%28163%29.png)
+![](../.gitbook/assets/image%20%28164%29.png)
 
 Una vez terminado te pide reiniciar
 
-![](../.gitbook/assets/image%20%28182%29.png)
+![](../.gitbook/assets/image%20%28183%29.png)
 
 ### 11.1.2 Instalación nueva en Mac
 
 1. Da doble clic en el icono **Install Visual Studio for Mac**
 2. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso.
 
-![](../.gitbook/assets/image%20%28189%29.png)
+![](../.gitbook/assets/image%20%28190%29.png)
 
 3. Damos clic en continuar
 
