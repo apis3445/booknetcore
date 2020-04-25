@@ -10,7 +10,7 @@ Para publicar nuestros servicios rest vamos a utilizar el servicio App Service.
 
 Da clic en el botón Crear App Service
 
-![](../.gitbook/assets/image%20%28365%29.png)
+![](../.gitbook/assets/image%20%28366%29.png)
 
 LLena los datos que se te solicitan
 
