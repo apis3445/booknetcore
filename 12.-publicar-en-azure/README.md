@@ -1,4 +1,4 @@
-# 12. Publicar en Azure
+# 12. Publicar tus Servicios REST en Azure
 
 Puedes publicar tu sitio web en azure de forma gratuita. Si nunca has utilizado Azure se te da un año gratuito para que conozcas Azure y pruebes los diferentes servicios con los que cuenta. Se te pedirá tarjeta de crédito. Crea y registra tu cuenta en Azure en el siguiente link
 
@@ -6,15 +6,15 @@ Puedes publicar tu sitio web en azure de forma gratuita. Si nunca has utilizado 
 
 Para publicar nuestros servicios rest vamos a utilizar el servicio App Service.
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
 Da clic en el botón Crear App Service
 
-![](../.gitbook/assets/image%20%28360%29.png)
+![](../.gitbook/assets/image%20%28362%29.png)
 
 LLena los datos que se te solicitan
 
-![](../.gitbook/assets/image%20%28134%29.png)
+![](../.gitbook/assets/image%20%28135%29.png)
 
 **Suscripción**: Selecciona tu suscripción en mi caso se llama Pago por uso ya que ya utilice la cuenta gratuita.
 

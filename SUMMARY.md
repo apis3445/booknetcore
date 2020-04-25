@@ -127,7 +127,7 @@
   * [11.2 Agregando el proyecto de pruebas de usuario](9.-pruebas-de-integracion/11.2-agregando-el-proyecto-de-pruebas-de-usuario.md)
   * [11.3 ¿Qué es Cypress?](9.-pruebas-de-integracion/12-que-es-cypress/README.md)
     * [11.3.1 Instrucciones básicas](9.-pruebas-de-integracion/12-que-es-cypress/11.3.1-instrucciones-basicas.md)
-* [12. Publicar en Azure](12.-publicar-en-azure/README.md)
+* [12. Publicar tus Servicios REST en Azure](12.-publicar-en-azure/README.md)
   * [12.1 Publicando automáticamente a Azure](12.-publicar-en-azure/12.1-publicando-automaticamente-a-azure.md)
 * [13. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
 * [14. Instalación en Linux](11.-instalacion-en-linux/README.md)
