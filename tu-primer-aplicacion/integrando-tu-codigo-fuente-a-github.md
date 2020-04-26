@@ -54,5 +54,5 @@ Para obtener el código fuente realizamos lo siguiente
 4. Seleccionar el directorio de destino donde deseas guardar el código
 5. Dar clic en extraer del repositorio
 
-![](../.gitbook/assets/image%20%28331%29.png)
+![](../.gitbook/assets/image%20%28332%29.png)
 
