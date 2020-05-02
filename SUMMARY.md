@@ -129,7 +129,7 @@
   * [11.3 ¿Qué es Cypress?](9.-pruebas-de-integracion/12-que-es-cypress/README.md)
     * [11.3.1 Instrucciones básicas](9.-pruebas-de-integracion/12-que-es-cypress/11.3.1-instrucciones-basicas.md)
 * [12. Publicar tus Servicios REST en Azure](12.-publicar-en-azure/README.md)
-  * [12.1 Publicando automáticamente a Azure](12.-publicar-en-azure/12.1-publicando-automaticamente-a-azure.md)
+  * [12.1 Generando Artifacts para Continuous Delivery](12.-publicar-en-azure/12.1-publicando-automaticamente-a-azure.md)
 * [13. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
 * [14. Instalación en Linux](11.-instalacion-en-linux/README.md)
   * [13.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
