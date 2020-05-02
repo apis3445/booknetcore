@@ -4,5 +4,9 @@ Una parte interesante de la entrega continua es que puedes configurar tus difere
 
 La rama con la versión final de tu proyecto, puedes crear una regla para que la publicación sea de forma manual, solamente después de que haya sido aprobada por uno o mas miembros del equipo.
 
+También mediante las migraciones puedes crear y ejecutar el script para actualizar la base de datos después de cada deploy.
+
 También te genera un resument de las tareas que se han cambiado en cada release.
+
+También por ejemplo puedes generar con el mismo código una versión para un servidor linux, otra para windows.
 
