@@ -18,7 +18,7 @@ Si 2 personas realizan un cambio sobre el mismo archivo git te detecta el cambio
 
  
 
-![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../../.gitbook/assets/image%20%28328%29.png)
+![Diagrama de C&#xF3;digo en git con diferentes ramas \(branches\)](../../.gitbook/assets/image%20%28334%29.png)
 
 ### Comandos git 
 

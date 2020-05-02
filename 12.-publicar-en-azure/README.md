@@ -6,15 +6,15 @@ Puedes publicar tu sitio web en azure de forma gratuita. Si nunca has utilizado 
 
 Para publicar nuestros servicios rest vamos a utilizar el servicio App Service.
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](../.gitbook/assets/image%20%28105%29.png)
 
 Da clic en el botón Crear App Service
 
-![](../.gitbook/assets/image%20%28376%29.png)
+![](../.gitbook/assets/image%20%28382%29.png)
 
 LLena los datos que se te solicitan
 
-![](../.gitbook/assets/image%20%28139%29.png)
+![](../.gitbook/assets/image%20%28142%29.png)
 
 **Suscripción**: Selecciona tu suscripción en mi caso se llama Pago por uso ya que ya utilice la cuenta gratuita.
 
@@ -34,7 +34,7 @@ Selecciona un nuevo plan, en mi caso le llame Linux. Cambia la sugerencia de un 
 
 Da clic en **Aplicar** y luego en **Revisar y crear**
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Por último da clic en crear y espera un momento en lo que Azure prepara todo para que puedas publicar tus servicios.
 
