@@ -1,4 +1,4 @@
-# 12. Entrega Continua \(Continuous Delivery\)
+# 12. Despliegue Continuo \(Continuous Delivery\)
 
 Una parte interesante de la entrega continua es que puedes configurar tus diferentes ramas, para que se publiquen por ejemplo a un servidor de pruebas cuando los programadores realizan un cambio en el código, y adicionalmente puedes correr las pruebas de postman o de selenium de forma automáticas.
 
