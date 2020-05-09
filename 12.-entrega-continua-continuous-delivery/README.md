@@ -19,5 +19,7 @@ Algunas de las principales ventajas son las siguientes:
 * Por lo general se liberan versiones continuamente y recibes el feedback más rápido.
 * Al utilizar Azure Devops tienes el control de que cambios se incluyen en cada versión de forma automática de acuerdo a los task.
 
-
+{% hint style="info" %}
+Puedes realizar lo mismo con BitBucket, GitLab y GitHub Actions.
+{% endhint %}
 
