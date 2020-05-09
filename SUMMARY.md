@@ -128,7 +128,7 @@
   * [11.2 Agregando el proyecto de pruebas de usuario](9.-pruebas-de-integracion/11.2-agregando-el-proyecto-de-pruebas-de-usuario.md)
   * [11.3 ¿Qué es Cypress?](9.-pruebas-de-integracion/12-que-es-cypress/README.md)
     * [11.3.1 Instrucciones básicas](9.-pruebas-de-integracion/12-que-es-cypress/11.3.1-instrucciones-basicas.md)
-* [12. Despliegue Continuo \(Continuous Deployment\)](12.-entrega-continua-continuous-delivery/README.md)
+* [12. Despliegue Continuo \(Continuous Deployment\) con Azure DevOps y Azure](12.-entrega-continua-continuous-delivery/README.md)
   * [12.1 Crear un App Service en Azure](12.-entrega-continua-continuous-delivery/12.-publicar-en-azure.md)
   * [12.2 Generando Artifacts en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.1-publicando-automaticamente-a-azure.md)
   * [12.3 Generando el Release en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.3-generando-el-release-en-azure-pipelines.md)
