@@ -131,7 +131,7 @@
 * [12. Despliegue Continuo \(Continuous Deployment\) con Azure DevOps y Azure](12.-entrega-continua-continuous-delivery/README.md)
   * [12.1 Crear un App Service en Azure](12.-entrega-continua-continuous-delivery/12.-publicar-en-azure.md)
   * [12.2 Generando Artifacts en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.1-publicando-automaticamente-a-azure.md)
-  * [12.3 Generando el Release en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.3-generando-el-release-en-azure-pipelines.md)
+  * [12.3 Generando el Release en Azure Pipelines al App Service de Azure](12.-entrega-continua-continuous-delivery/12.3-generando-el-release-en-azure-pipelines.md)
   * [12.4 Agregando las pruebas de usuario en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.4-agregando-las-pruebas-de-usuario-en-azure-pipelines.md)
 * [13. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis.md)
 * [14. Instalación en Linux](11.-instalacion-en-linux/README.md)
