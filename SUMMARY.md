@@ -88,7 +88,7 @@
     * [7.2.4 Agregando usuarios y roles](7.-seguridad/7.2-seguridad-basada-en-roles/7.6-agregando-usuarios-y-roles.md)
   * [7.3 Agregando seguridad a nuestros servicios](7.-seguridad/7.7-agregando-seguridad-a-nuestros-servicios.md)
   * [7.4 Creando nuestro servicio de login y generar el token](7.-seguridad/7.7-creando-nuestro-servicio-de-login-y-generar-el-token.md)
-  * [¿Cómo agregar seguridad basada en roles a los Servicios REST?](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest/README.md)
+  * [7.5 ¿Cómo agregar seguridad basada en roles a los Servicios REST?](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest/README.md)
     * [7.5.1 Seguridad basada en claims](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest/7.10-seguridad-con-reglas-personalizadas.md)
     * [7.5.2 Creando las tablas para validar permisos por cada tabla](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest/7.11-seguridad-basada-en-directivas.md)
     * [7.5.3 Seguridad basada en directivas](7.-seguridad/7.9-como-agregar-seguridad-basada-en-roles-a-los-servicios-rest/7.12-seguridad-basada-en-directivas.md)

@@ -1,4 +1,4 @@
-# ¿Cómo agregar seguridad basada en roles a los Servicios REST?
+# 7.5 ¿Cómo agregar seguridad basada en roles a los Servicios REST?
 
 Agregar la seguridad basada en roles a nuestros servicios es muy fácil con .NET, lo único que debemos agregar es entre \[\] la palabra Authorize y entre \(\) agregamos la palabra Roles = y separados por comas agregamos los roles que pueden acceder al servicio.
 
