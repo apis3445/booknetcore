@@ -1,10 +1,8 @@
-# 2.1.6 Consultar tus tareas pendientes
-
-## 2.1.6.1 Consultar desde el navegador
+# 3.1.5 Consultar tus tareas pendientes desde el navegador
 
 Puedes ver la lista de tareas del proyecto en un kanboard  para el sprint actual. Puedes ver las tareas del proyecto en un Kanboard o en el Dashboard.
 
-#### 2.1.6.1.1 Ver las tareas del proyecto en Kanboard
+#### Ver las tareas del proyecto en Kanboard
 
 1. Inicia sesión con tu cuenta en [Azure DevOps](https://visualstudio.microsoft.com/vso)
 2. Selecciona tu proyecto
@@ -17,47 +15,47 @@ Se muestran 4 columnas:
 * **Commited**: Muestra las tareas que ya tienen el commit
 * **Done**: Muestra las tareas que ya se entregaron y se aceptaron por parte del cliente.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 Puedes cambiar los estados que se muestran en la opción board, para esto entra a azure dev ops
 
 1. En la página de proyectos, la cual se accede dando clic en **Azure DevOps**,luego selecciona la opción **Organization settings**
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2857%29.png)
 
 2. En la sección **Boards**, da clic en Process, luego da clic en la metodología en mi caso es **Scrum.** Damos clic en los **...** y seleccionamos ****la opción **Create inherited process**
 
-![](../../.gitbook/assets/image%20%28195%29.png)
+![](../../../.gitbook/assets/image%20%28200%29.png)
 
 3. Tecleamos un nombre en mi caso es **Scrum** Personalizado y damos clic en **Create process**.
 
-![](../../.gitbook/assets/image%20%28127%29.png)
+![](../../../.gitbook/assets/image%20%28129%29.png)
 
 4. Damos clic en la opción que creamos
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../../.gitbook/assets/image%20%28159%29.png)
 
 5. Damos clic en Product Backlog Item
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../../.gitbook/assets/image%20%28265%29.png)
 
 6.Damos clic en la pestaña States y luego damos clic en la opción New state, a continuación tecleamos los datos del nuevo estado y damos clic en el botón Create.
 
-![](../../.gitbook/assets/image%20%28328%29.png)
+![](../../../.gitbook/assets/image%20%28333%29.png)
 
-#### 2.1.6.1.2 Ver las tareas  como sprint
+#### Ver las tareas  como sprint
 
 Puedes dar clic en la opción de Sprints, para ver las tareas del sprint de forma detallada. Para modificar el avance la tarea, puedes dar clic en la opción State y seleccionar el estado adecuado, o puedes arrastrar las tareas de una columna a otra.
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
-#### 2.1.6.1.3 Ver las tareas en el Dashboard
+#### Ver las tareas en el Dashboard
 
 Vamos a crear un nuevo Dashboard
 
 1. Vamos a la página de **Azure DevOps**, damos clic en **Dashboards**, luego en el botón **Add a widget**.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../../.gitbook/assets/image%20%2846%29.png)
 
 Del lado izquierdo se muestran unos cuadros, donde podemos ir arrastradno los widgets que se encuentran del lado derecho. Algunos de los mas utilizados son los siguientes:
 
@@ -79,50 +77,37 @@ Un ejemplo de un dashboard puede ser el siguiente:
 
 Agregue el widget **Welcome**, en la esquina superior izquierda, al lado derecho agregue **Assigned to Me**, luego **Team Members**, abajo de Team Members, **New Work Item**, en el segundo renglón por asi decirlo agregué Sprint Overview, luego Visual Studio Shortcuts, luego Sprint Burndown y por útlimo Query Tile este último requiere una configuración adicional. Al final damos clic en **Done Editing**
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../../.gitbook/assets/image%20%2852%29.png)
 
 A continuación te muestra el resultado si deseas modificarlo o agregar mas widges da clic en el botón Edit
 
-![](../../.gitbook/assets/image%20%28290%29.png)
+![](../../../.gitbook/assets/image%20%28295%29.png)
 
-#### 2.1.6.1.4 Agregar querys.
+#### Agregar querys.
 
 Vamos a agregar un query para agregar las tareas que estan en progreso.
 
 1. Damos clic en **Boards**, luego en **Queries** y por último en **New Query**
 
-![](../../.gitbook/assets/image%20%28208%29.png)
+![](../../../.gitbook/assets/image%20%28213%29.png)
 
 2. En **Work Item Type** seleccionamos **Task**, en el segundo renglón seleccionamos **State**, y en Value elegimos **In Progress**.
 
-![](../../.gitbook/assets/image%20%28326%29.png)
+![](../../../.gitbook/assets/image%20%28331%29.png)
 
 3. Damos clic en **Save Query**, como nombre le pondre **Tareas en Progreso**, como folder seleccionamos **Shared Queries** para que este disponible para el dashboard. damos clic en **OK**
 
-![](../../.gitbook/assets/image%20%28306%29.png)
+![](../../../.gitbook/assets/image%20%28311%29.png)
 
 Regresamos al dashboard y damos clic en el engrane para configurar el Widget
 
-![](../../.gitbook/assets/image%20%28283%29.png)
+![](../../../.gitbook/assets/image%20%28288%29.png)
 
 Como título agregamos Tareas en Progreso, en el Query seleccionamos el query que creamos y podemos elegir un color y listo se agrega a nuestro dashboard,
 
-![](../../.gitbook/assets/image%20%28398%29.png)
+![](../../../.gitbook/assets/image%20%28404%29.png)
 
-## 2.1.6.2 Consultar desde Visual Studio for Mac
 
-Para conectar el Visual Studio for Mac a Azure Dev Ops necesitamos instalar la extensión, de momento la extensión esta muy limitada y no permite ver tus tareas ni nada parecido, solamente te deja conectarte al proyecto.
 
-1. En el menu **Visual Studio Comunity** dar clic en **Extensiones...**
-2. Seleccionar la pestaña **Galería**, seleccionar **Version Control** y luego **Team Foundation Version Control for TFS and VSTS**  y dar clic e**n Instalar.**
 
-![](../../.gitbook/assets/00000167.png)
-
-3. En el menu de Visual Studio dar clic en **Control de Versiones** seleccionar el menu T**FS / VSTS** -&gt; **Open for Remote Repository...**
-
-4. Seleccionar la opción  **VSTS** 
-
-![](../../.gitbook/assets/00000168.png)
-
-**5.** Iniciar sesión con tu cuenta microsoft.
 

@@ -4,9 +4,9 @@ Ahora vamos a agregar nuestro proyecto de Servicios REST a nuestro proyecto de p
 
 1. En tu proyecto de pruebas unitarias da clic con el botón derecho del mouse y da clic en la Opción **Agregar** -&gt; **Referencia**
 
-![](../../.gitbook/assets/image%20%28365%29.png)
+![](../../.gitbook/assets/image%20%28371%29.png)
 
 2. Selecciona la opción **CaducaRest**, de esta forma tenemos acceso a todas nuestras clases en nuestro proyecto de pruebas unitarias
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 

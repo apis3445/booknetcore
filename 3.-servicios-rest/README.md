@@ -1,4 +1,4 @@
-# 3. Explicación de Conceptos
+# 2. Explicación de Conceptos
 
 A continuación explicare algunos de los siguientes conceptos básicos:
 

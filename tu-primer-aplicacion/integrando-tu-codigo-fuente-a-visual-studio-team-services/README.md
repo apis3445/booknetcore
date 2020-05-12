@@ -1,4 +1,4 @@
-# 2.1 Integrando tu código fuente a Azure DevOps
+# 3.1 Creando tu proyecto en Azure DevOps y Scrum
 
 Visual Studio Team Services ahora renombrado como Azure DevOps ya esta integrado a Visual Studio Comunity. Puedes crear tu cuenta aquí [https://visualstudio.microsoft.com/es/vso/](https://visualstudio.microsoft.com/es/vso/) y da clic en Comience a usarlo de forma gratuita.
 
