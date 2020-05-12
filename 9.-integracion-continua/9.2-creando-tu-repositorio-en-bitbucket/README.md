@@ -1,4 +1,4 @@
-# 9.2 Configurando tu código fuente en BitBucket
+# 9.2 Subir tu código fuente a BitBucket
 
 Al igual que GitHub Bitbucket es un servicio que te permite tener el código fuente de tus proyectos en la nube.
 
