@@ -1,13 +1,5 @@
 # 3.2 Integrando tu código fuente a GitHub
 
-### ¿Qué es GitHub?
-
-Github es un sitio web en el cual puedes guardar y administrar el código de tus sistemas, puedes guardarlo de forma privada pra que solamente tu y los programadores de tu equipo de trabajo tengan acceso al código o de forma pública cuando deseas que tu código este disponible para cualquier persona. Algunos de los frameworks mas populares como Angular, Reac, .Net Core cuentan con el código público en GitHub. 
-
-GitHub te permite además llevar un control de los bugs, o mejoras que deseas agregarle a tu sistema \(issues\), te presenta algunas estadísticas de cuantas veces se ha descargdo el proyecto, te permite agrear una wiki de tu proyecto que es donde se suele agregar la documentación de tu proyecto. 
-
-### Creando tu primer Aplicación
-
 Para crear tu proyecto REST desde Visual Studio Comunity los pasos son los siguientes:
 
 1. Ir al menú **Archivo** -&gt; **Nuevo** -&gt; **Proyecto**
