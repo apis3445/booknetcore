@@ -8,7 +8,7 @@ Por seguridad NO se recomienda que el usuario root  \(MySQL\) o sa \(SQL Server\
 
  En mi caso creare un usuario administrador para crear las tablas en la base de datos y un usuario de solo lectura con acceso a solo realizar selects, inserts, updates y deletes, desde los servicios REST nos conectaremos con el usuario de lectura.
 
-### 4.1.1 Creando la base de datos y los usuarios en MySQL
+### Creando la base de datos y los usuarios en MySQL
 
 Primero vamos a crear la base de datos
 

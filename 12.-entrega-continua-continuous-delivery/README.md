@@ -10,7 +10,7 @@ También te genera un resument de las tareas que se han cambiado en cada release
 
 También por ejemplo puedes generar con el mismo código una versión para un servidor linux, otra para windows.
 
-### 12.1 Ventajas
+### Ventajas
 
 Algunas de las principales ventajas son las siguientes:
 

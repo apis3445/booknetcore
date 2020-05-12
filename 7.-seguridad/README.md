@@ -2,7 +2,7 @@
 
 Debido a que tus servicios REST son públicos, debes controlar el acceso a cada uno de los servicios, en lugar de enviar usuario y password del usuario en cada petición lo que se envía es un token, el cual es generado cuando inicias sesión.
 
-### 7.1 Seguridad basada en tokens
+### Seguridad basada en tokens
 
 Una forma común de manejar la seguridad en tus servicios, es mediante la seguridad basada en tokens. El funcionamiento es el siguiente:
 
