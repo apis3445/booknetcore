@@ -13,7 +13,7 @@ En Scrum tu defines las tareas \(backlogs\) para ir entregando el sistema en tie
 En las metodologías agiles se tiene también el concepto de User Stories los cuales son  descripciones breves y simples desde el punto de vista de la persona que desea una nueva función al sistema. Por  lo general es lo que el usuario o cliente del sistema desea, describiendo de forma general como trabaja y para que necesita el sistema.
 
 {% hint style="info" %}
-Una buena user story debe ser independiente, debe entregar algún valor al usuario, debe poder estimarse el tiempo que te llevará desarrollar la función, debe ser pequeña y se debe poder probar.
+Una buena user story debe ser independiente, debe entregar algún valor al usuario, debe: poder estimarse el tiempo que te llevará desarrollarla, no ser demasiada grande y se debe poder probar.
 {% endhint %}
 
 Se revisa con el cliente las prioridades a entregar en cada sprint. Se tienen elementos básicos
