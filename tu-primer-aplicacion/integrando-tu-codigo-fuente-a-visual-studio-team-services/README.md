@@ -10,13 +10,20 @@ Para nuestro ejemplo los usuarios podrían ser gerentes de farmacias de ciudades
 
 En Scrum tu defines las tareas \(backlogs\) para ir entregando el sistema en tiempos cortos de dos semanas a un mes, con una funcionalidad básica e ir agregando mas funcionalidad en cada iteración \(sprint\), entre mas pronto entregues el software es más fácil realizar mejoras e ir revisando si se cumple con los requisitos y calidad que el cliente espera. Se recomienda ir clasificando tus tareas de forma jerárquica.
 
-En las metodologías agiles se tiene también el concepto de User Stories los cuales son  descripciones breves y simples desde el punto de vista de la persona que desea una nueva función al sistema. Por  lo general es lo que el usuario o cliente del sistema desea, describiendo de forma general como trabaja y para que necesita el sistema.
+Para cada sprint se define las User Stories los cuales son  descripciones de las nuevas funciones que se desea desarrollar durante un sprint. Se debe entregar alguna funcionalidad. 
+
+Por  lo general es lo que el usuario o cliente del sistema desea, describiendo de forma general como trabaja y para que necesita el sistema. Se deben definir los criterios de aceptación que es un checklist de lo que debe cumplir para completar el User Story. 
 
 {% hint style="info" %}
-Una buena user story debe ser independiente, debe entregar algún valor al usuario, debe: poder estimarse el tiempo que te llevará desarrollarla, no ser demasiada grande y se debe poder probar.
+Una buena user story debe:
+
+* Ser independiente, no debe interferir con otras user stories.
+* Entregar algún valor al usuario. 
+* Tener un tiempo estimado menor al tiempo del Sprint.
+* Definir los criterios de aceptación.
 {% endhint %}
 
-Se revisa con el cliente las prioridades a entregar en cada sprint. Se tienen elementos básicos
+Se revisa con el cliente las prioridades a entregar en cada sprint. Se tienen elementos básicos para clasificar el trabajo.
 
 * **Epic:**  Es una colección de User Stories que pertenecen al mismo módulo o característica para alcanzar una meta. Por ejemplo serían todas las user stories para controlar la caducidad de los productos
 * **Features:**  Representa una opción o componente del sistema que se va entregar por ejemplo: Agregar la opción de login, agregar un carrito de compras, etc.
@@ -31,5 +38,21 @@ Puedes ver la documentación oficial aquí de momento solo esta en inglés
 
 {% embed url="https://docs.microsoft.com/es-es/azure/devops/boards/backlogs/define-features-epics?view=azure-devops" %}
 
+### Ejemplo de un User Story
 
+Para la aplicación de ejemplo un User Story sería:
+
+Nombre: Servicio para registrar las categorías de los productos
+
+Descrición: Un usuario de tipo Administrador registra las categorías de todos los productos,  de esta manera mas adelante podrá asignar a cada vendedor las categorías de productos que debe vender y cuidar la fecha de caducidad.
+
+Criterio de Aceptación: Debe validar que solo los usuarios de tipo administrador tengan acceso a esta opción en el menú.
+
+Se deben crear, modificar y borrar categorías. 
+
+Prioridad: 1
+
+Puedes agregar algunas imágenes o archivos adicionales.
+
+![](../../.gitbook/assets/image%20%28437%29.png)
 
