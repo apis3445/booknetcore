@@ -50,9 +50,11 @@ Criterio de Aceptación: Debe validar que solo los usuarios de tipo administrado
 
 Se deben crear, modificar y borrar categorías. 
 
+Si un usuario no es administrador y quiere acceder a la página directamente debe mostrarle un error
+
 Prioridad: 1
 
 Puedes agregar algunas imágenes o archivos adicionales.
 
-![](../../.gitbook/assets/image%20%28437%29.png)
+![](../../.gitbook/assets/image%20%28438%29.png)
 
