@@ -58,3 +58,13 @@ Puedes agregar algunas imágenes o archivos adicionales.
 
 ![](../../.gitbook/assets/image%20%28438%29.png)
 
+Puedes ver los siguientes links en inglés para aprender mas sobre scrum y las buenas prácticas
+
+{% embed url="https://docs.microsoft.com/en-us/azure/devops/learn/agile/what-is-scrum" %}
+
+
+
+{% embed url="https://docs.microsoft.com/es-mx/azure/devops/boards/sprints/best-practices-scrum?view=azure-devops" %}
+
+
+
