@@ -27,7 +27,7 @@
     * [3.1.1 Crear un nuevo Proyecto en Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.2.1-crear-un-nuevo-proyecto.md)
     * [3.1.2 Agregando personas al equipo de trabajo](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.1.2-agregando-personas-al-equipo-de-trabajo.md)
     * [3.1.3 Agregando los sprints y la capacidad de trabajo](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.3-agregando-los-sprints-y-la-capacidad-de-trabajo.md)
-    * [3.1.3 Agregar Backlogs y Tareas](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.2.2-agregar-backlogs-y-tareas.md)
+    * [3.1.3 Crear el Backlog](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.2.2-agregar-backlogs-y-tareas.md)
     * [3.1.4 Crear Prototipos](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.2.3-crear-prototipos.md)
     * [3.1.5 Conectar a Azure DevOps desde Visual Studio](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.5-conectar-a-azure-devops-desde-visual-studio/README.md)
       * [3.1.5.1 Crear tu proyecto con Visual Studio Community y sincronizarlo a Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.5-conectar-a-azure-devops-desde-visual-studio/2.2.4-crear-el-proyecto-y-sincronizarlo-con-visual-studio-team-services.md)
