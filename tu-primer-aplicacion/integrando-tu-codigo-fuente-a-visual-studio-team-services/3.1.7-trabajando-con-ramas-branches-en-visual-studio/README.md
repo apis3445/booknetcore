@@ -1,6 +1,6 @@
-# 3.1.8 Trabajando con Ramas \(Branches\) en Visual Studio
+# 3.1.8 Trabajando con Ramas \(Branches\)
 
-También puede trabajar con las ramas directamente en Visual Studio
+Puedes crear las ramas para empezar a trabajar ya seaa con Azure DevOps o desde Visual Studio Community o Visual Studio for Mac.
 
 ![](../../../.gitbook/assets/imagen%20%2818%29.png)
 
