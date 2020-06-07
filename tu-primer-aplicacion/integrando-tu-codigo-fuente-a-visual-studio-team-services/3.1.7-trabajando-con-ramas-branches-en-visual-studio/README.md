@@ -20,19 +20,5 @@ Puedes crear las ramas para empezar a trabajar ya seaa con Azure DevOps o desde 
 
 ![](../../../.gitbook/assets/imagen%20%2834%29.png)
 
-![](../../../.gitbook/assets/imagen%20%2825%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2826%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2819%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2821%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2840%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2839%29.png)
-
-![](../../../.gitbook/assets/imagen%20%2838%29.png)
-
 
 
