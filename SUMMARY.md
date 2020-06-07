@@ -38,7 +38,7 @@
     * [3.1.8 Trabajando con Ramas \(Branches\)](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.7-trabajando-con-ramas-branches-en-visual-studio/README.md)
       * [3.1.8.1 Crear la rama desarrollo desde Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.7-trabajando-con-ramas-branches-en-visual-studio/3.1.6.7-crear-branches-para-tus-tareas.md)
       * [3.1.8.2 Crear una rama\(branch\) para tus tareas desde Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.7-trabajando-con-ramas-branches-en-visual-studio/3.1.8.2-crear-una-rama-branch-para-tus-tareas-desde-azure-devops.md)
-      * [3.1.8.3 Crear una rama \(branch\) desde Visual Studio Community](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.7-trabajando-con-ramas-branches-en-visual-studio/3.1.8.3-crear-una-rama-branch-desde-visual-studio-community.md)
+      * [3.1.8.3 Como trabajar con ramas \(branches\) desde Visual Studio Community](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/3.1.7-trabajando-con-ramas-branches-en-visual-studio/3.1.8.3-crear-una-rama-branch-desde-visual-studio-community.md)
   * [3.2 Integrando tu código fuente a GitHub](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/README.md)
     * [3.2.1 Trabajando con ramas en GitHub](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.10.1-creando-ramas-en-github.md)
     * [3.2.2 Sincronizar los cambios del código con GitHub y Visual Studio \(Windows y Mac\)](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.4-sincronizar-los-cambios-del-codigo-con-github.md)
