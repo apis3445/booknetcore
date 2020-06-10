@@ -16,7 +16,7 @@ Opción 2:
 
 1. En la rama master -&gt; Nueva rama ...
 
-![](../../../.gitbook/assets/image%20%28461%29.png)
+![](../../../.gitbook/assets/image%20%28463%29.png)
 
 2.En la parte superior teclea el nombre de la rama, en este ejemplo es **features/356Task357** en el combo se muestran las ramas actuales, selecciona que vas a tomar el código de origing/desarrollo. Por último da clic en **Crear rama.** 
 
@@ -56,13 +56,31 @@ Si todo es correcto se muestra lo siguiente.
 
 Puedes crear el pull request desde Visual Studio o desde Azure DevOps, te sugiero desde Azure DevOps ya que muestra mas opciones.
 
+### Obteniendo los cambios remotos
+
+Si luego deseas volver a obtener los cambios por ejemplo de alguna rama nuevamente tienes 2 opciones:
+
+1. Selecciona la rama en la cual quieres obtener los cambios en cualquiera de las siguientes 2 opciones:
+
+* En Team Explorer -&gt; Home -&gt; Ramas
+* En la rama master -&gt; Administrar Ramas 
+
+![](../../../.gitbook/assets/image%20%28462%29.png)
+
+Se muestra la lista de ramas disponibles y seleccionas la rama disponible, en mi caso es master, por eso se muestra en negritas.
+
+2. Da clic en la rama a la que deseas conectarte.
+
+![](../../../.gitbook/assets/image%20%28465%29.png)
+
+3. Una vez seleccionada la rama, nuevamente en Team-&gt;Explorer -&gt; Sincronización
+
+Se muestras las siguientes opciones:
+
+* Recuperar: Obtiene y muestra la lista de todos los commit que tu rama local no tiene. 
+* Extraer: Obtiene todos los cambios pendientes directamente sin mostrar la lista de commit pendientes,
+
 
 
 ![](../../../.gitbook/assets/imagen%20%2818%29.png)
-
-
-
-.
-
-
 
