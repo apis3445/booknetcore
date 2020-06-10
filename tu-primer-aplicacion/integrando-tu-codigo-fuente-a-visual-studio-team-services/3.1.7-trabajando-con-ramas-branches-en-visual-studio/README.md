@@ -7,5 +7,3 @@ En esta sección explicaré:
 * Como crear las ramas desde Azure DevOps
 * Como trabajar las ramas desde Visual Studio Community
 
-Para la versión 
-
