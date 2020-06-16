@@ -21,7 +21,7 @@
     * [2.9.1 Personas](3.-servicios-rest/2.9-que-es-scrum/2.9.1-personas.md)
     * [2.9.2 Roles Scrum](3.-servicios-rest/2.9-que-es-scrum/2.9.1-roles-scrum.md)
     * [2.9.3 Backlog](3.-servicios-rest/2.9-que-es-scrum/2.9.2-backlog.md)
-    * [2.9.4 Flujo de Trabajo](3.-servicios-rest/2.9-que-es-scrum/2.9.3-flujo-de-trabajo.md)
+    * [2.9.4 Forma de trabajo](3.-servicios-rest/2.9-que-es-scrum/2.9.3-flujo-de-trabajo.md)
 * [3. Control de código fuente y Scrum con Azure DevOps](tu-primer-aplicacion/README.md)
   * [3.1 Introducción a Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/README.md)
     * [3.1.1 Crear un nuevo Proyecto en Azure DevOps](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-visual-studio-team-services/2.2.1-crear-un-nuevo-proyecto.md)
