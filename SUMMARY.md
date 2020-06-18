@@ -82,6 +82,7 @@
     * [6.2.6 Registrando las rutas manejadas con OData](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata/6.2.6-registrando-las-rutas-manejadas-con-odata.md)
     * [6.2.7 Creando el Controller para clientes](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata/6.2.7-creando-el-controller-para-clientes.md)
     * [6.2.8 Configurando OData en el archivo Startup.cs](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata/6.2.8-configurando-odata-en-el-archivo-startup.cs.md)
+    * [6.2.9 Recomendaciones de seguridad y rendimiento a tomar en cuenta con OData](cambiar-los-servicios-a-sql-server/6.2-configurar-tus-servicios-con-odata/6.2.9-recomendaciones-de-seguridad-y-rendimiento-a-tomar-en-cuenta-con-odata.md)
   * [6.3 GraphQL](cambiar-los-servicios-a-sql-server/6.3-agregar-graphql/README.md)
     * [6.3.1. Creando la tabla Caducidad](cambiar-los-servicios-a-sql-server/6.3-agregar-graphql/6.3.1.-creando-la-tabla-caducidad.md)
     * [6.3.2 Creando Types](cambiar-los-servicios-a-sql-server/6.3-agregar-graphql/6.3.2-creando-types-schemas-y-querys.md)
