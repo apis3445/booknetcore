@@ -8,6 +8,8 @@ Este tutorial siempre será gratuito. Actualizaré el tutorial para agregar y/o 
 
 Publicado bajo la licencia Creative Commons Attribution 4.0. 
 
+
+
 Usted es libre de compartir, copiar y redistribuir este libro en cualquier formato, o mezclarlo y transformarlo para cualquier propósito \(incluso comercialmente\). Debe dar crédito apropiado y proporcionar un enlace a la licencia. 
 
 Mas información en:  [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
