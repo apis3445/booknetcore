@@ -1,4 +1,4 @@
-# 7.8 Mejorando tu código
+# 9.8 Mejorando tu código
 
 En esta sección voy a explicar como realizar las mejoras de seguridad. Explicare las siguientes:
 

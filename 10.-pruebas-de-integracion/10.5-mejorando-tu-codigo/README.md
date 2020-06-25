@@ -1,4 +1,4 @@
-# 10.6 Mejorando tu código
+# 12.6 Mejorando tu código
 
 Como mejora de Specflow puedes:
 

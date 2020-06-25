@@ -1,4 +1,4 @@
-# 11. Pruebas de usuario
+# 13. Pruebas de usuario
 
 Podemos realizar pruebas como si fuera el usuario que da clic a un botón y llena información con [Selenium](https://www.seleniumhq.org).
 

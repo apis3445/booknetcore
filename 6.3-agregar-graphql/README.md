@@ -1,4 +1,4 @@
-# 6.3 GraphQL
+# 8. GraphQL
 
 GraphQL fue desarrollado por Facebook para facilitar la consulta de información, por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios, se crea un lenguaje para traer solamente la información que se necesita.
 
@@ -10,7 +10,7 @@ La estructura de GraphQL esta formada por 3 partes
 2. Tabla y/o datos
 3. Campos de la tabla
 
-![](../../.gitbook/assets/graphql-2.png)
+![](../.gitbook/assets/graphql-2.png)
 
 GraphQL se basa en enviar las peticiones por medio de consultas, se tienen 3 tipos:
 
@@ -64,7 +64,7 @@ La estructura básica es la siguiente:
 * Query: Permite configurar nuestro objetoGraphType\(Modelo\) con nuestra base de datos para llenar los campos del modelo
 * Schema: Nos permite definir las operaciones a realizar: Query\( Consulta información\), Mutation: \(Crear, Borrar, Modificar\), Suscripcion\(Operaciones con WebSockets\)
 
-![](../../.gitbook/assets/image%20%28426%29.png)
+![](../.gitbook/assets/image%20%28426%29.png)
 
 Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y del producto para realizar la consulta de la siguiente manera:
 

@@ -1,4 +1,4 @@
-# 10. Pruebas de integración
+# 12. Pruebas de integración
 
 Las pruebas de integración se realizan despúes de que se pasaron todas las pruebas unitarias y lo que busca es que las pruebas unitarias funcionen bien en cojunto. Puede pasar que al unirse las pruebas unitarias y no de forma individual se provoquen errores. 
 

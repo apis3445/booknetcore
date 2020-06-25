@@ -1,4 +1,4 @@
-# 11.3 ¿Qué es Cypress?
+# 13.3 ¿Qué es Cypress?
 
 Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript , una opción interesante es Cypress
 

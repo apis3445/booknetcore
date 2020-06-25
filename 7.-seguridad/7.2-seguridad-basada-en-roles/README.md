@@ -1,4 +1,4 @@
-# 7.2 Seguridad basada en roles y usuarios
+# 9.2 Seguridad basada en roles y usuarios
 
 Una forma fácil de manejar la seguridad es mediante roles, para nuestro ejemplo vamos a tener los siguientes tipos de usuarios:
 

@@ -1,4 +1,4 @@
-# 9. Integración continua
+# 11. Integración continua
 
 En esta sección voy a explicar que es la integración continua y como podemos agregar Integración continua a nuestro proyecto.
 

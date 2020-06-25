@@ -1,4 +1,4 @@
-# 8.2 Creando nuestra primer prueba unitaria
+# 10.2 Creando nuestra primer prueba unitaria
 
 Vamos a crear la prueba más básica, para esto vamos a crear una clase llamada Operaciones con un método Sumar
 

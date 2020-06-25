@@ -1,4 +1,4 @@
-# 7. Seguridad
+# 9. Seguridad
 
 Debido a que tus servicios REST son públicos, debes controlar el acceso a cada uno de los servicios, en lugar de enviar usuario y password del usuario en cada petición lo que se envía es un token, el cual es generado cuando inicias sesión.
 

@@ -1,4 +1,4 @@
-# 11.1 ¿Qué es Selenium?
+# 13.1 ¿Qué es Selenium?
 
 Selenium es una suite de herramientas que te permite automatizar tus pruebas en diferentes navegadores.
 

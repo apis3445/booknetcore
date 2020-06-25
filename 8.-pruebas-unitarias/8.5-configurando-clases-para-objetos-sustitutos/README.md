@@ -1,4 +1,4 @@
-# 8.5 Configurando Clases para Objetos Sustitutos
+# 10.5 Configurando Clases para Objetos Sustitutos
 
 Por lo general las pruebas unitarias utilizan objetos sustitutos, para sustituir por ejemplo la base de datos, acceso a algún archivo, servicio rest, por objetos que en realidad no hacen nada, por lo general para realizar este cambio se debe crear una interface, y 2 clases, una clase con los datos reales de acceo a la base de datos, servcios rest, etc y una clase que simula en memoria dicho comportamiento.
 
