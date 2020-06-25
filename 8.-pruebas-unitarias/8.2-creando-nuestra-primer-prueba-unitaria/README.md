@@ -23,7 +23,7 @@ public class Operaciones
 ```
 {% endcode %}
 
-Modificamos nuestro archivo **UnitTest1** para agregar un método que se llame **SumaDosNumeros,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
+Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest** por lo general el nombre es el nombre de la clase que deseas probar mas la palabra Test. para agregar un método que se llame **SumaDosNumeros,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
 
 Por lo general las pruebas unitarias se componen de 3 partes:
 
@@ -41,7 +41,7 @@ En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuest
 Aseert.Equal(Valor Esperado, Valor Encontrado)
 ```
 
-{% code title="UnitTest1.cs" %}
+{% code title="OperaciontesTest.cs" %}
 ```csharp
 [Fact]
 public void SumaDosNumeros_Correcto()
