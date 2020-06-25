@@ -1,4 +1,4 @@
-# 14. Despliegue Continuo \(Continuous Deployment\) con Azure DevOps y Azure
+# 14. Despliegue Continuo con Azure DevOps y Azure
 
 Una parte interesante de la entrega continua es que puedes configurar tus diferentes ramas, para que se publiquen por ejemplo a un servidor de pruebas cuando los programadores realizan un cambio en el código, y adicionalmente puedes correr las pruebas de postman o de selenium de forma automáticas.
 
