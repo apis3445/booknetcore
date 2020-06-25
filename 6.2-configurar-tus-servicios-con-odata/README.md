@@ -1,4 +1,4 @@
-# 7. Configurar tus servicios con OData
+# 7. Crear servicios con OData
 
 Como se explico en el capítulo 2 en la explicación de servicios REST para quienes consuman tus servicios puedan filtrar la información o selecionar solamente algunos campos de una tabla se utiliza un protocolo llamado [OData ](https://www.odata.org)\(Open Data Protocol\). 
 
