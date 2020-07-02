@@ -2,7 +2,7 @@
 
 * [Servicios REST con ASP.NET Core y Entity Framework Core](README.md)
 * [1. Introducción](introduccion/README.md)
-  * [1.1 Instalación Visual Studio Comunity](introduccion/instalacion-asp-.net-core.md)
+  * [1.1 Instalación Visual Studio Community](introduccion/instalacion-asp-.net-core.md)
   * [1.2 Instalación de SQL Server en Mac](introduccion/2.-instalacion-de-sql-server-en-mac.md)
   * [1.3 Extensión Intellicode](introduccion/3.6-extension-intellicode.md)
   * [1.3 Aplicación de Ejemplo](introduccion/aplicacion-de-ejemplo.md)

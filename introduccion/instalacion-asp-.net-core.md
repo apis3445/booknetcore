@@ -1,4 +1,4 @@
-# 1.1 Instalación Visual Studio Comunity
+# 1.1 Instalación Visual Studio Community
 
 {% hint style="info" %}
 Aunque los pasos pueden cambiar debido a nuevas versiones de Visual Studio los pasos para instalar .NET Core son los siguientes:
