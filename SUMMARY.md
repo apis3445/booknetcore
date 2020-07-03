@@ -77,7 +77,7 @@
 * [7. Crear servicios con OData](6.2-configurar-tus-servicios-con-odata/README.md)
   * [7.1.1 Creando el modelo Clientes](6.2-configurar-tus-servicios-con-odata/6.2.1-creando-el-modelo-clientes.md)
   * [7.1.2 Creando el modelo ClienteCategoría](6.2-configurar-tus-servicios-con-odata/6.2.2-creando-el-modelo-clientecategoria.md)
-  * [7.1.3 Agregando paquete Nugets](6.2-configurar-tus-servicios-con-odata/6.2.3-agregando-paquete-nuget.md)
+  * [7.1.3 Agregando paquete Nuget](6.2-configurar-tus-servicios-con-odata/6.2.3-agregando-paquete-nuget.md)
   * [7.1.4 Configurar el EDM Model](6.2-configurar-tus-servicios-con-odata/6.2.4-configurar-el-edm-model.md)
   * [7.1.5 Configurar el servicio OData](6.2-configurar-tus-servicios-con-odata/6.2.5-configurar-el-servicio-odata.md)
   * [7.1.6 Creando el Controller para clientes](6.2-configurar-tus-servicios-con-odata/6.2.7-creando-el-controller-para-clientes.md)
