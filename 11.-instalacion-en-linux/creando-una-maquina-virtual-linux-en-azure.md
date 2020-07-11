@@ -1,4 +1,4 @@
-# 16.1 Creando una máquina virtual linux en Azure
+# 17.1 Creando una máquina virtual linux en Azure
 
 Por lo general Azure tiene promociones para que pruebes sus productos gratuitos. 
 
