@@ -9,5 +9,9 @@ Postman tambien cuenta con opciones:
 * **Mock**: Puedes agregar json de ejemplo para simular llamadas a un servicio. Esto puede ser util para empezar a programar las puebas en donde se tiene un equipo de developers y un equipo de testers.
 * **Diseñar**: Mediante OpenApi un formato para definir tus apis con yaml o con Json puedes diseñar el servicio y apartir de ese archivo puedes crear tus colecciones para probar tus servicios, la documentación y simular los servicios \(mock\)
 
+{% hint style="info" %}
+Postman utiliza código javascript para las pruebas.
+{% endhint %}
+
 
 
