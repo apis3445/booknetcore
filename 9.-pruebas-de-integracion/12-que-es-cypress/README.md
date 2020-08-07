@@ -10,11 +10,11 @@ Una vez instalado puedes realizar tus pruebas en diferentes navegadores
 
 ![](../../.gitbook/assets/image%20%28308%29.png)
 
-Al igual que selenium te permite abrir tu navegador chrome y seleccionar elmentos, etc
+Al igual que selenium te permite abrir tu navegador chrome y seleccionar elementos, etc
 
 ![](../../.gitbook/assets/image%20%28202%29.png)
 
-Un ejemplo básico podria ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
+Un ejemplo básico podría ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
 
 {% tabs %}
 {% tab title="prueba.spec.js" %}

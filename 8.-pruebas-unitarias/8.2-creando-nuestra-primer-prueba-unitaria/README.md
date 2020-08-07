@@ -27,15 +27,15 @@ Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest**
 
 Por lo general las pruebas unitarias se componen de 3 partes:
 
-1. **Inicialización de datos:** Aqui cargamos los datos y los objetos de la función que deseamos probar
-2. **Método a probar:** Aqui ejecutamos el método que deseamos probar con los datos definidos en la sección anterior
-3. **Comprobación del resultado.** Aqui comprobamos el resultado obtenido por la función con el resultado esperado
+1. **Inicialización de datos:** Cargamos los datos y los objetos de la función que deseamos probar
+2. **Método a probar: E**jecutamos el método que deseamos probar con los datos definidos en la sección anterior
+3. **Comprobación del resultado.** Comprobamos el resultado obtenido por la función con el resultado esperado
 
 ![](../../.gitbook/assets/image%20%28257%29.png)
 
 Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como Equal para comparar los valores de 2 variables, True para comprobar algún valor boleano.
 
-En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuestras variables son 3 y 1 ya sabemos que el valor al sumar estos 2 valores el resultado debe ser 4, entonces en la función Assert el primer párametro es el valor esperado, y el segundo  es la variable regresada por nuestra función Sumar que es el valor que deseamos comprobar
+En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuestras variables son 3 y 1 ya sabemos que el valor al sumar estos 2 valores el resultado debe ser 4, entonces en la función Assert el primer parámetro es el valor esperado, y el segundo  es la variable regresada por nuestra función Sumar que es el valor que deseamos comprobar
 
 ```text
 Aseert.Equal(Valor Esperado, Valor Encontrado)
