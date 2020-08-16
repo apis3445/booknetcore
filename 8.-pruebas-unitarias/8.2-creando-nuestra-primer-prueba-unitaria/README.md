@@ -1,4 +1,4 @@
-# 10.2 Creando nuestra primer prueba unitaria
+# 10.2 Crear una prueba unitaria
 
 Vamos a crear la prueba más básica, para esto vamos a crear una clase llamada Operaciones con un método Sumar
 
@@ -23,7 +23,25 @@ public class Operaciones
 ```
 {% endcode %}
 
-Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest** por lo general el nombre es el nombre de la clase que deseas probar mas la palabra Test. para agregar un método que se llame **SumaDosNumeros,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
+Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest** por lo general el nombre es el nombre de la clase que deseas probar mas la palabra Test o puedes omitir el nombre Test ya que al ser un proyecto de test es lógico que sea de prueba. 
+
+Un buen nombre para los métodos a probar esta formado por lo siguiente:
+
+* Unidad de trabajo: Es la funcionalidad que deseas probar, en lugar de probar por métodos es mejor probar la función
+* Condiciones: La descripción de los casos que deseas probar.
+* Resultado esperado: El resultado que esperas obtener con los datos proprocionados
+
+Unidad de Trabajo\_Condiciones\_ResultadoEsperado
+
+Ejemplo: Si deseas probar por ejemplo el login algunos nombre serían:
+
+* Login\_CredencialesCorrectas\_RegresaTokenValido
+* Login\_CredencialesIncorrectas\_RegresaError
+* Login\_CincoIntentosIncorrectas\_RegresaUsuarioBloqueado
+
+De esta manera es claro para cualquier persona conocer las reglas de negocio y verificas que se cumplen las reglas de negocio.
+
+Para agregar un método que se llame **Operaciones\_SumaDosNumeros\_RegresaLaSuma,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
 
 Por lo general las pruebas unitarias se componen de 3 partes:
 
@@ -44,12 +62,15 @@ Aseert.Equal(Valor Esperado, Valor Encontrado)
 {% code title="OperaciontesTest.cs" %}
 ```csharp
 [Fact]
-public void SumaDosNumeros_Correcto()
+public void Operaciones_SumaDosNumeros_RegresaLaSuma()
 {
+    //Inicialización de datos (Arrange)
     int a = 3;
-    int b = 1;
+    int b = 1;   
     Operaciones operaciones = new Operaciones(a,b);
+    //Método a probar (Act)
     int resultado = operaciones.Sumar();
+    //Comprobación de resultados (Assert)
     Assert.Equal(4, resultado);
 }
 ```

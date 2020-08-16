@@ -114,7 +114,7 @@
     * [9.8.3 Habilitando CORS](7.-seguridad/7.8-mejorando-tu-codigo/7.8.3-configurando-cors.md)
 * [10. Pruebas Unitarias](8.-pruebas-unitarias/README.md)
   * [10.1 Agregando el proyecto de pruebas unitarias](8.-pruebas-unitarias/8.1-agregando-el-proyecto-de-pruebas-unitarias.md)
-  * [10.2 Creando nuestra primer prueba unitaria](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/README.md)
+  * [10.2 Crear una prueba unitaria](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/README.md)
     * [10.2.1 Ejecutando las pruebas unitarias en Windows](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/8.2.1-ejecutando-las-pruebas-unitarias-en-windows.md)
     * [10.2.2 Ejecutando las pruebas unitarias en Visual Studio for Mac](8.-pruebas-unitarias/8.2-creando-nuestra-primer-prueba-unitaria/8.2.2-ejecutando-las-pruebas-unitarias-en-visual-studio-for-mac.md)
   * [10.3 Agregando una base de datos en memoria para nuestras pruebas unitarias](8.-pruebas-unitarias/8.3-agregando-una-base-de-datos-en-memoria-para-nuestras-pruebas-unitarias.md)
