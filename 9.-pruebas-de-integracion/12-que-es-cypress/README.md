@@ -27,8 +27,7 @@ context('Navigation', () => {
     })
 
     it('cy.visit() - visit a remote url', () => {
-        
-    
+
         // Pass options to the visit
         cy.visit('https://www.google.com/doodles/', {
             timeout: 50000, // increase total time for the visit to resolve
