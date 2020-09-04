@@ -6,7 +6,7 @@ Las pruebas unitarias deben probar unicamente alguna regla de negocio sin conexi
 
 Las pruebas unitarias te ayudan a que cada vez que liberes una nueva versión del producto, verificar de  forma rápida que los cambios realizados no te agregarán nuevos bugs. Al ser automáticos no tienes que volver a probar manualmente cada vez que realizas un cambio. 
 
-Puede pensar que es mas tardado crear las pruebas automáticas, pero de todas formas debes probar el código y que mejor que probarlo y dejar documentado las reglas de negocio en tus pruebas, para cuando entra alguien más en el equipo. Conforme crece tu aplicación es mejor que se prueben automáticamente a que estés manualmente probando cada opción.
+Puedes pensar que es mas tardado crear las pruebas automáticas, pero de todas formas debes probar el código. Es mejor probarlo y dejar documentado las reglas de negocio en tus pruebas, para cuando entra alguien más en el equipo sea mas fácil conocer las reglas. Conforme crece tu aplicación es mejor que se prueben automáticamente a probar manualmente.
 
 Al final de la lección se verá como configurar Pipelines con BitBucket y Azure DevOps para que cada vez que un programador le da commit a sus cambios se corran en automático las pruebas automáticas. 
 
