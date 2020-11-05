@@ -10,7 +10,7 @@ Postman tambien cuenta con opciones:
 * **Diseñar**: Mediante OpenApi un formato para definir tus apis con yaml o con Json puedes diseñar el servicio y apartir de ese archivo puedes crear tus colecciones para probar tus servicios, la documentación y simular los servicios \(mock\)
 
 {% hint style="info" %}
-Postman utiliza javascript para las pruebas.
+Postman utiliza código javascript para las pruebas.
 {% endhint %}
 
 

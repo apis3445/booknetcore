@@ -77,10 +77,10 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 
 | Código | Nombre | Descripción |
 | :--- | :--- | :--- |
-| 400 | Bad Request\(Solicitud Incorrecta\) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edar que espera un número entero.  |
+| 400 | Bad Request\(Solicitud Incorrecta\) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edar que espera un número entero |
 | 401 | Unauthorized \(No Autorizado\) | El servicio requiere que el usuario este identificado  |
 | 403 | Forbidden \(Prohibido\) | El usuario no tiene permiso para realizar la acción. Por ejemplo no tiene permiso para consultar la información |
-| 404 | Not Found \(No Encontrado\) | El contenido a buscar no fue encontrado. Por ejemplo se busca el cliente con Id 20 el cual no existe. Hay debates donde se piensa que si un cliente no existe debe regresar un status 200 con un json vacío o un estatus 400. |
+| 404 | Not Found \(No Encontrado\) | El contenido a buscar no fue encontrado. Por ejemplo se busca el cliente con Id 20 el cual no existe |
 | 409 | Conflict \(Conflicto\) | Por ejemplo estas subiendo un archivo que es anterior al que esta actualmente en el servidor. |
 
 #### **Códigos de Errores del servidor**
@@ -89,10 +89,6 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 | :--- | :--- | :--- |
 | 500 | Internal Server Error \(Error de Servidor Interno\) | Por lo general es un error no controlado o inesperado en el servidor |
 | 503 | Service Unavailable \(Servidor No Disponible\) | El servidor no está disponible debido a un mantenimiento ya que está muy saturado |
-
-Puedes seguir también las recomendaciones de Microsoft en inglés sobre un buen diseño de APIS
-
-{% embed url="https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md" %}
 
 ### **Filtrar información** 
 
