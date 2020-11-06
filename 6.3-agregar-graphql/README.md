@@ -50,6 +50,7 @@ Vamos a agregar los siguientes paquetes Nuget para habilitar GraphQL en nuestro 
 ```text
 Install-Package GraphQL 
 Install-Package GraphQL.Server.Transports.AspnetCore
+Install-Package GraphQL.Server.Transports.AspNetCore.SystemTextJson
 ```
 
 Para poder probar los servicios podemos utilizar el siguiente paquete el cual es similar a Swagger ya que nos genera la documentación y nos ayuda a probar nuestros servicios
