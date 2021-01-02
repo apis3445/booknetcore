@@ -6,7 +6,7 @@ Al desarrollar sistemas móviles se recomienda que te conectes mediante servicio
 
 ![Figura 3.1 Funcionamiento de servicios rest](../../.gitbook/assets/image%20%28403%29.png)
 
-Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URL's. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente muy utilizados
+Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URL's. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente son muy utilizados.
 
 ### Archivos JSON
 
@@ -39,7 +39,7 @@ Un ejemplo de un archivo JSON el cual contiene información de los países es el
 ]
 ```
 
-Existen varios servicios públicos los cuales te dan información como por ejemplo del clima, países, libros. Por ejemplo los siguientes servicios te dan información de un país o de acuerdo a una ip saber cual es el país.
+Existen varios servicios públicos los cuales te dan información como por ejemplo del clima, países, películas, libros. Por ejemplo los siguientes servicios te dan información de un país o de acuerdo a una ip saber cual es el país.
 
 *  [https://restcountries.eu/rest/v2/name/mexico](https://restcountries.eu/rest/v2/name/mexico)   
 *  [http://ip-api.com/json](http://ip-api.com/json)
@@ -77,10 +77,10 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 
 | Código | Nombre | Descripción |
 | :--- | :--- | :--- |
-| 400 | Bad Request\(Solicitud Incorrecta\) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edar que espera un número entero.  |
-| 401 | Unauthorized \(No Autorizado\) | El servicio requiere que el usuario este identificado  |
-| 403 | Forbidden \(Prohibido\) | El usuario no tiene permiso para realizar la acción. Por ejemplo no tiene permiso para consultar la información |
-| 404 | Not Found \(No Encontrado\) | El contenido a buscar no fue encontrado. Por ejemplo se busca el cliente con Id 20 el cual no existe. Hay debates donde se piensa que si un cliente no existe debe regresar un status 200 con un json vacío o un estatus 400. |
+| 400 | Bad Request\(Solicitud Incorrecta\) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edad que espera un número entero.  |
+| 401 | Unauthorized \(No Autorizado\) | El servicio requiere que el usuario este identificado. |
+| 403 | Forbidden \(Prohibido\) | El usuario no tiene permiso para realizar la acción. Por ejemplo no tiene permiso para consultar la información. |
+| 404 | Not Found \(No Encontrado\) | El contenido a buscar no fue encontrado. Por ejemplo se llama un servicio que no existe o se busca el cliente con Id 20 el cual no existe. Hay debates donde se piensa que si un cliente no existe debe regresar un status 200 con un json vacío o un estatus 400. |
 | 409 | Conflict \(Conflicto\) | Por ejemplo estas subiendo un archivo que es anterior al que esta actualmente en el servidor. |
 
 #### **Códigos de Errores del servidor**
@@ -88,7 +88,7 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 | Estatus | Nombre | Descripción |
 | :--- | :--- | :--- |
 | 500 | Internal Server Error \(Error de Servidor Interno\) | Por lo general es un error no controlado o inesperado en el servidor |
-| 503 | Service Unavailable \(Servidor No Disponible\) | El servidor no está disponible debido a un mantenimiento ya que está muy saturado |
+| 503 | Service Unavailable \(Servidor No Disponible\) | El servidor no está disponible debido a un mantenimiento por ejemplo que está muy saturado |
 
 Puedes seguir también las recomendaciones de Microsoft en inglés sobre un buen diseño de APIS
 
@@ -96,7 +96,7 @@ Puedes seguir también las recomendaciones de Microsoft en inglés sobre un buen
 
 ### **Filtrar información** 
 
-Existen opciones adicionales para obtener la información de tus servicios sin tener que estar consultando varios servicios o filtrando la información manualmente, algunas de las principales son ODATA y GraphQL
+Existen opciones adicionales para obtener la información de tus servicios sin tener que estar consultando varios servicios o filtrando la información manualmente, algunas de las principales son ODATA y GraphQL.
 
 
 

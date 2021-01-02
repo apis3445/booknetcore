@@ -27,7 +27,7 @@ Una vez terminado te pide reiniciar
 
 ![](../.gitbook/assets/image%20%28222%29.png)
 
-3. Damos clic en continuar
+3. Damos clic en **Continuar**
 
 ![](../.gitbook/assets/image%20%28117%29.png)
 
@@ -43,9 +43,9 @@ Una vez terminado te pide reiniciar
 
 Al terminar se muestra lo siguiente:
 
-![](../.gitbook/assets/image%20%28124%29.png)
+![](../.gitbook/assets/image%20%28544%29.png)
 
-
+Del lado izquierdo se muestran los proyectosm mas recientes que has utilizado, del lado derecho se muestran las opciones para abrir o crear un nuevo proyecto.
 
 
 

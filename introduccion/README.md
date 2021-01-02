@@ -2,30 +2,27 @@
 
 Cuando desarrollamos una app móvil donde se necesita que el usuario guarde información de forma permanente, como por ejemplo una lista de tareas, la información se guarda en una base de datos. Se recomienda que la app no se conecte directamente a la base de datos, si no mediante servicios REST. 
 
-También algunos sistemas Web desarrollados con frameworks javascript como Angular, React o Vue, la información se obtiene mediante servicios REST.
+También algunos sistemas Web desarrollados con Angular, React o Vue, la información se obtiene mediante servicios REST.
 
-Escribí este pequeño tutorial para ayudar a los programadores a crear servicios REST con .NET Core en español, con una sencilla aplicación de ejemplo.
+Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core con C\# con una sencilla aplicación de ejemplo. 
 
-Espero que sea de ayuda para programadores ya sea de .NET o de otros lenguajes como Java, PHP. Este tutorial esta escrito en C\#.
+Aprenderás lo siguiente:
 
-En esta serie de tutoriales explicaré paso a paso una guía para crear los servicios REST con .NET Core y Entity Framework. 
-
-Explicare como crear una aplicación de inicio a fin, donde aprenderás lo siguiente:
-
-* Como llevar el control de código fuente de tu proyecto \(manejar en versiones el historial de cambios de tu código\)
+* Como llevar el control de código fuente de tu proyecto con GIT\(manejar en versiones el historial de cambios de tu código\)
 * Como manejar versiones de tu base de datos \(mediante migraciones\)
 * Entity Framewok para las operaciones de altas, bajas, cambios, lectura \(SQL Server, MySQL\)
 * Servicios REST \(con documentación en swagger\)
 * Seguridad para tus servicios con OAUTH
 * Pruebas unitarias
 * Pruebas de integración
+* Pruebas de usuario
 * Como publicar la aplicación en IIS y en Linux \(Ubuntu\)
 
 Se debe tener conocimientos básicos de C\# y programación orientada a objetos.
 
 ### ¿Porqué ASP.NET Core?
 
-ASP.NET Core fue creado para ser multiplataforma \(Windows,Mac,Linux\), open source y con mejoras en rendimiento. Se tiene planeado unificar los 2 Framework el .Net 4.6 con el .Net Core 3.0 y la próxima versión sera la 5.0. Puedes ver un artículo mas detallado sobre este cambio [aquí](https://devblogs.microsoft.com/dotnet/introducing-net-5/)
+ASP.NET Core fue creado para ser multiplataforma \(Windows,Mac,Linux\), open source y con mejoras en rendimiento. Con la versión 5 de .Net se han unificado los 2 framework, el 4.6 y el .Net Core. Puedes ver un artículo mas detallado sobre este cambio [aquí](https://devblogs.microsoft.com/dotnet/introducing-net-5/)
 
 Entity Framework Core también fue rediseñado para hacerlo mas eficiente.
 

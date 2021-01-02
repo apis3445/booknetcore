@@ -2,7 +2,7 @@
 
 A continuación explicare algunos de los siguientes conceptos básicos:
 
-* Servicios REST y algunas alternativas como OData y GraphQL
+* Servicios REST y alternativas como OData y GraphQL
 * Como generar versiones de tu base de datos de acuerdo la versión de tu código fuente
 * ¿Qué son los paquetes Nuget?
 * ¿Qué son los archivos de recursos? 
