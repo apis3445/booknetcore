@@ -1,8 +1,8 @@
 # 8. GraphQL
 
-GraphQL fue desarrollado por Facebook para facilitar la consulta de información, por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios, se crea un lenguaje para traer solamente la información que se necesita.
+GraphQL fue desarrollado por Facebook para facilitar la consulta de información, por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios, se crea un servicio para traer solamente la información que se necesita.
 
-De momento no cuenta con librería oficial por parte de microsoft. El paquete nuget requerido es [GraphQL ](https://github.com/graphql-dotnet/graphql-dotnet)de Joe McBride
+De momento no cuenta con librería oficial por parte de Microsoft. El paquete nuget requerido es [GraphQL ](https://github.com/graphql-dotnet/graphql-dotnet)de Joe McBride
 
 La estructura de GraphQL esta formada por 3 partes
 
@@ -14,7 +14,7 @@ La estructura de GraphQL esta formada por 3 partes
 
 GraphQL se basa en enviar las peticiones por medio de consultas, se tienen 3 tipos:
 
-1. **Query**: Para consultar inofrmación
+1. **Query**: Para consultar información
 2. **Mutation**: Para modificar información \(crear, borrar, modificar\)
 3. **Subscription**: Para WebSockets \(con WebSockets puedes por ejemplo recibir notificaciones cuando ocurre algún evento\)
 
@@ -61,13 +61,13 @@ Install-Package GraphQL.Server.UI.Playground
 
 La estructura básica es la siguiente:
 
-* GraphType: Permite indicar los campos del modelo que estan disponibles para el servicio, los tipos de datos comunes de .net como int, string tienen su equivalente para graphQL
-* Query: Permite configurar nuestro objetoGraphType\(Modelo\) con nuestra base de datos para llenar los campos del modelo
-* Schema: Nos permite definir las operaciones a realizar: Query\( Consulta información\), Mutation: \(Crear, Borrar, Modificar\), Suscripcion\(Operaciones con WebSockets\)
+* **GraphType:** Permite indicar los campos del modelo que estan disponibles para el servicio, los tipos de datos comunes de .net como int, string tienen su equivalente para graphQL
+* **Query:** Permite configurar nuestro objetoGraphType\(Modelo\) con nuestra base de datos para llenar los campos del modelo.
+* **Schema:** Nos permite definir las operaciones a realizar: Query\( Consulta información\), Mutation: \(Crear, Borrar, Modificar\), Suscripción\(Operaciones con WebSockets\).
 
 ![](../.gitbook/assets/image%20%28426%29.png)
 
-Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y del producto para realizar la consulta de la siguiente manera:
+Vamos a crear nuestra tabla caducidad la cual contendrá los datos del cliente y del producto para realizar la consulta de la siguiente manera:
 
 ```javascript
 {
@@ -89,5 +89,5 @@ Vamos a crear nuestra tabla caducidad la cual contendra los datos del cliente y 
 } 
 ```
 
-Este método se podrá consultar por GET o por POST, es mas comodo realizarlo por POST.
+Este método se podrá consultar por GET o por POST, es mas cómodo realizarlo por POST.
 
