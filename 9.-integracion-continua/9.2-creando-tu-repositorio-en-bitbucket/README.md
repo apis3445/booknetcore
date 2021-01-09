@@ -1,8 +1,6 @@
 # 11.2 Subir tu código fuente a BitBucket
 
-Cuenta con un plan gratuito que te permite crear repositorios privados gratuitos para máximo 5 usuarios y adicional te permite 50 minutos al mes para compilar tu código fuente.Al igual que GitHub Bitbucket es un servicio que te permite tener el código fuente de tus proyectos en la nube.
-
-
+Github cuenta con un plan gratuito que te permite crear repositorios privados gratuitos para máximo 5 usuarios y adicional te permite 50 minutos al mes para compilar tu código fuente.Al igual que GitHub Bitbucket es un servicio que te permite tener el código fuente de tus proyectos en la nube.
 
 Primero debes crear tu cuenta en BitBucket, una vez creada tu cuenta verás una página similar a esta:
 
