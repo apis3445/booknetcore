@@ -27,9 +27,9 @@ Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest**
 
 Un buen nombre para los métodos a probar esta formado por lo siguiente:
 
-* Unidad de trabajo: Es la funcionalidad que deseas probar, en lugar de probar por métodos es mejor probar la función
-* Condiciones: La descripción de los casos que deseas probar.
-* Resultado esperado: El resultado que esperas obtener con los datos proprocionados
+* **Unidad de trabajo**: Es la funcionalidad que deseas probar, en lugar de probar por métodos es mejor probar la función
+* **Condiciones**: La descripción de los casos que deseas probar.
+* **Resultado esperado**: El resultado que esperas obtener con los datos proporcionados
 
 Unidad de Trabajo\_Condiciones\_ResultadoEsperado
 
