@@ -2,7 +2,7 @@
 
 Como comente en la sección de código limpio todas tus funciones deben realizar una sola tarea, así es más fácil de probar.
 
-Las pruebas unitarias deben probar unicamente alguna regla de negocio sin conexión con ningún proveedor externo como base de datos, servicios, la idea final es que todas las pruebas unitarias se corran muy rápido \(en segundos\) y se prueben las reglas de negocio de tu aplicación.
+Las pruebas unitarias deben probar únicamente alguna regla de negocio sin conexión con ningún proveedor externo como base de datos, servicios, la idea final es que todas las pruebas unitarias se corran muy rápido \(en segundos\) y se prueben las reglas de negocio de tu aplicación.
 
 Las pruebas unitarias te ayudan a que cada vez que liberes una nueva versión del producto, verificar de  forma rápida que los cambios realizados no te agregarán nuevos bugs. Al ser automáticos no tienes que volver a probar manualmente cada vez que realizas un cambio. 
 
