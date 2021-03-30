@@ -160,7 +160,7 @@
   * [15.3 Generando el Release en Azure Pipelines al App Service de Azure](12.-entrega-continua-continuous-delivery/12.3-generando-el-release-en-azure-pipelines.md)
   * [15.4 Agregando las pruebas de usuario en Azure Pipelines](12.-entrega-continua-continuous-delivery/12.4-agregando-las-pruebas-de-usuario-en-azure-pipelines.md)
 * [16. Instalación en Windows Server e IIS](10.-instalacion-en-windows-server-e-iis/README.md)
-  * [16.1 Instalar el IIS en Windows Server](10.-instalacion-en-windows-server-e-iis/16.1-instalar-el-iis-en-windows-server.md)
+  * [16.1 Instalar IIS en Windows Server](10.-instalacion-en-windows-server-e-iis/16.1-instalar-el-iis-en-windows-server.md)
 * [17. Instalación en Linux](11.-instalacion-en-linux/README.md)
   * [17.1 Creando una máquina virtual linux en Azure](11.-instalacion-en-linux/creando-una-maquina-virtual-linux-en-azure.md)
   * [17.2 Habilitando el acceso remoto](11.-instalacion-en-linux/11.2-habilitando-el-acceso-remoto.md)
