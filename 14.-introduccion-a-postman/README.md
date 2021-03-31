@@ -1,4 +1,4 @@
-# 14. Probar tus servicios con Postman
+# 13. Integración continua con Postman
 
 Como se comento anteriormente puedes utilizar postman para probar tus tests y configurar el proyecto para que se corran después de actualizar la nueva versión de tu sistema.
 
