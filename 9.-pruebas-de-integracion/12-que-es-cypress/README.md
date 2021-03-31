@@ -59,6 +59,6 @@ Ventajas:
 
 Desventajas:
 
-* No manejara tabs
-* De momento no soporta Safari
+* No soportará test con Multiples Tabs, aunque se pueden probar con algunos trucos
+* De momento no soporta Safari  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
 
