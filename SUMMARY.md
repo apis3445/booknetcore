@@ -148,7 +148,7 @@
   * [13.5 Crear environments](14.-introduccion-a-postman/14.5-crear-environments.md)
   * [13.6 Agregando datos de prueba con archivos .csv](14.-introduccion-a-postman/14.6-agregando-datos-de-prueba-con-archivos-.csv.md)
   * [13.7 Exportando tus colecciones y ejecutarlas con Newman.](14.-introduccion-a-postman/14.6-utilizando-newman.md)
-  * [13.8 Agregando las colecciones de postman al pipeline.](14.-introduccion-a-postman/13.8-agregando-las-colecciones-de-postman-al-pipeline..md)
+  * [13.8 Agregando las colecciones de postman al pipeline](14.-introduccion-a-postman/13.8-agregando-las-colecciones-de-postman-al-pipeline..md)
 * [14. Pruebas de usuario](9.-pruebas-de-integracion/README.md)
   * [14.1 ¿Qué es Selenium?](9.-pruebas-de-integracion/11.1-que-es-selenium/README.md)
     * [14.1.1 Instrucciones básicas](9.-pruebas-de-integracion/11.1-que-es-selenium/11.1.1-instrucciones-basicas.md)
