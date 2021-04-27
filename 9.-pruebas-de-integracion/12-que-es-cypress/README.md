@@ -1,6 +1,6 @@
 # 14.3 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado, actualmente existen otras alternativas que utilizan Javascript , una opción interesante es Cypress.
+Selenium ya tiene varios años en el mercado, y han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo en:
 
@@ -56,9 +56,11 @@ Ventajas:
 * Detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas en lo que se completa la llamada sl servicio REST.
 * Puedes simular la llamada al servicio rest y sustituir la respuesta por datos fijos.
 * También por medio de líneas de comandos te corre las pruebas te graba videos de los test y toma screenshots de los casos de prueba que fallaron.
+* Al igual que selenium puedes grabar los pasos y te genera el código.
 
 Desventajas:
 
-* No soportará test con Multiples Tabs, aunque se pueden probar con algunos trucos
-* De momento no soporta Safari  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
+* No soportará test con múltiples Tabs e IFrames, aunque se pueden probar con algunos trucos
+* De momento no soporta Safari
+* No soportará test con múltiples navegadores  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
 

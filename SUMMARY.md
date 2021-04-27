@@ -69,7 +69,7 @@
   * [5.4 Creando el servicio Productos](5.-agregando-el-servicio-para-los-productos/5.4-creando-el-servicio-productos.md)
   * [5.5 Mejorando tu código](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/README.md)
     * [5.5.1 Agregando una excepción a todos nuestros servicios](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.1-agregando-una-excepcion-a-todos-nuestros-servicios.md)
-    * [5.5.2 Agregando clases genéricas para las tablas](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.2-agregando-una-clase-generica-para-las-tablas-de-las-bases-de-datos.md)
+    * [5.5.2 Agregando clases genéricas para validar y/o consultar información](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.2-agregando-una-clase-generica-para-las-tablas-de-las-bases-de-datos.md)
     * [5.5.3 Alternativa para validar reglas con ef core](5.-agregando-el-servicio-para-los-productos/5.4-mejorando-tu-codigo/5.4.3-alternativa-para-validar-tablas.md)
 * [6. Cambiar de base de datos a SQL Server](cambiar-los-servicios-a-sql-server/README.md)
   * [6.1 Cambiar la base de datos a SQL Server](cambiar-los-servicios-a-sql-server/6.1-cambiar-la-base-de-datos-a-sql-server.md)
