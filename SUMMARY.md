@@ -170,7 +170,8 @@
   * [17.2 Habilitando el acceso remoto](11.-instalacion-en-linux/11.2-habilitando-el-acceso-remoto.md)
   * [17.3 Configura linux para .Net Core](11.-instalacion-en-linux/11.3-configura-linux-para-.net-core.md)
   * [17.4 Instalando mysql](11.-instalacion-en-linux/11.4-instalando-mysql.md)
-  * [17.5 Instalando Nginx](11.-instalacion-en-linux/11.5-instalando-nginx.md)
+  * [17.5 Instalando Nginx y configurando tu servicio](11.-instalacion-en-linux/11.5-instalando-nginx.md)
   * [17.6 Instalando un certificado SSL gratuito con CertBot](11.-instalacion-en-linux/11.6-instalando-un-certificado-ssl-con-certbot.md)
+  * [17.7 Agregando diferentes subdominios](11.-instalacion-en-linux/17.7-agregando-diferentes-subdominios.md)
 * [18. Docker](18.-docker.md)
 
