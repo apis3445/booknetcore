@@ -81,7 +81,7 @@
   * [7.1.4 Configurar el EDM Model](6.2-configurar-tus-servicios-con-odata/6.2.4-configurar-el-edm-model.md)
   * [7.1.5 Configurar el servicio OData](6.2-configurar-tus-servicios-con-odata/6.2.5-configurar-el-servicio-odata.md)
   * [7.1.6 Creando el Controller para clientes](6.2-configurar-tus-servicios-con-odata/6.2.7-creando-el-controller-para-clientes.md)
-  * [7.1.7 Configurando OData en el archivo Startup.cs](6.2-configurar-tus-servicios-con-odata/6.2.8-configurando-odata-en-el-archivo-startup.cs.md)
+  * [7.1.7 Configurar y probar los servicios con OData](6.2-configurar-tus-servicios-con-odata/6.2.8-configurando-odata-en-el-archivo-startup.cs.md)
   * [7.1.8 Práctica Crear el servicio para ClientesCategorias](6.2-configurar-tus-servicios-con-odata/7.1.8-practica-crear-el-servicio-para-clientescategorias.md)
   * [7.1.9 Recomendaciones de seguridad y rendimiento a tomar en cuenta con OData](6.2-configurar-tus-servicios-con-odata/6.2.9-recomendaciones-de-seguridad-y-rendimiento-a-tomar-en-cuenta-con-odata.md)
 * [8. GraphQL](6.3-agregar-graphql/README.md)
