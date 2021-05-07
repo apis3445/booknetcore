@@ -1,4 +1,4 @@
-# 14.3 ¿Qué es Cypress?
+# 14.2 ¿Qué es Cypress?
 
 Selenium ya tiene varios años en el mercado, y han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
 
