@@ -1,6 +1,8 @@
 # 14.2 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado, y han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
+Selenium ya tiene varios años en el mercado y debido a que no se ha actualizado desde el 2018 han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
+
+Uno de los framework que esta ganando popularidad y mas actualizaciones es Cypress.
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo en:
 
@@ -60,7 +62,7 @@ Ventajas:
 
 Desventajas:
 
-* No soportará test con múltiples Tabs e IFrames, aunque se pueden probar con algunos trucos
+* No soportará test con múltiples Tabs e IFrames, aunque se pueden probar con algunos paquetes.
 * De momento no soporta Safari
-* No soportará test con múltiples navegadores  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
+* No soportará test con múltiples navegadores al mismo tiempo  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
 
