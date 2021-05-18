@@ -16,6 +16,8 @@ Al igual que selenium te permite abrir tu navegador chrome y seleccionar element
 
 ![](../../.gitbook/assets/image%20%28202%29.png)
 
+### Ejemplo
+
 Un ejemplo básico podría ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
 
 {% tabs %}
@@ -52,6 +54,8 @@ context('Navigation', () => {
 Se muestra el siguiente resultado
 
 ![](../../.gitbook/assets/image%20%28294%29.png)
+
+### Ventajas y Desventajas
 
 Ventajas:
 
