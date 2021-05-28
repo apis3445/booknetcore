@@ -8,9 +8,18 @@ Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo e
 
 {% embed url="https://docs.cypress.io/guides/getting-started/installing-cypress.html\#System-requirements" %}
 
-Una vez instalado puedes realizar tus pruebas en diferentes navegadores
+Para correr las pruebas en cypress puedes teclear el comando
 
-![](../../.gitbook/assets/image%20%28308%29.png)
+```text
+npx cypress open
+```
+
+Te abre la ventana de cypress donde te pregunta si deseas ver los ejemplos. La ventana cuenta con 2 opciones principales:
+
+* Tus archivos de pruebas \(pueden ser javascript o typescript\)
+* El navegador en el que bass a correr las pruebas en este caso Chrome 91
+
+![](../../.gitbook/assets/image%20%28609%29.png)
 
 Al igual que selenium te permite abrir tu navegador chrome y seleccionar elementos, etc
 
@@ -21,7 +30,7 @@ Al igual que selenium te permite abrir tu navegador chrome y seleccionar element
 Un ejemplo básico podría ser este, donde abres primero la página de google y luego la de doodles, al darle clic en un archivo se ejecuta la prueba
 
 {% tabs %}
-{% tab title="prueba.spec.js" %}
+{% tab title="ejemplo.ts" %}
 ```javascript
 /// <reference types="Cypress" />
 
@@ -30,20 +39,11 @@ context('Navigation', () => {
         cy.visit('http://www.google.com')
     })
 
-    it('cy.visit() - visit a remote url', () => {
-
-        // Pass options to the visit
-        cy.visit('https://www.google.com/doodles/', {
-            timeout: 50000, // increase total time for the visit to resolve
-            onBeforeLoad(contentWindow) {
-                // contentWindow is the remote page's window object
-                expect(typeof contentWindow === 'object').to.be.true
-            },
-            onLoad(contentWindow) {
-                // contentWindow is the remote page's window object
-                expect(typeof contentWindow === 'object').to.be.true
-            },
-        })
+    it('Revisa logo en la pàgina de google', () => {
+        // Navega a la pàgina de google doodless
+        cy.visit('https://www.google.com/');
+        cy.get('.lnXdpd').should('have.attr', 'alt', 'Google')
+      
     })
 })
 
@@ -53,7 +53,7 @@ context('Navigation', () => {
 
 Se muestra el siguiente resultado
 
-![](../../.gitbook/assets/image%20%28294%29.png)
+![](../../.gitbook/assets/image%20%28605%29.png)
 
 ### Ventajas y Desventajas
 
