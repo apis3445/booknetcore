@@ -2,10 +2,6 @@
 
 Como se explico en el capítulo 2 en la explicación de servicios REST para tus servicios pueden filtrar la información o selecionar solamente algunos campos de una tabla se puede utilizar [OData ](https://www.odata.org)\(Open Data Protocol\). 
 
-{% hint style="warning" %}
-De momento la documentación con Swagger no es muy compatible con OData por lo cual los servicios se deben probar con postman. 
-{% endhint %}
-
 Las opciones dispnibles son:
 
 | Opción | Descripción |
