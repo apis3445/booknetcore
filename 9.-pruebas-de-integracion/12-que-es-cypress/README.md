@@ -1,6 +1,6 @@
 # 14.3 ¿Qué es Cypress?
 
-Selenium ya tiene varios años en el mercado y debido a que no se ha actualizado desde el 2018 han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
+Selenium ya tiene varios años y no ofrece muchas ventajas para los nuevos framework javascript. Con los framework de javascript  ya no tienes que programar los waits y puedes remplazar las respuestas de los servicios con los valores y status code que desees.
 
 Uno de los framework que esta ganando popularidad y mas actualizaciones es Cypress.
 
