@@ -28,9 +28,7 @@ public class PruebasOperaciones
 {% endtab %}
 {% endtabs %}
 
-Puedes ver la documentación oficial 
+Puedes ver la documentación oficial&#x20;
 
 {% embed url="https://docs.microsoft.com/es-mx/dotnet/core/testing/unit-testing-with-mstest" %}
-
-
 

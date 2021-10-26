@@ -1,6 +1,6 @@
 # 9.5 ¿Cómo agregar seguridad basada en roles a los Servicios REST?
 
-Agregar la seguridad basada en roles a nuestros servicios es muy fácil con .NET, lo único que debemos agregar es entre **\[\]** la palabra **Authorize** y entre \(\) agregamos la palabra Roles = y separados por comas agregamos los roles que pueden acceder al servicio.
+Agregar la seguridad basada en roles a nuestros servicios es muy fácil con .NET, lo único que debemos agregar es entre **\[]** la palabra **Authorize** y entre () agregamos la palabra Roles = y separados por comas agregamos los roles que pueden acceder al servicio.
 
 En nuestro archivo **CategoriasController** validamos que solamente los usuarios de tipo administrador y de ventas puedan ver las categorías de los productos.
 
@@ -17,7 +17,7 @@ public List<Categoria> GetCategoria()
 
 Si probamos nuestro servicio de **GetCategoria** con un usuario de tipo Cliente el servicio nos regresará un status **403 Forbidden** ya que aunque es un usuario correcto no tiene permiso para consultar esa información
 
-Si deseas agregar la autorización a todos los servicios del controller, agregas los roles directamente al Controller. 
+Si deseas agregar la autorización a todos los servicios del controller, agregas los roles directamente al Controller.&#x20;
 
 {% code title="ProductosController" %}
 ```csharp
@@ -52,4 +52,3 @@ public class ControlPanelController : Controller
 Puedes ver la documentación de Microsoft aquí.
 
 {% embed url="https://docs.microsoft.com/es-es/aspnet/core/security/authorization/roles?view=aspnetcore-2.2" %}
-

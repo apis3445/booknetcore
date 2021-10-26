@@ -5,4 +5,3 @@ A continuación, vamos a agregar nuestros servicios para registrar los productos
 * Agregar llaves foráneas
 * Agregar una excepción general a todos los servicios
 * Agregar una clase genérica para el acceso a la base de datos
-

@@ -5,7 +5,5 @@ Por lo general las pruebas unitarias utilizan objetos sustitutos, para sustituir
 Vamos a necesitar los siguientes objetos sustitutos para crear una base de datos en memoria, y otra para simular el objeto para mensajes de error.
 
 1. **CaducaContextMemoria**: Aquí vamos a crear una base de datos en memoria con datos fijos.
-2. **MockLocService**: Esta clase va a sustituir los mensajes de error. 
-
-
+2. **MockLocService**: Esta clase va a sustituir los mensajes de error.&#x20;
 

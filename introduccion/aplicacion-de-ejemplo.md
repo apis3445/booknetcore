@@ -20,9 +20,9 @@ Actualmente el Entity Framework Core no genera un diagrama visual de las tablas 
 
 Para dejar el ejemplo lo mas sencillo posible el diagrama de la base de datos es el siguiente:
 
-![](../.gitbook/assets/diagrama-3.png)
+![](<../.gitbook/assets/diagrama (3).png>)
 
-* **Rol:** Roles para la seguridad sistema \(Ver sección seguridad\)
+* **Rol:** Roles para la seguridad sistema (Ver sección seguridad)
 * **Tabla:** Contiene el nombre de cada tabla para registrar el historial por cada tabla
 * **Historial:** Histórico de cambios del sistema
 * **Cliente:** Clientes de la empresa
@@ -35,11 +35,9 @@ Para dejar el ejemplo lo mas sencillo posible el diagrama de la base de datos es
 
 ### Seguridad
 
-La aplicación cuenta con los siguientes tipos \(roles\) de usuarios:
+La aplicación cuenta con los siguientes tipos (roles) de usuarios:
 
 * **Administradores:** Pueden consultar y modificar toda información del sistema. Se encarga de dar de alta nuevos clientes.
 * **Supervisores:** Pueden dar de alta las categorías y productos de cada cliente. Cada empleado solamente puede ver los productos y categorías de sus clientes.
 * **Vendedores:** Pueden registrar las fechas de caducidad de los productos del cliente de sus categorías asignadas.
-
-
 

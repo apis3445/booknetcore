@@ -8,9 +8,9 @@ Una forma fácil de manejar la seguridad es mediante roles, para nuestro ejemplo
 
 De esta manera cuando un usuario inicia sesión aparte de regresar el id del usuario, regresas la lista de roles que tiene el usuario, así en cada petición el servidor puede validar el rol que tiene el usuario en el token y si tiene el rol adecuado muestra la información.
 
-Hay diferentes formas para manejar la seguridad, por ejemplo para facebook, twitter, google debes registrarte en sus páginas oficiales, por lo general te piden un aviso de privacidad disponible en la página de tu sistema, explicas para que quieres conectarse a sus servicios, después de aprobarte te dan un Id de tu aplicación y una clave secreta que debes enviar en cada petición. 
+Hay diferentes formas para manejar la seguridad, por ejemplo para facebook, twitter, google debes registrarte en sus páginas oficiales, por lo general te piden un aviso de privacidad disponible en la página de tu sistema, explicas para que quieres conectarse a sus servicios, después de aprobarte te dan un Id de tu aplicación y una clave secreta que debes enviar en cada petición.&#x20;
 
-Para tu aplicación debes seguir la documentación de cada proveedor y básicamente le das la opción al usuario de iniciar sesión con tu cuenta de google,facebook,etc se les muestra la opción para que inicien sesión con su cuenta y los permisos a los que permites que tenga acceso la aplicación. Como programador debes obtener el token que te regresa el login del usuario y también debes enviarlo en cada petición. Una página que explica bien es la de google. 
+Para tu aplicación debes seguir la documentación de cada proveedor y básicamente le das la opción al usuario de iniciar sesión con tu cuenta de google,facebook,etc se les muestra la opción para que inicien sesión con su cuenta y los permisos a los que permites que tenga acceso la aplicación. Como programador debes obtener el token que te regresa el login del usuario y también debes enviarlo en cada petición. Una página que explica bien es la de google.&#x20;
 
 {% embed url="https://developers.google.com/gmail/api/" %}
 
@@ -27,8 +27,6 @@ Los siguientes capítulos muestran como crear tu seguridad de una forma muy pers
 Puedes ver un tutorial en ingles aquí
 
 {% embed url="https://nbarbettini.gitbooks.io/little-asp-net-core-book/content/chapters/security-and-identity/" %}
-
-
 
 
 

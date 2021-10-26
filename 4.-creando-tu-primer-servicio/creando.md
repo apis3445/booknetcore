@@ -3,10 +3,10 @@
 Primero vamos a crear la base de datos y los usuarios para conectarnos la base de datos.
 
 {% hint style="warning" %}
-Por seguridad NO se recomienda que el usuario root  \(MySQL\) o sa \(SQL Server\) se conecte a la base de datos desde tu aplicación.
+Por seguridad NO se recomienda que el usuario root  (MySQL) o sa (SQL Server) se conecte a la base de datos desde tu aplicación.
 {% endhint %}
 
- En mi caso creare un usuario administrador para crear las tablas en la base de datos y un usuario de solo lectura con acceso a solo realizar selects, inserts, updates y deletes, desde los servicios REST nos conectaremos con el usuario de lectura.
+&#x20;En mi caso creare un usuario administrador para crear las tablas en la base de datos y un usuario de solo lectura con acceso a solo realizar selects, inserts, updates y deletes, desde los servicios REST nos conectaremos con el usuario de lectura.
 
 ### Creando la base de datos y los usuarios en MySQL
 
@@ -26,4 +26,3 @@ CREATE USER 'SistemaCaduca'@'localhost' IDENTIFIED BY 'xADcUaP5cs';
 GRANT SELECT,INSERT,UPDATE,DELETE ON caltic.* TO 
 'SistemaCaduca'@'localhost';
 ```
-

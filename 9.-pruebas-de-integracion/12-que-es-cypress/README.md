@@ -1,4 +1,4 @@
-# 14.2 ¿Qué es Cypress?
+# 14.3 ¿Qué es Cypress?
 
 Selenium ya tiene varios años en el mercado y debido a que no se ha actualizado desde el 2018 han surgido nuevas opciones para realizar tus pruebas con javascript/typescript, con algunas mejoras como ya no programar los waits y poder remplazar las respuestas de los servicios con los valores y status code que desees.
 
@@ -6,24 +6,24 @@ Uno de los framework que esta ganando popularidad y mas actualizaciones es Cypre
 
 Puedes agregarlo a tus proyectos de Angular, React, o Vue o puedes descargarlo en:
 
-{% embed url="https://docs.cypress.io/guides/getting-started/installing-cypress.html\#System-requirements" %}
+{% embed url="https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements" %}
 
 Para correr las pruebas en cypress puedes teclear el comando
 
-```text
+```
 npx cypress open
 ```
 
 Te abre la ventana de cypress donde te pregunta si deseas ver los ejemplos. La ventana cuenta con 2 opciones principales:
 
-* Tus archivos de pruebas \(pueden ser javascript o typescript\)
+* Tus archivos de pruebas (pueden ser javascript o typescript)
 * El navegador en el que bass a correr las pruebas en este caso Chrome 91
 
-![](../../.gitbook/assets/image%20%28609%29.png)
+![](<../../.gitbook/assets/image (609).png>)
 
 Al igual que selenium te permite abrir tu navegador chrome y seleccionar elementos, etc
 
-![](../../.gitbook/assets/image%20%28202%29.png)
+![](<../../.gitbook/assets/image (279).png>)
 
 ### Ejemplo
 
@@ -53,7 +53,7 @@ context('Navigation', () => {
 
 Se muestra el siguiente resultado
 
-![](../../.gitbook/assets/image%20%28605%29.png)
+![](<../../.gitbook/assets/image (610).png>)
 
 ### Ventajas y Desventajas
 
@@ -68,5 +68,7 @@ Desventajas:
 
 * No soportará test con múltiples Tabs e IFrames, aunque se pueden probar con algunos paquetes.
 * De momento no soporta Safari
-* No soportará test con múltiples navegadores al mismo tiempo  Puedes ver la lisa completa aquí [https://docs.cypress.io/guides/references/trade-offs\#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)
-
+* No soportará test con múltiples navegadores al mismo tiempo\
+  \
+  Puedes ver la lisa completa aquí\
+  [https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser](https://docs.cypress.io/guides/references/trade-offs#Inside-the-browser)

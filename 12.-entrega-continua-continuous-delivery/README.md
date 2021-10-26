@@ -22,4 +22,3 @@ Algunas de las principales ventajas son las siguientes:
 {% hint style="info" %}
 Puedes realizar lo mismo con BitBucket, GitLab y GitHub Actions.
 {% endhint %}
-

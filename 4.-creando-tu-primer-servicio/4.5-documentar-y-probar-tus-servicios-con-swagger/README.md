@@ -7,4 +7,3 @@ Con swagger además de generarte una página con todos los servicios disponibles
 Swagger utiliza los comentarios xml de tu código para generar la documentación de tus servicios. Asi mientras documentas tu código también documentas tus servicios.
 
 La manera en que Swagger genera la documentación es a través de un archivo JSON el cual se generará por Visual Studio Comunity
-
