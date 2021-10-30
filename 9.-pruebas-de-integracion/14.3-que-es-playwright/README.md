@@ -1,0 +1,90 @@
+# 14.4 ¿Qué es Playwright?
+
+[Playwright](https://playwright.dev/dotnet/) es una nueva opción para crear tus pruebas desarrollada por Microsoft con algunos programadores de puppeter, otro framework de testing creado por google.
+
+Puedes realizar tus pruebas con C#, javascript, typescript, python o java. Soporta los navegadores  Chrome y Microsoft Edge (con [Chromium](https://www.chromium.org)), Safari (con [WebKit](https://webkit.org)) y Firefox.
+
+Lo puedes instalar con el comando npm para nodeJS.
+
+```
+npm i -D playwright
+```
+
+O con el comando dotnet tool para c#
+
+```
+dotnet tool install --global Microsoft.Playwright.CLI
+```
+
+### Ejemplo
+
+Un ejemplo básico con javascript es el siguiente:
+
+```
+const { webkit } = require('playwright');
+
+(async () => {
+  const browser = await webkit.launch();
+  const page = await browser.newPage();
+  await page.goto('http://www.google.com');
+  await page.screenshot({ path: `example.png` });
+  await browser.close();
+})();
+```
+
+### Generar scripts
+
+Puedes generar tus scripts con el comando playwright codegen seguido de la página que deseas probar.
+
+`playwright codegen wikipedia.org`
+
+Se abrirá un navegador y te va a generar el codigo por cada acción que realices
+
+![](<../../.gitbook/assets/image (615).png>)
+
+Este es el código generado
+
+```csharp
+using Microsoft.Playwright;
+using System;
+using System.Threading.Tasks;
+class Program
+{
+    public static async Task Main()
+    {
+        using var playwright = await Playwright.CreateAsync();
+        await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+        {
+            Headless = false,
+        });
+        var context = await browser.NewContextAsync();
+        // Open new page
+        var page = await context.NewPageAsync();
+        // Go to https://www.wikipedia.org/
+        await page.GotoAsync("https://www.wikipedia.org/");
+        // Click input[name="search"]
+        await page.ClickAsync("input[name=\"search\"]");
+        // Fill input[name="search"]
+        await page.FillAsync("input[name=\"search\"]", "Testing");
+        // Click text=Pruebas de software
+        await page.ClickAsync("text=Pruebas de software");
+        // Assert.AreEqual("https://es.wikipedia.org/wiki/Pruebas_de_software", page.Url);
+    }
+}
+```
+
+### Ventajas y Desventajas
+
+Ventajas:
+
+* Incluye por defecto auto waits por lo que tienes agregar código para esperar a que un elemento este visible.
+* Puedes simular la llamada al servicio rest y sustituir la respuesta por datos fijos.
+* Al igual que selenium puedes grabar los pasos y te genera el código.
+* Si soporta múltiples dominios, iframes, tabs, navegadores
+* También graba videos y screenshots de los pasos
+
+Desventajas:
+
+* No soporta Internet Explorer 11 ni Edge no basado en Chromium
+* Tiene poco tiempo que salió y aún esta en desarrollo
+* Solamente cuenta con soporte para la versión javascript en herramientas como browserstack.
