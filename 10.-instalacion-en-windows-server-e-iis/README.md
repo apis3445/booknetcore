@@ -10,4 +10,4 @@ En esta sección explicaré:
 
 Puedes ver la documentación oficial aquí
 
-[https://docs.microsoft.com/es-mx/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0](https://docs.microsoft.com/es-mx/aspnet/core/host-and-deploy/iis/?view=aspnetcore-5.0)
+[https://docs.microsoft.com/es-mx/aspnet/core/host-and-deploy/iis/?view=aspnetcore-6.0](https://docs.microsoft.com/es-mx/aspnet/core/host-and-deploy/iis/?view=aspnetcore-6.0)
