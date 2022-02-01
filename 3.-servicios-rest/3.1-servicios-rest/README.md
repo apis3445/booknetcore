@@ -53,8 +53,8 @@ Los servicios mas comunes son los siguientes:
 
 | Método | Servicio REST                          | Descripción                        |
 | ------ | -------------------------------------- | ---------------------------------- |
-| GET    | _ http://localhost:5000/_api/Clientes  | Obtiene todos los clientes         |
-| GET    | _ http://localhost:5000/_api/Cliente/1 | Obtiene los datos del cliente 1    |
+| GET    |  _http://localhost:5000/_api/Clientes  | Obtiene todos los clientes         |
+| GET    |  _http://localhost:5000/_api/Cliente/1 | Obtiene los datos del cliente 1    |
 | POST   | _http://localhost:5000/_api/Cliente    | Agrega un nuevo cliente            |
 | PUT    | _http://localhost:5000/_api/Cliente/1  | Modifica todos los datos cliente 1 |
 | PATCH  | _http://localhost:5000/_api/Cliente/1  | Modifica algunos datos del cliente |

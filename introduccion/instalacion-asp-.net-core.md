@@ -7,8 +7,8 @@ Aunque los pasos pueden cambiar debido a nuevas versiones de Visual Studio los p
 ### Instalación Nueva en Windows
 
 1. Descargar la ultima versión de Visual Studio Comuity ([https://visualstudio.microsoft.com/es/downloads/](https://visualstudio.microsoft.com/es/downloads/))
-2. Elegir la opción:  **ASP.NET and web development  **(Figura 1.1.1)
-3. Dar clic en** Instalar**
+2. Elegir la opción:  **ASP.NET and web development**  (Figura 1.1.1)
+3. Dar clic en **Instalar**
 
 ![](<../.gitbook/assets/image (104).png>)
 

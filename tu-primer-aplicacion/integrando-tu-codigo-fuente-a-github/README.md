@@ -13,7 +13,7 @@ Para crear tu proyecto REST desde Visual Studio Comunity los pasos son los sigui
 Para agregar tu proyecto a GitHub puedes descargar la extensión de GitHub.
 
 1. Ir a **Herramientas** -> **Extensiones y Actualizaciones**
-2. En la pestaña de **En Línea **-> **Buscar** -> **GitHub** y dar clic en **Descargar**
+2. En la pestaña de **En Línea** -> **Buscar** -> **GitHub** y dar clic en **Descargar**
 
 ![Figura 2.2.1 Obtener la extensión de GitHub para Visual Studio Comunity](../../.gitbook/assets/2018-08-30\_1009.png)
 
@@ -40,8 +40,8 @@ Listo tu proyecto se ha publicado en GitHub
 
 Para obtener el código fuente realizamos lo siguiente
 
-1. En el menú **Control de Versiones** ->** Extraer del repositorio**
-2. En tipo Seleccionar **Git **
+1. En el menú **Control de Versiones** -> **Extraer del repositorio**
+2. En tipo Seleccionar **Git**&#x20;
 3. En la URL seleccionamos la URL del proyecto de GitHub [https://github.com/apis3445/CaducaRest.git](https://github.com/apis3445/CaducaRest.git)
 4. Seleccionar el directorio de destino donde deseas guardar el código
 5. Dar clic en extraer del repositorio

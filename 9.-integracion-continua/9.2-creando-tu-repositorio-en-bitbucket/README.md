@@ -8,7 +8,7 @@ Puedes crear un repositorio nuevo o importar el tuyo, como ya tenemos el código
 
 ![](<../../.gitbook/assets/image (201).png>)
 
-Los datos de tu repositorio de GitHub los puedes encontrar en tu repositorio de GitHub le das clic en donde dice **Clone or download **y luego en el botón para **copiar**
+Los datos de tu repositorio de GitHub los puedes encontrar en tu repositorio de GitHub le das clic en donde dice **Clone or download** y luego en el botón para **copiar**
 
 ![](<../../.gitbook/assets/image (206).png>)
 

@@ -2,7 +2,7 @@
 
 GraphQL fue desarrollado por Facebook para facilitar la consulta de información, por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios, se crea un servicio para traer solamente la información que se necesita.
 
-De momento no cuenta con librería oficial por parte de Microsoft. El paquete nuget requerido es [GraphQL ](https://github.com/graphql-dotnet/graphql-dotnet)de Joe McBride
+De momento no cuenta con librería oficial por parte de Microsoft. Hay 2 paquetes de Graphql hotcholate y grapqhl for .net . Uno de los que esta obteniendo mas popularidad y ha sido presentado en la dotnet es hotcholate
 
 La estructura de GraphQL esta formada por 3 partes
 
@@ -48,9 +48,8 @@ Esta petición genera el siguiente resultado
 Vamos a agregar los siguientes paquetes Nuget para habilitar GraphQL en nuestro proyecto
 
 ```
-Install-Package GraphQL 
-Install-Package GraphQL.Server.Transports.AspnetCore
-Install-Package GraphQL.Server.Transports.AspNetCore.SystemTextJson
+Install-Package HotChocolate.AspNetCore
+Install-Package HotChocolate.Data.EntityFramework
 ```
 
 Para poder probar los servicios podemos utilizar el siguiente paquete el cual es similar a Swagger ya que nos genera la documentación y nos ayuda a probar nuestros servicios

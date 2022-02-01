@@ -23,7 +23,7 @@ public class Operaciones
 ```
 {% endcode %}
 
-Modificamos nuestro archivo **UnitTest1 **y lo renombramos a **OperacionesTest **por lo general el nombre es el nombre de la clase que deseas probar mas la palabra Test o puedes omitir el nombre Test ya que al ser un proyecto de test es lógico que sea de prueba.&#x20;
+Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest** por lo general el nombre es el nombre de la clase que deseas probar mas la palabra Test o puedes omitir el nombre Test ya que al ser un proyecto de test es lógico que sea de prueba.&#x20;
 
 Un buen nombre para los métodos a probar esta formado por lo siguiente:
 
@@ -41,7 +41,7 @@ Ejemplo: Si deseas probar por ejemplo el login algunos nombre serían:
 
 De esta manera es claro para cualquier persona conocer las reglas de negocio y verificas que se cumplen las reglas de negocio.
 
-Para agregar un método que se llame **Operaciones\_SumaDosNumeros\_RegresaLaSuma, **aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
+Para agregar un método que se llame **Operaciones\_SumaDosNumeros\_RegresaLaSuma,** aquí declaramos 2 variables enteras **a** y **b**, la inicializamos con algún valor, 3 y 1 y creamos un nuevo objeto de nuestra clase Operaciones y le pasamos nuestras variables a y b.
 
 Por lo general las pruebas unitarias se componen de 3 partes:
 
