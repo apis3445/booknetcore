@@ -11,7 +11,7 @@ Una vez que hayas elegido algún programa de beneficios gratuitos entra al porta
 
 ### Pasos para crear tu máquina virtual de Linux en Azure
 
-1. Ingresa a tu portal de azure [http://portal.azure.com/](http://portal.azure.com)
+1. Ingresa a tu portal de azure [http://portal.azure.com/](http://portal.azure.com/)
 2. Da clic en Máquinas virtuales
 
 ![](<../.gitbook/assets/image (90).png>)

@@ -2,10 +2,10 @@
 
 Existen diferentes distribuciones de linux, algunas de las conocidas  son las siguientes:
 
-* [Ubuntu](https://www.ubuntu.com): Es buena para principiantes
+* [Ubuntu](https://www.ubuntu.com/): Es buena para principiantes
 * [Red Hat](https://www.redhat.com/es) (Comercial): Muy estable y muy flexible. Desarrollada por Red Hat
 * [Debian](https://www.debian.org/index.es.html): Otra versión muy estable, ubuntu y otras distribuciones estan basadas en Debian
-* [OpenSuse](https://www.opensuse.org): Es sencilla y ligera
+* [OpenSuse](https://www.opensuse.org/): Es sencilla y ligera
 * [Fedora](https://getfedora.org/es/): Distribución gratuita de RedHat
 
 Las distribuciones no comerciales de linux no tienen costo, puedes decargar el sistema operativo desde sus páginas oficiales, al igual que Windows se actualizan las versiones aproximadamente cada 6 meses sacan versiones nuevas.
