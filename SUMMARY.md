@@ -136,7 +136,7 @@
   * [12.6 Specflow Mejorando tu código](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/README.md)
     * [12.6.1 Cambiando las pruebas a español](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.1-cambiando-las-pruebas-a-espanol.md)
     * [12.6.2 Pasando tablas a nuestras pruebas](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.2-pasando-tablas-a-nuestras-pruebas.md)
-    * [12.6.3 Quitar los passwords de los pass](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/12.6.3-quitar-los-passwords-de-los-pass.md)
+    * [12.6.3 Quitar los passwords del código](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/12.6.3-quitar-los-passwords-del-codigo.md)
     * [12.6.4 Probando con SQLite](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/10.5.3-probando-con-sqlite.md)
     * [12.6.5 Agregando diferentes parámetros con MSTest](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/agregando-diferentes-parametros-con-mstest.md)
     * [12.6.6 Generando el reporte living doc de specflow](10.-pruebas-de-integracion/10.5-mejorando-tu-codigo/12.6.6-generando-el-reporte-living-doc-de-specflow.md)
