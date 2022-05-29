@@ -12,11 +12,11 @@ Aprenderás lo siguiente:
 * Como manejar versiones de tu base de datos (mediante migraciones)
 * Entity Framewok para las operaciones de altas, bajas, cambios, consulta (SQL Server, MySQL)
 * Servicios REST (con documentación en swagger)
-* GraphQL&#x20;
+* [GraphQL](../6.3-agregar-graphql/)&#x20;
 * Seguridad para tus servicios con OAUTH
-* Pruebas unitarias
-* Pruebas de integración
-* Pruebas de usuario
+* [Pruebas unitarias](../8.-pruebas-unitarias/)
+* [Pruebas de integración](../10.-pruebas-de-integracion/)
+* [Pruebas de usuario](../9.-pruebas-de-integracion/)
 * [Despliegue continuo con Azure Devops y Azure](../12.-entrega-continua-continuous-delivery/)
 * Como publicar la aplicación en IIS y en Linux (Ubuntu)
 
@@ -26,7 +26,7 @@ Se debe tener conocimientos básicos de C# y programación orientada a objetos.
 
 ASP.NET Core fue creado para ser multiplataforma (Windows,Mac,Linux), open source y con mejoras en rendimiento. Con la versión 5 de .Net se han unificado los 2 framework, el 4.6 y el .Net Core. Puedes ver un artículo mas detallado sobre este cambio [aquí](https://devblogs.microsoft.com/dotnet/introducing-net-5/)
 
-Entity Framework Core también fue rediseñado para hacerlo mas eficiente.
+Entity Framework Core fue rediseñado para hacerlo mas eficiente.
 
 ### Requisitos
 
@@ -36,7 +36,7 @@ Entity Framework Core también fue rediseñado para hacerlo mas eficiente.
 
 En este tutorial mostrare ejemplos con Visual Studio Comunity&#x20;
 
-Para MySql utilizare [DB Forge for MySQL Express](https://www.devart.com/dbforge/mysql/studio/download.html) y el [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)&#x20;
+Para MySql utilizare [DB Forge for MySQL Express](https://www.devart.com/dbforge/mysql/studio/download.html) y [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)&#x20;
 
 ### Código de ejemplo
 
