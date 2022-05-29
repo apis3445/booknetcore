@@ -1,21 +1,23 @@
 # 1. Introducción
 
-Cuando desarrollamos una app móvil donde se necesita que el usuario guarde información de forma permanente, como por ejemplo una lista de tareas, la información se guarda en una base de datos. Se recomienda que la app no se conecte directamente a la base de datos, si no mediante servicios REST.&#x20;
+Cuando desarrollamos una app móvil donde se necesita que el usuario guarde información de forma permanente, como por ejemplo una lista de tareas, por lo general la información se guarda en una base de datos. Se recomienda que la app no se conecte directamente a la base de datos, si no mediante servicios REST.&#x20;
 
-También algunos sistemas Web desarrollados con Angular, React o Vue, la información se obtiene mediante servicios REST.
+También en los sistemas Web desarrollados con Angular, React o Vue, por lo general la información se obtiene mediante servicios REST o GraphQL
 
-Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core con C# con una sencilla aplicación de ejemplo.&#x20;
+Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core (ahora .NET 6) EN C# con una sencilla aplicación de ejemplo.&#x20;
 
 Aprenderás lo siguiente:
 
-* Como llevar el control de código fuente de tu proyecto con GIT(manejar en versiones el historial de cambios de tu código)
+* Como llevar el control de código fuente de tu proyecto con GIT(manejar en versiones, el historial de cambios de tu código)
 * Como manejar versiones de tu base de datos (mediante migraciones)
-* Entity Framewok para las operaciones de altas, bajas, cambios, lectura (SQL Server, MySQL)
+* Entity Framewok para las operaciones de altas, bajas, cambios, consulta (SQL Server, MySQL)
 * Servicios REST (con documentación en swagger)
+* GraphQL&#x20;
 * Seguridad para tus servicios con OAUTH
 * Pruebas unitarias
 * Pruebas de integración
 * Pruebas de usuario
+* [Despliegue continuo con Azure Devops y Azure](../12.-entrega-continua-continuous-delivery/)
 * Como publicar la aplicación en IIS y en Linux (Ubuntu)
 
 Se debe tener conocimientos básicos de C# y programación orientada a objetos.
