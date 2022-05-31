@@ -4,11 +4,11 @@ description: >-
   clientes
 ---
 
-# 1.4 Aplicación de ejemplo
+# 1.3 Aplicación de Ejemplo
 
 La aplicación de ejemplo para crear los servicios REST es la siguiente:
 
-La empresa ACME desea llevar el control de la fecha de caducidad de los  productos de sus clientes, para mandar avisos de los productos que están próximos a caducar. Los productos están ordenados por categorías, y los empleados solo pueden registrar las fechas de caducidad de sus categorías de productos. También se debe llevar una bitácora de quien ha registrado la información del sistema.
+La empresa ACME desea llevar el control de la fecha de caducidad de los  productos de sus clientes, para mandar avisos de los productos que están próximos a caducar. Los productos están ordenados por categorías, y los empleados solo pueden registrar las fechas de caducidad de sus categorías de productos. También desde llevar un historial de quien ha registrado la información del sistema.
 
 {% hint style="info" %}
 La seguridad será manejada por roles, para este ejemplo un usuario puede tener varios roles.
