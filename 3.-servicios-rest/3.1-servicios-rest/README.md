@@ -4,13 +4,13 @@ Actualmente la mayoría de las empresas como Google, Microsoft, Dropbox, Linkedi
 
 Al desarrollar sistemas móviles se recomienda que te conectes mediante servicios REST los cuales manejan toda la lógica de tu aplicación y puede ser consumida por aplicaciones de escritorio o sistemas Web. Esto es debido a que los celulares no tienen tanto poder de procesamiento como lo tiene un servidor.
 
-![Figura 3.1 Funcionamiento de servicios rest](<../../.gitbook/assets/image (3).png>)
+![ Funcionamiento de servicios rest](<../../.gitbook/assets/image (3).png>)
 
-Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URL's. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente son muy utilizados.
+Los servicios REST te permiten acceder y/o modificar la información mediante los métodos HTTP, por lo cual puedes acceder a ellos mediante URLs. Por lo general regresan la información en formato JSON, aunque también pueden regresar archivos XML o csv. Debido a lo sencillo de desarrollar y consumir actualmente son muy utilizados.
 
 ### Archivos JSON
 
-Los archivos JSON (JavaScript Object Notation) son archivos de texto para intercambiar información. La mayoría de los lenguajes de programación como C#, PHP, Java, Android, Swift cuentan con clases para convertir tus objetos en archivos JSON. Los archivos JSON están formados por una clave y un valor o un arreglo de valores.&#x20;
+Los archivos JSON (JavaScript Object Notation) son archivos de texto para intercambiar información. La mayoría de los lenguajes de programación como C#, PHP, Java, Android, Swift cuentan con clases para convertir tus objetos en archivos JSON. Los archivos JSON están formados por una clave y un valor o un arreglo de propiedades.&#x20;
 
 Un ejemplo de un archivo JSON el cual contiene información de los países es el siguiente:
 
@@ -62,9 +62,14 @@ Los servicios mas comunes son los siguientes:
 
 ### **Status Codes (Códigos de Estatus)**
 
-Los servicios REST manejan Códigos de Estatus para indicar si la acción se realizó correctamente empiezan con 200 de lo contrario es un error. Si empiezan con 400 por lo general quien esta consumiendo el servicio esta enviando mal la información y si empieza con 500 el error es de parte del servidor o de quien crea el servicio.
+Los servicios REST manejan Códigos de Estatus para indicar empiezan con:
 
-#### **Códigos Correctos**
+* 200: la acción se realizó correctamente (Succesful)
+* 300: se ha tenido que tomar una acción adiconal(Redirección)
+* 400: Se esta enviando mal la información al servicio (Errores del cliente)
+* 500: el error es de parte del servidor o de quien crea el servicio (Errores del servidor)
+
+#### **Códigos Correctos mas comunes**
 
 | Acción | Código de Estatus | Descripción   |
 | ------ | ----------------- | ------------- |
@@ -75,13 +80,13 @@ Los servicios REST manejan Códigos de Estatus para indicar si la acción se rea
 
 #### **Códigos de Errores del cliente**
 
-| Código | Nombre                            | Descripción                                                                                                                                                                                                                                                        |
-| ------ | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 400    | Bad Request(Solicitud Incorrecta) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edad que espera un número entero.                                                                                                               |
-| 401    | Unauthorized (No Autorizado)      | El servicio requiere que el usuario este identificado.                                                                                                                                                                                                             |
-| 403    | Forbidden (Prohibido)             | El usuario no tiene permiso para realizar la acción. Por ejemplo no tiene permiso para consultar la información.                                                                                                                                                   |
-| 404    | Not Found (No Encontrado)         | El contenido a buscar no fue encontrado. Por ejemplo se llama un servicio que no existe o se busca el cliente con Id 20 el cual no existe. Hay debates donde se piensa que si un cliente no existe debe regresar un status 200 con un json vacío o un estatus 400. |
-| 409    | Conflict (Conflicto)              | Por ejemplo estas subiendo un archivo que es anterior al que esta actualmente en el servidor.                                                                                                                                                                      |
+| Código | Nombre                            | Descripción                                                                                                                                                                                                                                                              |
+| ------ | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 400    | Bad Request(Solicitud Incorrecta) | Al consumir el servicio se envía información incorrecta como por ejemplo mandar la palabra 9 años para un campo de edad que espera un número entero.                                                                                                                     |
+| 401    | Unauthorized (No Autorizado)      | El servicio requiere que el usuario este identificado.                                                                                                                                                                                                                   |
+| 403    | Forbidden (Prohibido)             | El usuario no tiene permiso para realizar la acción. Por ejemplo no tiene permiso para consultar la información.                                                                                                                                                         |
+| 404    | Not Found (No Encontrado)         | El contenido a buscar no fue encontrado. Por ejemplo se llama un servicio que no existe o se busca el cliente con Id 20 el cual no existe. Hay debates donde se piensa que si un cliente no existe debe regresar un status 200 con un json vacío o un estatus 400 o 404. |
+| 409    | Conflict (Conflicto)              | Por ejemplo estas subiendo un archivo que es anterior al que esta actualmente en el servidor.                                                                                                                                                                            |
 
 #### **Códigos de Errores del servidor**
 

@@ -24,9 +24,9 @@ Una vez terminado te pide reiniciar
 
 1. Da doble clic en el icono **Install Visual Studio for Mac**
 
-****![](<../.gitbook/assets/image (615).png>)****
+****![](<../.gitbook/assets/image (615) (1).png>)****
 
-1. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso.
+2\. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso.
 
 3\. Damos clic en **Continuar**
 
@@ -34,7 +34,7 @@ Una vez terminado te pide reiniciar
 
 4\. Si deseamos también programar para xamarin seleccionas todas las opciones, si no únicamente la de .NET Core + ASP.Net Core, a mi me aparece seleccionado en gris porque ya lo tenia instalado
 
-![](<../.gitbook/assets/image (625).png>)
+![](<../.gitbook/assets/image (625) (1).png>)
 
 5\. Damos clic en instalar y actualizar. Si elegimos android, debemos corregir los permisos
 
@@ -48,29 +48,10 @@ Una vez terminado te pide reiniciar
 
 7\. Selecciona los métodos abreviados de tu preferencia ya sea que deseas utilizar los de mac, Visual Studio for windows, Visual Studio Code o XCode
 
-![](<../.gitbook/assets/image (620).png>)
+![](<../.gitbook/assets/image (620) (1).png>)
 
 Al terminar se muestra lo siguiente:
 
 Del lado izquierdo se muestran los proyectosm mas recientes que has utilizado, del lado derecho se muestran las opciones para abrir o crear un nuevo proyecto.
 
 ![](<../.gitbook/assets/image (623).png>)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

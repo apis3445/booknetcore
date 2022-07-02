@@ -10,7 +10,7 @@
   * [2.1 Servicios REST](3.-servicios-rest/3.1-servicios-rest/README.md)
     * [2.1.1 OData](3.-servicios-rest/3.1-servicios-rest/3.1.1-odata.md)
     * [2.1.2 GraphQL](3.-servicios-rest/3.1-servicios-rest/3.1.2-graphql.md)
-  * [2.2 Versiones de tu base de datos](3.-servicios-rest/3.1-generar-versiones-de-tu-base-de-datos.md)
+  * [2.2 Entity Framework para versiones de tu base de datos](3.-servicios-rest/3.1-generar-versiones-de-tu-base-de-datos.md)
   * [2.3 Paquetes Nuget](3.-servicios-rest/3.3-paquetes-nuget.md)
   * [2.4 Archivo de recursos](3.-servicios-rest/3.4-archivo-de-recursos.md)
   * [2.5 Estructura de los Proyectos .Net Core](3.-servicios-rest/3.1-estructura-del-proyecto.md)

@@ -2,23 +2,23 @@
 
 Cuando desarrollamos una app móvil donde se necesita que el usuario guarde información de forma permanente, como por ejemplo una lista de tareas, por lo general la información se guarda en una base de datos. Se recomienda que la app no se conecte directamente a la base de datos, si no mediante servicios REST.&#x20;
 
-También en los sistemas Web desarrollados con Angular, React o Vue, por lo general la información se obtiene mediante servicios REST o GraphQL
+También en los sistemas Web desarrollados con Angular, React o Vue, la información se almacena y se obtiene mediante servicios REST o GraphQL
 
-Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core (ahora .NET 6) EN C# con una sencilla aplicación de ejemplo.&#x20;
+Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core (ahora .NET 6) en C# con una aplicación de ejemplo.&#x20;
 
 Aprenderás lo siguiente:
 
-* Como llevar el control de código fuente de tu proyecto con GIT(manejar en versiones, el historial de cambios de tu código)
-* Como manejar versiones de tu base de datos (mediante migraciones)
-* Entity Framewok para las operaciones de altas, bajas, cambios, consulta (SQL Server, MySQL)
-* Servicios REST (con documentación en swagger)
+* [Como llevar el control de código fuente de tu proyecto con GIT (manejar en versiones, el historial de cambios de tu código)](../3.-servicios-rest/3.10-git.md)
+* [Como manejar versiones de tu base de datos (mediante migraciones)](../3.-servicios-rest/3.1-generar-versiones-de-tu-base-de-datos.md)
+* [Entity Framewok para las operaciones de altas, bajas, cambios, consulta (SQL Server, MySQL)](../4.-creando-tu-primer-servicio/4.2-crear-las-tablas.md)
+* [Servicios REST (con documentación en swagger)](../3.-servicios-rest/3.1-servicios-rest/)
 * [GraphQL](../6.3-agregar-graphql/)&#x20;
-* Seguridad para tus servicios con OAUTH
+* [Seguridad para tus servicios con OAUTH](../7.-seguridad/)
 * [Pruebas unitarias](../8.-pruebas-unitarias/)
 * [Pruebas de integración](../10.-pruebas-de-integracion/)
 * [Pruebas de usuario](../9.-pruebas-de-integracion/)
 * [Despliegue continuo con Azure Devops y Azure](../12.-entrega-continua-continuous-delivery/)
-* Como publicar la aplicación en IIS y en Linux (Ubuntu)
+* [Como publicar la aplicación en IIS ](../10.-instalacion-en-windows-server-e-iis/16.1-instalar-el-iis-en-windows-server.md)y en [Linux (Ubuntu)](../11.-instalacion-en-linux/)
 
 Se debe tener conocimientos básicos de C# y programación orientada a objetos.
 
