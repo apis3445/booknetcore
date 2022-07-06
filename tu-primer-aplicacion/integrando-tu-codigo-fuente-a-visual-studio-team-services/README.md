@@ -1,8 +1,6 @@
 # 3.1 Introducción a Azure DevOps
 
-Visual Studio Team Services ahora renombrado a Azure DevOps ya esta integrado a Visual Studio Comunity.
-
-Es un servicio gratuito para un máximo de 5 usuarios para llevar el control de tus proyectos, siguiendo la metodología Agile, Scrum o CMMI.
+Azure DevOps ya esta integrado a Visual Studio Comunity. Es un servicio gratuito para un máximo de 5 usuarios para llevar el control de tus proyectos, siguiendo la metodología Agile, Scrum o CMMI.
 
 También te permite llevar el control de código fuente, y crear tareas para poder instalar y actualizar tu código en algún servidor, ejecutar pruebas, de forma automática.
 

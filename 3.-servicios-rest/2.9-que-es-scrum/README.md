@@ -1,14 +1,14 @@
 # 2.9 ¿Qué es Scrum?
 
-Antes de empezar a programar es recomendable elegir forma de trabajo. Actualmente las formas mas comunes  son Agiles o Scrum. Solo daré una explicación general ya que el Scrum es un tema amplio y cada equipo adapta el Scrum y lo mejora de acuerdo a lo que les funciona mejor.
+Antes de empezar a programar es recomendable elegir forma de trabajo. Actualmente las formas mas comunes  son Agile o Scrum. Solo daré una explicación general ya que es un tema amplio y cada equipo adapta el Scrum y lo mejora de acuerdo a lo que les funciona mejor.
 
-La idea del Scrum es ir entregando las funciones del sistema en tiempos cortos de 2 a 6 semanas (sprint), con una funcionalidad básica e ir agregando mas funciones en cada sprint. Entre mas pronto entregues el software es más fácil realizar mejoras e ir revisando si se cumple con los requisitos y calidad que el cliente espera.
+La idea de Scrum es ir entregando las funciones del sistema en tiempos cortos de 2 a 6 semanas (sprint), con una funcionalidad básica e ir agregando mejoras y mas funciones en cada sprint. Entre mas pronto entregues el software tienes el feedback para ir revisando si se cumple con los requisitos e irlo adaptando a la calidad que el cliente espera.
 
 Los principales roles del Scrum son:
 
-* Product Owner: Representa a los clientes, stakeholders, es quien define la lista de actividades (Backlogs) a realizar
+* Product Owner: Representa a los clientes o stakeholders, es quien define la lista de actividades (Backlogs) a realizar de acuerdo a las necesidades y prioridades del cliente.Es enlace entre el cliente y el equipo de desarrollo
 * Equipo de desarrollo: Son los programdores, testers, arquitectos de software que se encargan de desarrollar las nuevas funciones
-* Scrum Master: Se encarga de que se siga bien el scrum, ayudar y mejorar el proceso.
+* Scrum Master: Se encarga de que se siga la metodología y eliminar los impedimentos que se presentan en el proyecto.&#x20;
 
 Los principales eventos del Scrum son:
 
