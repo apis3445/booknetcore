@@ -30,28 +30,28 @@ Una vez terminado te pide reiniciar
 
 3\. Damos clic en **Continuar**
 
-![](<../.gitbook/assets/image (619).png>)
+![](<../.gitbook/assets/image (619) (1).png>)
 
 4\. Si deseamos también programar para xamarin seleccionas todas las opciones, si no únicamente la de .NET Core + ASP.Net Core, a mi me aparece seleccionado en gris porque ya lo tenia instalado
 
-![](<../.gitbook/assets/image (625) (1).png>)
+![](<../.gitbook/assets/image (625) (1) (1).png>)
 
 5\. Damos clic en instalar y actualizar. Si elegimos android, debemos corregir los permisos
 
-![](<../.gitbook/assets/image (618).png>)
+![](<../.gitbook/assets/image (618) (1).png>)
 
 6\. Esperamos a que termine de instalar y configurar todo. Inicia sesión con tu cuenta ya sea personal o la del trabajo
 
 &#x20;****&#x20;
 
-![](<../.gitbook/assets/image (617).png>)
+![](<../.gitbook/assets/image (617) (1).png>)
 
 7\. Selecciona los métodos abreviados de tu preferencia ya sea que deseas utilizar los de mac, Visual Studio for windows, Visual Studio Code o XCode
 
-![](<../.gitbook/assets/image (620) (1).png>)
+![](<../.gitbook/assets/image (620) (1) (1).png>)
 
 Al terminar se muestra lo siguiente:
 
 Del lado izquierdo se muestran los proyectosm mas recientes que has utilizado, del lado derecho se muestran las opciones para abrir o crear un nuevo proyecto.
 
-![](<../.gitbook/assets/image (623).png>)
+![](<../.gitbook/assets/image (623) (1).png>)

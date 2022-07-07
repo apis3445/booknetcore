@@ -40,10 +40,9 @@ Listo tu proyecto se ha publicado en GitHub
 
 Para obtener el código fuente realizamos lo siguiente
 
-1. En el menú **Control de Versiones** -> **Extraer del repositorio**
-2. En tipo Seleccionar **Git**&#x20;
-3. En la URL seleccionamos la URL del proyecto de GitHub [https://github.com/apis3445/CaducaRest.git](https://github.com/apis3445/CaducaRest.git)
-4. Seleccionar el directorio de destino donde deseas guardar el código
-5. Dar clic en extraer del repositorio
+1. En el menú **GIT** -> **Clonar repositorio**
+2. En la URL seleccionamos la URL del proyecto de GitHub [https://github.com/apis3445/CaducaRest.git](https://github.com/apis3445/CaducaRest.git)
+3. Seleccionar el directorio de destino donde deseas guardar el código
+4. Dar clic en **Clonar**
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (631).png>)
