@@ -57,7 +57,7 @@
     * [4.5.2 Comentarios XML](4.-creando-tu-primer-servicio/4.5-documentar-y-probar-tus-servicios-con-swagger/4.5.2-comentarios-xml.md)
     * [4.5.3 Generando la página de documentación](4.-creando-tu-primer-servicio/4.5-documentar-y-probar-tus-servicios-con-swagger/4.5.3-generando-la-pagina-de-documentacion.md)
   * [4.6 Agregando índices](4.-creando-tu-primer-servicio/4.5.4-agregando-indices.md)
-  * [4.7 Primer Servicio Mejorando tu código](4.-creando-tu-primer-servicio/4.7-mejorando-tu-codigo/README.md)
+  * [4.7 Mejorando tu código](4.-creando-tu-primer-servicio/4.7-mejorando-tu-codigo/README.md)
     * [4.7.1 Creando Objetos de Accesos a Datos](4.-creando-tu-primer-servicio/4.7-mejorando-tu-codigo/4.7.1-creando-objetos-de-accesos-a-datos.md)
     * [4.7.2 Creando tus mensajes de error en diferentes idiomas](4.-creando-tu-primer-servicio/4.7-mejorando-tu-codigo/4.7.2-creando-tus-mensajes-de-error-en-un-archivo-de-recursos.md)
     * [4.7.3 Cambiando el formato del Json de los servicios](4.-creando-tu-primer-servicio/4.7-mejorando-tu-codigo/4.7.3-cambiando-el-formato-del-json-de-los-servicios.md)
