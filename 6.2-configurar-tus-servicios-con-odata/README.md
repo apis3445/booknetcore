@@ -1,8 +1,8 @@
 # 7. Crear servicios con OData
 
-Como se explico en el capítulo 2 en la explicación de servicios REST para tus servicios pueden filtrar la información o selecionar solamente algunos campos de una tabla se puede utilizar [OData ](https://www.odata.org)(Open Data Protocol).&#x20;
+Como se explico en el [capítulo 2](../3.-servicios-rest/) en la explicación de [servicios REST](../3.-servicios-rest/3.1-servicios-rest/) tus servicios pueden filtrar la información o seleccionar solamente algunos campos de una tabla se puede utilizar [OData ](https://www.odata.org)(Open Data Protocol).&#x20;
 
-Las opciones dispnibles son:
+Las opciones disponibles son:
 
 | Opción                    | Descripción                                                                                                                             |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
