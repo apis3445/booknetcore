@@ -1,10 +1,6 @@
-# 4.7 Mejorando tu código
+# 4.7 Primer Servicio Mejorando tu código
 
 Si tu aplicación es muy pequeña y no necesitas realizar pruebas unitarias puedes utilizar el código generado por visual studio.&#x20;
-
-{% hint style="info" %}
-Todas las recomendaciones de mejorando tu código sirven para aplicaciones grandes donde deseas tener todo mas separado para realizar pruebas unitarias y tener tu código mas organizado encontrar el lugar exacto donde ocurre el error de una forma más automática
-{% endhint %}
 
 A continuación, vamos a mejorar el código para prepararlo para pruebas unitarias y que cumpla con los principios de un código limpio.
 
