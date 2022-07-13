@@ -1,6 +1,6 @@
 # 10. Pruebas Unitarias
 
-Como comente en la sección de código limpio todas tus funciones deben realizar una sola tarea, así es más fácil de probar.
+Todas tus funciones deben realizar una sola tarea para que sean más fáciles de probar y de entender por nuevos programadores.
 
 Las pruebas unitarias deben probar únicamente alguna regla de negocio sin conexión con ningún proveedor externo como base de datos, servicios, la idea final es que todas las pruebas unitarias se corran muy rápido (en segundos) y se prueben las reglas de negocio de tu aplicación.
 
