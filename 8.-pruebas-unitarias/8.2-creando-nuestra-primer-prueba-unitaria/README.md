@@ -28,10 +28,10 @@ Modificamos nuestro archivo **UnitTest1** y lo renombramos a **OperacionesTest**
 Un buen nombre para los métodos a probar esta formado por lo siguiente:
 
 * **Unidad de trabajo**: Es la funcionalidad que deseas probar, en lugar de probar por métodos es mejor probar la función
-* **Condiciones**: La descripción de los casos que deseas probar.
+* **Condición**: La descripción del caso de prueba
 * **Resultado esperado**: El resultado que esperas obtener con los datos proporcionados
 
-Unidad de Trabajo\_Condiciones\_ResultadoEsperado
+Unidad de Trabajo\_Condicion\_ResultadoEsperado
 
 Ejemplo: Si deseas probar por ejemplo el login algunos nombre serían:
 
@@ -46,17 +46,20 @@ Para agregar un método que se llame **Operaciones\_SumaDosNumeros\_RegresaLaSum
 Por lo general las pruebas unitarias se componen de 3 partes:
 
 1. **Inicialización de datos:** Cargamos los datos y los objetos de la función que deseamos probar
-2. **Método a probar: E**jecutamos el método que deseamos probar con los datos definidos en la sección anterior
+2. **Método a probar:** Ejecutamos el método que deseamos probar con los datos definidos en la sección anterior
 3. **Comprobación del resultado.** Comprobamos el resultado obtenido por la función con el resultado esperado
 
 ![](<../../.gitbook/assets/image (191).png>)
 
-Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como Equal para comparar los valores de 2 variables, True para comprobar algún valor boleano.
+Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como:
+
+* **Equal** para comparar los valores de 2 variables&#x20;
+* **True** para comprobar algún valor booleano.
 
 En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuestras variables son 3 y 1 ya sabemos que el valor al sumar estos 2 valores el resultado debe ser 4, entonces en la función Assert el primer parámetro es el valor esperado, y el segundo  es la variable regresada por nuestra función Sumar que es el valor que deseamos comprobar
 
-```
-Aseert.Equal(Valor Esperado, Valor Encontrado)
+```csharp
+Assert.Equal(Valor Esperado, Valor Encontrado)
 ```
 
 {% code title="OperaciontesTest.cs" %}
