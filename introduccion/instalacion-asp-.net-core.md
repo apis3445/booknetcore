@@ -48,7 +48,7 @@ Una vez terminado te pide reiniciar
 
 7\. Selecciona los métodos abreviados de tu preferencia ya sea que deseas utilizar los de mac, Visual Studio for windows, Visual Studio Code o XCode
 
-![](<../.gitbook/assets/image (620) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (620) (1) (1) (1) (1).png>)
 
 Al terminar se muestra lo siguiente:
 
