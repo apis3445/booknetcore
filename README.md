@@ -15,6 +15,6 @@ Mas información en:  [https://creativecommons.org/licenses/by/4.0/](https://cre
 El código de ejemplo esta en github lo puedes descargar [aquí](https://github.com/apis3445/CaducaRest)
 
 {% hint style="info" %}
-Todas las recomendaciones de mejorando tu código sirven para aplicaciones grandes donde deseas tener todo mas separado para realizar pruebas unitarias y tener tu código mas organizado encontrar el lugar exacto donde ocurre el error de una forma más automática
+Todas las recomendaciones de mejorando tu código, sirven para aplicaciones grandes donde deseas tener todo mas separado para realizar pruebas unitarias, y, tener tu código mas organizado encontrar el lugar exacto donde ocurre el error de una forma más automática
 {% endhint %}
 

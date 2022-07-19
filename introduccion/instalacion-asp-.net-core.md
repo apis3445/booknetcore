@@ -52,6 +52,6 @@ Una vez terminado te pide reiniciar
 
 Al terminar se muestra lo siguiente:
 
-Del lado izquierdo se muestran los proyectosm mas recientes que has utilizado, del lado derecho se muestran las opciones para abrir o crear un nuevo proyecto.
+Del lado izquierdo se muestran los proyectos mas recientes que has utilizado, del lado derecho se muestran las opciones para abrir o crear un nuevo proyecto.
 
 ![](<../.gitbook/assets/image (623) (1) (1) (1) (1) (1).png>)
