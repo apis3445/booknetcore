@@ -6,7 +6,7 @@ La idea de Scrum es ir entregando las funciones del sistema en tiempos cortos de
 
 Los principales roles del Scrum son:
 
-* Product Owner: Representa a los clientes o stakeholders, es quien define la lista de actividades (Backlogs) a realizar de acuerdo a las necesidades y prioridades del cliente.Es enlace entre el cliente y el equipo de desarrollo
+* Product Owner: Representa a los clientes o stakeholders, es quien define la lista de actividades (Backlogs) a realizar de acuerdo a las necesidades y prioridades del cliente. Es enlace entre el cliente y el equipo de desarrollo
 * Equipo de desarrollo: Son los programdores, testers, arquitectos de software que se encargan de desarrollar las nuevas funciones
 * Scrum Master: Se encarga de que se siga la metodología y eliminar los impedimentos que se presentan en el proyecto.&#x20;
 
@@ -15,7 +15,7 @@ Los principales eventos del Scrum son:
 * Planificación del sprint (Sprint Planning): Se define que se va a entregar en cada sprint.
 * Scrum Diario (Daily Scrum): Junta breve para explicar que se hizo el día anterior, que se hará en el día anterior y si hay algún impedimento.
 * Revisión del Sprint (Sprint Review): El equipo de desarrollo presenta los avances al Product Owner, Skateholders y personas interesadas en el desarrollo del sistema.
-* Retrospectiva del Sprint (Sprint Retrospective): Se reune el equipo para platicar acerca de que se hizo bien y que se puede mejorar.
+* Retrospectiva del Sprint (Sprint Retrospective): Se reúne el equipo para platicar acerca de que se hizo bien y que se puede mejorar.
 
 Puedes ver una guía de Scrum en Español aquí
 
