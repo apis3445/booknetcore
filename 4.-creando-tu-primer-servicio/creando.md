@@ -10,9 +10,9 @@ Por seguridad NO se recomienda que el usuario root  (MySQL) o sa (SQL Server) se
 
 ### Creando la base de datos y los usuarios en MySQL
 
-Primero vamos a crear la base de datos
+Primero vamos a crear la base de datos.
 
-1. Con el editor de MySQL tecleamos el siguiente comando para crear la base de dat
+1. Con el editor de MySQL tecleamos el siguiente comando para crear la base de datos.
 
 ```plsql
 CREATE DATABASE caduca CHARACTER SET utf8 COLLATE utf8_general_ci;
@@ -25,7 +25,7 @@ CREATE USER 'AdminCaduca'@'localhost' IDENTIFIED BY 'StKRV6MR6A';
 GRANT ALL PRIVILEGES ON caduca.* TO 'AdminCaduca'@'localhost'
 ```
 
-3\. Crear un usuario de solo lectura
+3\. Crear un usuario de solo lectura.
 
 ```plsql
 CREATE USER 'SistemaCaduca'@'localhost' IDENTIFIED BY 'xADcUaP5cs'; 
