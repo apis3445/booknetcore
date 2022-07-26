@@ -14,9 +14,9 @@ Las opciones disponibles son:
 | $count=true               | Regresa también el total de registros                                                                                                   |
 | productos$expand=clientes | Permite además de obtener los productos obtener los datos de los clientes.                                                              |
 
-Puedes ver la documentación de OData con todas las opciones disponibles [aquí](http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html).
+Puedes ver la documentación de OData con todas las opciones disponibles [aquí](http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html)
 
-Puedes consultar la documentación oficial de Microsoft [aquí](https://docs.microsoft.com/en-us/odata/webapi/first-odata-api).
+Puedes consultar la documentación oficial de Microsoft [aquí](https://docs.microsoft.com/en-us/odata/webapi/first-odata-api)
 
 
 

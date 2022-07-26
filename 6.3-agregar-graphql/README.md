@@ -2,7 +2,7 @@
 
 GraphQL fue desarrollado por Facebook para facilitar la consulta de información. Por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios uno para web y otro para la app, se crea un servicio Graph para traer solamente la información que se necesita.
 
-De momento no cuenta con librería oficial por parte de Microsoft. Hay 2 paquetes de Graphql hotchocolate y grapqhl for .net. El que esta teniendo mas popularidad es HotChocolate.
+De momento no cuenta con librería oficial por parte de Microsoft. Hay 2 paquetes de Graphql Hotchocolate y grapqhl for .net. El que esta teniendo mas popularidad es Hotchocolate.
 
 La estructura de GraphQL esta formada por 3 partes:
 
