@@ -33,7 +33,7 @@ Un buen nombre para los métodos a probar esta formado por lo siguiente:
 
 Unidad de Trabajo\_Condicion\_ResultadoEsperado
 
-Ejemplo: Si deseas probar por ejemplo el login algunos nombres serían:
+Ejemplo: Si deseas probar por ejemplo el login algunos nombre serían:
 
 * Login\_CredencialesCorrectas\_RegresaTokenValido
 * Login\_CredencialesIncorrectas\_RegresaError
@@ -53,7 +53,7 @@ Por lo general las pruebas unitarias se componen de 3 partes:
 
 Para realizar la prueba se utiliza la instrucción Assert la cual tiene varios métodos como:
 
-* **Equal** para comparar los valores de 2 variables .
+* **Equal** para comparar los valores de 2 variables&#x20;
 * **True** para comprobar algún valor booleano.
 
 En nuestro caso utilizaremos Equal ya que deseamos comparar un valor. Como nuestras variables son 3 y 1 ya sabemos que el valor al sumar estos 2 valores el resultado debe ser 4, entonces en la función Assert el primer parámetro es el valor esperado, y el segundo  es la variable regresada por nuestra función Sumar que es el valor que deseamos comprobar

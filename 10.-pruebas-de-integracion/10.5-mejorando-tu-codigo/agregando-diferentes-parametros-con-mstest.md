@@ -28,7 +28,7 @@ public class PruebasOperaciones
 {% endtab %}
 {% endtabs %}
 
-De esta forma puedes realizar la misma prueba con diferentes datos de prueba
+De esta forma puedes realizar la misma prueba con diferentes datos de prueba.
 
 \
 Puedes ver la documentación oficial&#x20;
