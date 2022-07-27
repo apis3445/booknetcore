@@ -47,6 +47,7 @@
     * [3.3 Trabajando con Branches (Ramas) con Visual Studio](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.3-trabajando-con-branches-ramas-con-visual-studio/README.md)
       * [3.3.1 Branches con Visual Studio (Windows)](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.3-trabajando-con-branches-ramas-con-visual-studio/3.10.2-trabajando-con-ramas-con-visual-studio.md)
       * [3.3.2 Trabajando con ramas con Visual Studio for Mac](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.3-trabajando-con-branches-ramas-con-visual-studio/3.10.3-trabajando-con-ramas-con-visual-studio-for-mac.md)
+      * [3.3.3 Creando un template para tus PR (Pull Request)](tu-primer-aplicacion/integrando-tu-codigo-fuente-a-github/3.3-trabajando-con-branches-ramas-con-visual-studio/3.3.3-creando-un-template-para-tus-pr-pull-request.md)
 * [4. Creando tu primer servicio](4.-creando-tu-primer-servicio/README.md)
   * [4.1 Crear las base de datos y los usuarios en MySQL](4.-creando-tu-primer-servicio/creando.md)
   * [4.2 Crear la tabla Categoría y sus validaciones](4.-creando-tu-primer-servicio/4.2-crear-las-tablas.md)
