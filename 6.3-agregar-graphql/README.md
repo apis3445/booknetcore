@@ -2,7 +2,7 @@
 
 GraphQL fue desarrollado por Facebook para facilitar la consulta de información. Por ejemplo una aplicación para celulares suele contener menos información que una aplicación web, por lo cual en lugar de crear 2 servicios uno para web y otro para la app, se crea un servicio Graph para traer solamente la información que se necesita.
 
-De momento no cuenta con librería oficial por parte de Microsoft. Hay 2 paquetes de Graphql hotcholate y grapqhl for .net. El que esta teniendo mas popularidad es HotChocolate.
+De momento no cuenta con librería oficial por parte de Microsoft. Hay 2 paquetes de Graphql Hotchocolate y grapqhl for .net. El que esta teniendo mas popularidad es Hotchocolate.
 
 La estructura de GraphQL esta formada por 3 partes:
 
@@ -16,7 +16,7 @@ GraphQL se basa en enviar las peticiones por medio de consultas, se tienen 3 tip
 
 1. **Query**: Para consultar información
 2. **Mutation**: Para modificar información (crear, borrar, modificar)
-3. **Subscription**: Para WebSockets (con WebSockets puedes por ejemplo recibir notificaciones cuando ocurre algún evento)
+3. **Subscription**: Para WebSockets (con WebSockets puedes por ejemplo recibir notificaciones cuando ocurre algún evento).
 
 Un ejemplo para obtener la clave y nombre de los clientes sería el siguiente:
 
@@ -61,8 +61,8 @@ Install-Package GraphQL.Server.UI.Playground
 La estructura básica es la siguiente:
 
 * **GraphType:** Permite indicar los campos del modelo que están disponibles para el servicio, los tipos de datos comunes de .net como int, string tienen su equivalente para graphQL
-* **Query:** Permite configurar nuestro objeto GraphType(Modelo) con nuestra base de datos para llenar los campos del modelo.
-* **Schema:** Nos permite definir las operaciones a realizar: Query( Consulta información), Mutation: (Crear, Borrar, Modificar) y Suscripción(Operaciones con WebSockets).
+* **Query:** Permite configurar nuestro objeto GraphType (Modelo) con nuestra base de datos para llenar los campos del modelo.
+* **Schema:** Nos permite definir las operaciones a realizar: Query (Consulta información), Mutation: (Crear, Borrar, Modificar) y Suscripción (Operaciones con WebSockets).
 
 ![](<../.gitbook/assets/image (113).png>)
 
