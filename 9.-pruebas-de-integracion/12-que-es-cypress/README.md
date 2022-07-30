@@ -17,7 +17,7 @@ npx cypress open
 Te abre la ventana de cypress donde te pregunta si deseas ver los ejemplos. La ventana cuenta con 2 opciones principales:
 
 * Tus archivos de pruebas (pueden ser javascript o typescript)
-* El navegador en el que vas a correr las pruebas en este caso Chrome 91
+* El navegador en el que bass a correr las pruebas en este caso Chrome 91
 
 ![](<../../.gitbook/assets/image (609).png>)
 
@@ -59,7 +59,7 @@ Se muestra el siguiente resultado
 
 Ventajas:
 
-* Detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas en lo que se completa la llamada al servicio REST.
+* Detecta cuando se ejecuta un servicio rest, por lo cual ya no debes poner esperas en lo que se completa la llamada sl servicio REST.
 * Puedes simular la llamada al servicio rest y sustituir la respuesta por datos fijos.
 * También por medio de líneas de comandos te corre las pruebas te graba videos de los test y toma screenshots de los casos de prueba que fallaron.
 * Al igual que selenium puedes grabar los pasos y te genera el código.
