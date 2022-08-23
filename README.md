@@ -18,4 +18,4 @@ El código de ejemplo esta en github lo puedes descargar [aquí](https://github.
 Todas las recomendaciones de mejorando tu código, sirven para aplicaciones grandes donde deseas tener todo mas separado para realizar pruebas unitarias, y, tener tu código mas organizado encontrar el lugar exacto donde ocurre el error de una forma más automática
 {% endhint %}
 
-GitBook and I stands with Ukraine. [Read the statement](https://blog.gitbook.com/company/gitbook-stands-with-ukraine)
+GitBook and I stands with Ukraine 🇺🇦🕊. [Read the statement](https://blog.gitbook.com/company/gitbook-stands-with-ukraine)
