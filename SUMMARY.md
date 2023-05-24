@@ -153,7 +153,7 @@
 * [14. Pruebas de usuario](9.-pruebas-de-integracion/README.md)
   * [14.1 Page Object Model](9.-pruebas-de-integracion/14.2-page-object-model.md)
   * [14.2 ¿Qué es Selenium?](9.-pruebas-de-integracion/11.1-que-es-selenium/README.md)
-    * [14.2.1 Instrucciones básicas](9.-pruebas-de-integracion/11.1-que-es-selenium/11.1.1-instrucciones-basicas.md)
+    * [14.2.1 Selenium Instrucciones básicas](9.-pruebas-de-integracion/11.1-que-es-selenium/11.1.1-instrucciones-basicas.md)
     * [14.2.2 Agregando el proyecto de pruebas de usuario](9.-pruebas-de-integracion/11.1-que-es-selenium/11.2-agregando-el-proyecto-de-pruebas-de-usuario.md)
   * [14.3 ¿Qué es Cypress?](9.-pruebas-de-integracion/12-que-es-cypress/README.md)
     * [14.3.1 Cypress Instrucciones básicas](9.-pruebas-de-integracion/12-que-es-cypress/11.3.1-instrucciones-basicas.md)
