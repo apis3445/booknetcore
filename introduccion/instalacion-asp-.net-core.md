@@ -24,7 +24,7 @@ Una vez terminado te pide reiniciar
 
 1. Da doble clic en el icono **Install Visual Studio for Mac**
 
-****![](<../.gitbook/assets/image (615) (1) (1).png>)****
+![](<../.gitbook/assets/image (615) (1) (1).png>)
 
 2\. Damos clic en el botón Abrir en la ventana donde nos sugiere que descargar e instalar programas de internet puede ser peligroso.
 
@@ -42,7 +42,7 @@ Una vez terminado te pide reiniciar
 
 6\. Esperamos a que termine de instalar y configurar todo. Inicia sesión con tu cuenta ya sea personal o la del trabajo
 
-&#x20;****&#x20;
+&#x20;
 
 ![](<../.gitbook/assets/image (617) (1).png>)
 
