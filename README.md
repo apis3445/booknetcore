@@ -19,3 +19,5 @@ Todas las recomendaciones de mejorando tu código, sirven para aplicaciones gran
 {% endhint %}
 
 GitBook and I stands with Ukraine 🇺🇦🕊. [Read the statement](https://blog.gitbook.com/company/gitbook-stands-with-ukraine)
+
+Gracias por leer este tutorial. Si te ha sido de utilidad o deseas que incluya algun otro tema contáctame en [linkedin](https://www.linkedin.com/in/abigailarmijo/)
