@@ -4,7 +4,7 @@ Cuando desarrollamos una app móvil donde se necesita que el usuario guarde info
 
 También en los sistemas Web desarrollados con Angular, React o Vue, la información se almacena y se obtiene mediante servicios REST o GraphQL
 
-Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core (ahora .NET 6) en C# con una aplicación de ejemplo.&#x20;
+Este tutorial  explicará paso a paso cómo crear servicios REST con .NET Core (ahora .NET 8) en C# con una aplicación de ejemplo.&#x20;
 
 Aprenderás lo siguiente:
 
