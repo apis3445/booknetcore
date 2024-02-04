@@ -20,4 +20,6 @@ Todas las recomendaciones de mejorando tu código, sirven para aplicaciones gran
 
 GitBook and I stands with Ukraine 🇺🇦🕊. [Read the statement](https://blog.gitbook.com/company/gitbook-stands-with-ukraine)
 
-Gracias por leer este tutorial. Si te ha sido de utilidad o deseas que incluya algun otro tema contáctame en [linkedin](https://www.linkedin.com/in/abigailarmijo/)
+Gracias por leer este tutorial. Si te ha sido de utilidad o deseas que incluya algún otro tema contáctame en [linkedin](https://www.linkedin.com/in/abigailarmijo/). También si gustas puedes hacer me una donación &#x20;
+
+[![ko-fi](https://ko-fi.com/img/githubbutton\_sm.svg)](https://ko-fi.com/U7U1U2V3V)\
