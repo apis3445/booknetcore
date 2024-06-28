@@ -15,9 +15,9 @@ Puedes generar con el mismo código una versión para un servidor linux y para w
 Algunas de las principales ventajas son las siguientes:
 
 * El tiempo para desplegar tus aplicaciones es más rápido y lo puedes programar automáticamente a determinada hora.
-* Se tienen menos errorres antes del release debido a las pruebas automáticas.
-* Por lo general se liberan versiones continuamente y recibes el feedback más rápido.
-* Al utilizar Azure Devops tienes el control de que cambios se incluyen en cada versión de forma automática de acuerdo a los task.
+* Las pruebas automáticas se ejecutan automáticamente y se puede hacer un rollback al deploy si no pasan las pruebas.
+* Al ser un proceso automático se tienen menos errores por olvido o cambio en la ejecución de los pasos.&#x20;
+* Si utilizas también la parte de scrum en azure devops tienes el  detalle de los user stories que se incluyen en cada versión de forma automática.
 
 {% hint style="info" %}
 Puedes realizar lo mismo con BitBucket, GitLab y GitHub Actions.
