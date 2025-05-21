@@ -12,7 +12,7 @@ Hay diferentes formas para manejar la seguridad y conectarte a algún servicio. 
 
 Para tu aplicación debes seguir la documentación de cada proveedor y básicamente le das la opción al usuario de iniciar sesión con tu cuenta de google, facebook, etc se les muestra la opción para que inicien sesión con su cuenta y los permisos a los que permites que tenga acceso la aplicación. Como programador debes obtener el token que te regresa el login del usuario y también debes enviarlo en cada petición. Una página que explica bien es la de google.&#x20;
 
-{% embed url="https://developers.google.com/gmail/api/" %}
+[https://developers.google.com/workspace/gmail/api/guides](https://developers.google.com/workspace/gmail/api/guides)
 
 {% hint style="info" %}
 Si deseas que luego incluya un tema para iniciar sesión con google, facebook, twitter o cualquier otro proveedor puedes solicitarlo en el github del código fuente
@@ -22,7 +22,7 @@ Esta forma es recomendada si deseas que varios proveedores externos accedan a tu
 
 Los siguientes capítulos muestran como crear tu seguridad de una forma muy personalizada .Net cuenta con su propio modelo de seguridad, se llama **Identity**, la documentación oficial esta aquí
 
-{% embed url="https://docs.microsoft.com/es-mx/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio" %}
+[https://learn.microsoft.com/es-mx/aspnet/core/security/authentication/identity?view=aspnetcore-9.0\&tabs=visual-studio](https://learn.microsoft.com/es-mx/aspnet/core/security/authentication/identity?view=aspnetcore-9.0\&tabs=visual-studio)
 
 Puedes ver un tutorial en ingles aquí
 
